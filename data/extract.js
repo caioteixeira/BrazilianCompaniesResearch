@@ -37,6 +37,7 @@ async function extractDFP(db, cia_id) {
       return;
     }
 
+    yearEntry.version = row.version;
     yearEntry.value = row.value;
   });
 
