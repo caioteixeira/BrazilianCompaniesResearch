@@ -63,7 +63,7 @@ async function main() {
 
     company.dfp = await extractDFP(db, company.id)
 
-    fs.writeFile(`../data/${company.id}.json`, JSON.stringify(company, undefined, 2), 'utf8', function (err, data) {
+    fs.writeFile(`../static/data/${company.id}.json`, JSON.stringify(company, undefined, 2), 'utf8', function (err, data) {
       if (err) {
         return console.log(err);
       }
