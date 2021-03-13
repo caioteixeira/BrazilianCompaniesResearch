@@ -11,7 +11,7 @@ export default function CompanyPage({data}) {
     .then(response => response.json())
     .then(json => {
       console.log(json)
-      setDfp(json)
+      setDfp(json.dfp)
     })
   }, [])
 
