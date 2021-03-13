@@ -13,6 +13,7 @@ module.exports = {
       options: {
         path: `./static/data/`,
       },
-    }
+    },
+    'gatsby-plugin-postcss'
   ],
 }
