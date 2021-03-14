@@ -14,8 +14,6 @@ async function extractDFP(db, cia_id) {
             ORDER BY CD_CONTA`;
   let dfp = {}
 
-  //const rows = await db.all(dfp_query, [cia_id]);
-
   await db.each(dfp_query, [cia_id], (err, row) => {
     if (err) {
       throw err;

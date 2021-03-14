@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
 import { graphql } from "gatsby"
+import dfpService from "../services/DfpService"
 import AccountList from "../components/AccountList"
 
 export default function CompanyPage({data}) {
@@ -7,12 +8,8 @@ export default function CompanyPage({data}) {
   const [dfp, setDfp] = useState({})
 
   useEffect(() => {
-    fetch(`../data/${companyData.id}.json`)
-    .then(response => response.json())
-    .then(json => {
-      console.log(json)
-      setDfp(json.dfp)
-    })
+    dfpService.get(companyData.id)
+      .then(dfp => setDfp(dfp))
   }, [])
 
   return (
