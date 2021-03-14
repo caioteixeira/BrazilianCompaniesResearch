@@ -21,6 +21,24 @@
         }
       }
     },
+    "2": {
+      "accountCode": "2",
+      "accountDescripton": "Passivo Total",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 4512356
+        },
+        "2010": {
+          "version": 2,
+          "value": 4202989
+        },
+        "2011": {
+          "version": 1,
+          "value": 4284855
+        }
+      }
+    },
     "1.01": {
       "accountCode": "1.01",
       "accountDescripton": "Ativo Circulante",
@@ -1209,9 +1227,4965 @@
         }
       }
     },
+    "2.01": {
+      "accountCode": "2.01",
+      "accountDescripton": "Passivo Circulante",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 908964
+        },
+        "2010": {
+          "version": 2,
+          "value": 559304
+        },
+        "2011": {
+          "version": 1,
+          "value": 692241
+        }
+      }
+    },
+    "2.01.01": {
+      "accountCode": "2.01.01",
+      "accountDescripton": "Obrigações Sociais e Trabalhistas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 3859
+        },
+        "2010": {
+          "version": 2,
+          "value": 6391
+        },
+        "2011": {
+          "version": 1,
+          "value": 371
+        }
+      }
+    },
+    "2.01.01.01": {
+      "accountCode": "2.01.01.01",
+      "accountDescripton": "Obrigações Sociais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 3859
+        },
+        "2010": {
+          "version": 2,
+          "value": 6391
+        },
+        "2011": {
+          "version": 1,
+          "value": 371
+        }
+      }
+    },
+    "2.01.01.02": {
+      "accountCode": "2.01.01.02",
+      "accountDescripton": "Obrigações Trabalhistas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.02": {
+      "accountCode": "2.01.02",
+      "accountDescripton": "Fornecedores",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 78291
+        },
+        "2010": {
+          "version": 2,
+          "value": 34006
+        },
+        "2011": {
+          "version": 1,
+          "value": 32146
+        }
+      }
+    },
+    "2.01.02.01": {
+      "accountCode": "2.01.02.01",
+      "accountDescripton": "Fornecedores Nacionais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 78291
+        },
+        "2010": {
+          "version": 2,
+          "value": 34006
+        },
+        "2011": {
+          "version": 1,
+          "value": 32146
+        }
+      }
+    },
+    "2.01.02.02": {
+      "accountCode": "2.01.02.02",
+      "accountDescripton": "Fornecedores Estrangeiros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.03": {
+      "accountCode": "2.01.03",
+      "accountDescripton": "Obrigações Fiscais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 27021
+        },
+        "2010": {
+          "version": 2,
+          "value": 40403
+        },
+        "2011": {
+          "version": 1,
+          "value": 16935
+        }
+      }
+    },
+    "2.01.03.01": {
+      "accountCode": "2.01.03.01",
+      "accountDescripton": "Obrigações Fiscais Federais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 27021
+        },
+        "2010": {
+          "version": 2,
+          "value": 40403
+        },
+        "2011": {
+          "version": 1,
+          "value": 16935
+        }
+      }
+    },
+    "2.01.03.01.01": {
+      "accountCode": "2.01.03.01.01",
+      "accountDescripton": "Imposto de Renda e Contribuição Social a Pagar",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 27021
+        },
+        "2010": {
+          "version": 2,
+          "value": 40403
+        },
+        "2011": {
+          "version": 1,
+          "value": 16935
+        }
+      }
+    },
+    "2.01.03.02": {
+      "accountCode": "2.01.03.02",
+      "accountDescripton": "Obrigações Fiscais Estaduais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.03.03": {
+      "accountCode": "2.01.03.03",
+      "accountDescripton": "Obrigações Fiscais Municipais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.04": {
+      "accountCode": "2.01.04",
+      "accountDescripton": "Empréstimos e Financiamentos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 537726
+        },
+        "2010": {
+          "version": 2,
+          "value": 267674
+        },
+        "2011": {
+          "version": 1,
+          "value": 424779
+        }
+      }
+    },
+    "2.01.04.01": {
+      "accountCode": "2.01.04.01",
+      "accountDescripton": "Empréstimos e Financiamentos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 537726
+        },
+        "2010": {
+          "version": 2,
+          "value": 256494
+        },
+        "2011": {
+          "version": 1,
+          "value": 334674
+        }
+      }
+    },
+    "2.01.04.01.01": {
+      "accountCode": "2.01.04.01.01",
+      "accountDescripton": "Em Moeda Nacional",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 537726
+        },
+        "2010": {
+          "version": 2,
+          "value": 256494
+        },
+        "2011": {
+          "version": 1,
+          "value": 334674
+        }
+      }
+    },
+    "2.01.04.01.02": {
+      "accountCode": "2.01.04.01.02",
+      "accountDescripton": "Em Moeda Estrangeira",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.04.02": {
+      "accountCode": "2.01.04.02",
+      "accountDescripton": "Debêntures",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 11180
+        },
+        "2011": {
+          "version": 1,
+          "value": 90105
+        }
+      }
+    },
+    "2.01.04.03": {
+      "accountCode": "2.01.04.03",
+      "accountDescripton": "Financiamento por Arrendamento Financeiro",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05": {
+      "accountCode": "2.01.05",
+      "accountDescripton": "Outras Obrigações",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 262067
+        },
+        "2010": {
+          "version": 2,
+          "value": 202437
+        },
+        "2011": {
+          "version": 1,
+          "value": 202008
+        }
+      }
+    },
+    "2.01.05.01": {
+      "accountCode": "2.01.05.01",
+      "accountDescripton": "Passivos com Partes Relacionadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05.01.01": {
+      "accountCode": "2.01.05.01.01",
+      "accountDescripton": "Débitos com Coligadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05.01.03": {
+      "accountCode": "2.01.05.01.03",
+      "accountDescripton": "Débitos com Controladores",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05.01.04": {
+      "accountCode": "2.01.05.01.04",
+      "accountDescripton": "Débitos com Outras Partes Relacionadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05.02": {
+      "accountCode": "2.01.05.02",
+      "accountDescripton": "Outros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 262067
+        },
+        "2010": {
+          "version": 2,
+          "value": 202437
+        },
+        "2011": {
+          "version": 1,
+          "value": 202008
+        }
+      }
+    },
+    "2.01.05.02.01": {
+      "accountCode": "2.01.05.02.01",
+      "accountDescripton": "Dividendos e JCP a Pagar",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 157
+        }
+      }
+    },
+    "2.01.05.02.02": {
+      "accountCode": "2.01.05.02.02",
+      "accountDescripton": "Dividendo Mínimo Obrigatório a Pagar",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05.02.03": {
+      "accountCode": "2.01.05.02.03",
+      "accountDescripton": "Obrigações por Pagamentos Baseados em Ações",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05.02.04": {
+      "accountCode": "2.01.05.02.04",
+      "accountDescripton": "Cedulas de créditos imobiliários",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 3587
+        },
+        "2010": {
+          "version": 2,
+          "value": 9410
+        },
+        "2011": {
+          "version": 1,
+          "value": 15304
+        }
+      }
+    },
+    "2.01.05.02.05": {
+      "accountCode": "2.01.05.02.05",
+      "accountDescripton": "Cessão de direitos creditorios",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 9722
+        },
+        "2010": {
+          "version": 2,
+          "value": 10822
+        },
+        "2011": {
+          "version": 1,
+          "value": 11374
+        }
+      }
+    },
+    "2.01.05.02.06": {
+      "accountCode": "2.01.05.02.06",
+      "accountDescripton": "Cert. receb. imobiliarios - CRI's",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 92389
+        },
+        "2010": {
+          "version": 2,
+          "value": 109127
+        },
+        "2011": {
+          "version": 1,
+          "value": 97410
+        }
+      }
+    },
+    "2.01.05.02.07": {
+      "accountCode": "2.01.05.02.07",
+      "accountDescripton": "Adiantamento de clientes e outros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 52241
+        },
+        "2010": {
+          "version": 2,
+          "value": 25166
+        },
+        "2011": {
+          "version": 1,
+          "value": 25311
+        }
+      }
+    },
+    "2.01.05.02.08": {
+      "accountCode": "2.01.05.02.08",
+      "accountDescripton": "Outros Passivos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 104128
+        },
+        "2010": {
+          "version": 2,
+          "value": 47912
+        },
+        "2011": {
+          "version": 1,
+          "value": 52452
+        }
+      }
+    },
+    "2.01.06": {
+      "accountCode": "2.01.06",
+      "accountDescripton": "Provisões",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 8393
+        },
+        "2011": {
+          "version": 1,
+          "value": 16002
+        }
+      }
+    },
+    "2.01.06.01": {
+      "accountCode": "2.01.06.01",
+      "accountDescripton": "Provisões Fiscais Previdenciárias Trabalhistas e Cíveis",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.01.01": {
+      "accountCode": "2.01.06.01.01",
+      "accountDescripton": "Provisões Fiscais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.01.02": {
+      "accountCode": "2.01.06.01.02",
+      "accountDescripton": "Provisões Previdenciárias e Trabalhistas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.01.03": {
+      "accountCode": "2.01.06.01.03",
+      "accountDescripton": "Provisões para Benefícios a Empregados",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.01.04": {
+      "accountCode": "2.01.06.01.04",
+      "accountDescripton": "Provisões Cíveis",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.02": {
+      "accountCode": "2.01.06.02",
+      "accountDescripton": "Outras Provisões",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 8393
+        },
+        "2011": {
+          "version": 1,
+          "value": 16002
+        }
+      }
+    },
+    "2.01.06.02.01": {
+      "accountCode": "2.01.06.02.01",
+      "accountDescripton": "Provisões para Garantias",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.02.02": {
+      "accountCode": "2.01.06.02.02",
+      "accountDescripton": "Provisões para Reestruturação",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.02.03": {
+      "accountCode": "2.01.06.02.03",
+      "accountDescripton": "Provisões para Passivos Ambientais e de Desativação",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.02.04": {
+      "accountCode": "2.01.06.02.04",
+      "accountDescripton": "Provisão para Contingências",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 8393
+        }
+      }
+    },
+    "2.01.07": {
+      "accountCode": "2.01.07",
+      "accountDescripton": "Passivos sobre Ativos Não-Correntes a Venda e Descontinuados",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.07.01": {
+      "accountCode": "2.01.07.01",
+      "accountDescripton": "Passivos sobre Ativos Não-Correntes a Venda",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.07.02": {
+      "accountCode": "2.01.07.02",
+      "accountDescripton": "Passivos sobre Ativos de Operações Descontinuadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02": {
+      "accountCode": "2.02",
+      "accountDescripton": "Passivo Não Circulante",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 2794220
+        },
+        "2010": {
+          "version": 2,
+          "value": 2702833
+        },
+        "2011": {
+          "version": 1,
+          "value": 2493908
+        }
+      }
+    },
+    "2.02.01": {
+      "accountCode": "2.02.01",
+      "accountDescripton": "Empréstimos e Financiamentos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 1010205
+        },
+        "2010": {
+          "version": 2,
+          "value": 1138965
+        },
+        "2011": {
+          "version": 1,
+          "value": 862114
+        }
+      }
+    },
+    "2.02.01.01": {
+      "accountCode": "2.02.01.01",
+      "accountDescripton": "Empréstimos e Financiamentos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 1010205
+        },
+        "2010": {
+          "version": 2,
+          "value": 1058964
+        },
+        "2011": {
+          "version": 1,
+          "value": 659746
+        }
+      }
+    },
+    "2.02.01.01.01": {
+      "accountCode": "2.02.01.01.01",
+      "accountDescripton": "Em Moeda Nacional",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.01.01.02": {
+      "accountCode": "2.02.01.01.02",
+      "accountDescripton": "Em Moeda Estrangeira",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.01.02": {
+      "accountCode": "2.02.01.02",
+      "accountDescripton": "Debêntures",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 80001
+        },
+        "2011": {
+          "version": 1,
+          "value": 202368
+        }
+      }
+    },
+    "2.02.01.03": {
+      "accountCode": "2.02.01.03",
+      "accountDescripton": "Financiamento por Arrendamento Financeiro",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.02": {
+      "accountCode": "2.02.02",
+      "accountDescripton": "Outras Obrigações",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 1314845
+        },
+        "2010": {
+          "version": 2,
+          "value": 1000146
+        },
+        "2011": {
+          "version": 1,
+          "value": 1083136
+        }
+      }
+    },
+    "2.02.02.01": {
+      "accountCode": "2.02.02.01",
+      "accountDescripton": "Passivos com Partes Relacionadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 399
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.02.01.01": {
+      "accountCode": "2.02.02.01.01",
+      "accountDescripton": "Débitos com Coligadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 399
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.02.01.03": {
+      "accountCode": "2.02.02.01.03",
+      "accountDescripton": "Débitos com Controladores",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.02.01.04": {
+      "accountCode": "2.02.02.01.04",
+      "accountDescripton": "Débitos com Outras Partes Relacionadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.02.02": {
+      "accountCode": "2.02.02.02",
+      "accountDescripton": "Outros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 1314446
+        },
+        "2010": {
+          "version": 2,
+          "value": 1000146
+        },
+        "2011": {
+          "version": 1,
+          "value": 1083136
+        }
+      }
+    },
+    "2.02.02.02.01": {
+      "accountCode": "2.02.02.02.01",
+      "accountDescripton": "Obrigações por Pagamentos Baseados em Ações",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.02.02.02": {
+      "accountCode": "2.02.02.02.02",
+      "accountDescripton": "Adiantamento para Futuro Aumento de Capital",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.02.02.03": {
+      "accountCode": "2.02.02.02.03",
+      "accountDescripton": "Cédulas de créditos imobiliários",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 48404
+        },
+        "2010": {
+          "version": 2,
+          "value": 292931
+        },
+        "2011": {
+          "version": 1,
+          "value": 670199
+        }
+      }
+    },
+    "2.02.02.02.04": {
+      "accountCode": "2.02.02.02.04",
+      "accountDescripton": "Cessão de direitos creditórios",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 20438
+        },
+        "2010": {
+          "version": 2,
+          "value": 16437
+        },
+        "2011": {
+          "version": 1,
+          "value": 9593
+        }
+      }
+    },
+    "2.02.02.02.05": {
+      "accountCode": "2.02.02.02.05",
+      "accountDescripton": "Cert. receb. imob. - CRI's",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 655143
+        },
+        "2010": {
+          "version": 2,
+          "value": 654043
+        },
+        "2011": {
+          "version": 1,
+          "value": 382478
+        }
+      }
+    },
+    "2.02.02.02.06": {
+      "accountCode": "2.02.02.02.06",
+      "accountDescripton": "Adiantamentos de clientes",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 567485
+        },
+        "2010": {
+          "version": 2,
+          "value": 5804
+        },
+        "2011": {
+          "version": 1,
+          "value": 7378
+        }
+      }
+    },
+    "2.02.02.02.07": {
+      "accountCode": "2.02.02.02.07",
+      "accountDescripton": "Outros Passivos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 6538
+        },
+        "2010": {
+          "version": 2,
+          "value": 7903
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.02.02.08": {
+      "accountCode": "2.02.02.02.08",
+      "accountDescripton": "Obrigações Fiscais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 16438
+        },
+        "2010": {
+          "version": 2,
+          "value": 23028
+        },
+        "2011": {
+          "version": 1,
+          "value": 13488
+        }
+      }
+    },
+    "2.02.03": {
+      "accountCode": "2.02.03",
+      "accountDescripton": "Tributos Diferidos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 466455
+        },
+        "2010": {
+          "version": 2,
+          "value": 560854
+        },
+        "2011": {
+          "version": 1,
+          "value": 547943
+        }
+      }
+    },
+    "2.02.03.01": {
+      "accountCode": "2.02.03.01",
+      "accountDescripton": "Imposto de Renda e Contribuição Social Diferidos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 466455
+        },
+        "2010": {
+          "version": 2,
+          "value": 560854
+        },
+        "2011": {
+          "version": 1,
+          "value": 547943
+        }
+      }
+    },
+    "2.02.04": {
+      "accountCode": "2.02.04",
+      "accountDescripton": "Provisões",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 2715
+        },
+        "2010": {
+          "version": 2,
+          "value": 2868
+        },
+        "2011": {
+          "version": 1,
+          "value": 715
+        }
+      }
+    },
+    "2.02.04.01": {
+      "accountCode": "2.02.04.01",
+      "accountDescripton": "Provisões Fiscais Previdenciárias Trabalhistas e Cíveis",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.04.01.01": {
+      "accountCode": "2.02.04.01.01",
+      "accountDescripton": "Provisões Fiscais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.04.01.02": {
+      "accountCode": "2.02.04.01.02",
+      "accountDescripton": "Provisões Previdenciárias e Trabalhistas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.04.01.03": {
+      "accountCode": "2.02.04.01.03",
+      "accountDescripton": "Provisões para Benefícios a Empregados",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.04.01.04": {
+      "accountCode": "2.02.04.01.04",
+      "accountDescripton": "Provisões Cíveis",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.04.02": {
+      "accountCode": "2.02.04.02",
+      "accountDescripton": "Outras Provisões",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 2715
+        },
+        "2010": {
+          "version": 2,
+          "value": 2868
+        },
+        "2011": {
+          "version": 1,
+          "value": 715
+        }
+      }
+    },
+    "2.02.04.02.01": {
+      "accountCode": "2.02.04.02.01",
+      "accountDescripton": "Provisões para Garantias",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.04.02.02": {
+      "accountCode": "2.02.04.02.02",
+      "accountDescripton": "Provisões para Reestruturação",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.04.02.03": {
+      "accountCode": "2.02.04.02.03",
+      "accountDescripton": "Provisões para Passivos Ambientais e de Desativação",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.04.02.04": {
+      "accountCode": "2.02.04.02.04",
+      "accountDescripton": "Provisões para contingências",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 2715
+        },
+        "2010": {
+          "version": 2,
+          "value": 2868
+        },
+        "2011": {
+          "version": 1,
+          "value": 715
+        }
+      }
+    },
+    "2.02.05": {
+      "accountCode": "2.02.05",
+      "accountDescripton": "Passivos sobre Ativos Não-Correntes a Venda e Descontinuados",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.05.01": {
+      "accountCode": "2.02.05.01",
+      "accountDescripton": "Passivos sobre Ativos Não-Correntes a Venda",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.05.02": {
+      "accountCode": "2.02.05.02",
+      "accountDescripton": "Passivos sobre Ativos de Operações Descontinuadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.06": {
+      "accountCode": "2.02.06",
+      "accountDescripton": "Lucros e Receitas a Apropriar",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.06.01": {
+      "accountCode": "2.02.06.01",
+      "accountDescripton": "Lucros a Apropriar",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.06.02": {
+      "accountCode": "2.02.06.02",
+      "accountDescripton": "Receitas a Apropriar",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.06.03": {
+      "accountCode": "2.02.06.03",
+      "accountDescripton": "Subvenções de Investimento a Apropriar",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03": {
+      "accountCode": "2.03",
+      "accountDescripton": "Patrimônio Líquido Consolidado",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 809172
+        },
+        "2010": {
+          "version": 2,
+          "value": 940852
+        },
+        "2011": {
+          "version": 1,
+          "value": 1098706
+        }
+      }
+    },
+    "2.03.01": {
+      "accountCode": "2.03.01",
+      "accountDescripton": "Capital Social Realizado",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 510806
+        },
+        "2010": {
+          "version": 2,
+          "value": 510806
+        },
+        "2011": {
+          "version": 1,
+          "value": 36187
+        }
+      }
+    },
+    "2.03.02": {
+      "accountCode": "2.03.02",
+      "accountDescripton": "Reservas de Capital",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 4103
+        },
+        "2011": {
+          "version": 1,
+          "value": 1035733
+        }
+      }
+    },
+    "2.03.02.01": {
+      "accountCode": "2.03.02.01",
+      "accountDescripton": "Ágio na Emissão de Ações",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.02.02": {
+      "accountCode": "2.03.02.02",
+      "accountDescripton": "Reserva Especial de Ágio na Incorporação",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.02.03": {
+      "accountCode": "2.03.02.03",
+      "accountDescripton": "Alienação de Bônus de Subscrição",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.02.04": {
+      "accountCode": "2.03.02.04",
+      "accountDescripton": "Opções Outorgadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.02.05": {
+      "accountCode": "2.03.02.05",
+      "accountDescripton": "Ações em Tesouraria",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.02.06": {
+      "accountCode": "2.03.02.06",
+      "accountDescripton": "Adiantamento para Futuro Aumento de Capital",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 330280
+        }
+      }
+    },
+    "2.03.02.07": {
+      "accountCode": "2.03.02.07",
+      "accountDescripton": "Reserva de capital",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 4103
+        },
+        "2011": {
+          "version": 1,
+          "value": 705453
+        }
+      }
+    },
+    "2.03.03": {
+      "accountCode": "2.03.03",
+      "accountDescripton": "Reservas de Reavaliação",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04": {
+      "accountCode": "2.03.04",
+      "accountDescripton": "Reservas de Lucros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 385062
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.01": {
+      "accountCode": "2.03.04.01",
+      "accountDescripton": "Reserva Legal",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.02": {
+      "accountCode": "2.03.04.02",
+      "accountDescripton": "Reserva Estatutária",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.03": {
+      "accountCode": "2.03.04.03",
+      "accountDescripton": "Reserva para Contingências",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.04": {
+      "accountCode": "2.03.04.04",
+      "accountDescripton": "Reserva de Lucros a Realizar",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.05": {
+      "accountCode": "2.03.04.05",
+      "accountDescripton": "Reserva de Retenção de Lucros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.06": {
+      "accountCode": "2.03.04.06",
+      "accountDescripton": "Reserva Especial para Dividendos Não Distribuídos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.07": {
+      "accountCode": "2.03.04.07",
+      "accountDescripton": "Reserva de Incentivos Fiscais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.08": {
+      "accountCode": "2.03.04.08",
+      "accountDescripton": "Dividendo Adicional Proposto",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.09": {
+      "accountCode": "2.03.04.09",
+      "accountDescripton": "Ações em Tesouraria",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.10": {
+      "accountCode": "2.03.04.10",
+      "accountDescripton": "Reserva de lucros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 385062
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.05": {
+      "accountCode": "2.03.05",
+      "accountDescripton": "Lucros/Prejuízos Acumulados",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 301497
+        },
+        "2010": {
+          "version": 2,
+          "value": -3
+        },
+        "2011": {
+          "version": 1,
+          "value": -21307
+        }
+      }
+    },
+    "2.03.06": {
+      "accountCode": "2.03.06",
+      "accountDescripton": "Ajustes de Avaliação Patrimonial",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.07": {
+      "accountCode": "2.03.07",
+      "accountDescripton": "Ajustes Acumulados de Conversão",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -3686
+        },
+        "2010": {
+          "version": 2,
+          "value": -2789
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.08": {
+      "accountCode": "2.03.08",
+      "accountDescripton": "Outros Resultados Abrangentes",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.09": {
+      "accountCode": "2.03.09",
+      "accountDescripton": "Participação dos Acionistas Não Controladores",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 555
+        },
+        "2010": {
+          "version": 2,
+          "value": 43673
+        },
+        "2011": {
+          "version": 1,
+          "value": 48093
+        }
+      }
+    },
+    "3.01": {
+      "accountCode": "3.01",
+      "accountDescripton": "Receita de Venda de Bens e/ou Serviços",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 1227125
+        },
+        "2010": {
+          "version": 2,
+          "value": 760894
+        },
+        "2011": {
+          "version": 1,
+          "value": 217645
+        }
+      }
+    },
+    "3.02": {
+      "accountCode": "3.02",
+      "accountDescripton": "Custo dos Bens e/ou Serviços Vendidos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -590805
+        },
+        "2010": {
+          "version": 2,
+          "value": -488477
+        },
+        "2011": {
+          "version": 1,
+          "value": -47476
+        }
+      }
+    },
+    "3.03": {
+      "accountCode": "3.03",
+      "accountDescripton": "Resultado Bruto",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 636320
+        },
+        "2010": {
+          "version": 2,
+          "value": 272417
+        },
+        "2011": {
+          "version": 1,
+          "value": 170169
+        }
+      }
+    },
+    "3.04": {
+      "accountCode": "3.04",
+      "accountDescripton": "Despesas/Receitas Operacionais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 27775
+        },
+        "2010": {
+          "version": 2,
+          "value": 328458
+        },
+        "2011": {
+          "version": 1,
+          "value": 92026
+        }
+      }
+    },
+    "3.04.01": {
+      "accountCode": "3.04.01",
+      "accountDescripton": "Despesas com Vendas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -12029
+        },
+        "2010": {
+          "version": 2,
+          "value": -19977
+        },
+        "2011": {
+          "version": 1,
+          "value": -3595
+        }
+      }
+    },
+    "3.04.02": {
+      "accountCode": "3.04.02",
+      "accountDescripton": "Despesas Gerais e Administrativas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -78927
+        },
+        "2010": {
+          "version": 2,
+          "value": -93352
+        },
+        "2011": {
+          "version": 1,
+          "value": -90617
+        }
+      }
+    },
+    "3.04.02.01": {
+      "accountCode": "3.04.02.01",
+      "accountDescripton": "Adminstrativa",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -78700
+        },
+        "2010": {
+          "version": 2,
+          "value": -92375
+        },
+        "2011": {
+          "version": 1,
+          "value": -90409
+        }
+      }
+    },
+    "3.04.02.02": {
+      "accountCode": "3.04.02.02",
+      "accountDescripton": "Depreciação e Amortização",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -227
+        },
+        "2010": {
+          "version": 2,
+          "value": -977
+        },
+        "2011": {
+          "version": 1,
+          "value": -208
+        }
+      }
+    },
+    "3.04.03": {
+      "accountCode": "3.04.03",
+      "accountDescripton": "Perdas pela Não Recuperabilidade de Ativos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.04.04": {
+      "accountCode": "3.04.04",
+      "accountDescripton": "Outras Receitas Operacionais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 118301
+        },
+        "2010": {
+          "version": 2,
+          "value": 441787
+        },
+        "2011": {
+          "version": 1,
+          "value": 186916
+        }
+      }
+    },
+    "3.04.05": {
+      "accountCode": "3.04.05",
+      "accountDescripton": "Outras Despesas Operacionais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": -678
+        }
+      }
+    },
+    "3.04.06": {
+      "accountCode": "3.04.06",
+      "accountDescripton": "Resultado de Equivalência Patrimonial",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 430
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.05": {
+      "accountCode": "3.05",
+      "accountDescripton": "Resultado Antes do Resultado Financeiro e dos Tributos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 664095
+        },
+        "2010": {
+          "version": 2,
+          "value": 600875
+        },
+        "2011": {
+          "version": 1,
+          "value": 262195
+        }
+      }
+    },
+    "3.06": {
+      "accountCode": "3.06",
+      "accountDescripton": "Resultado Financeiro",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -123660
+        },
+        "2010": {
+          "version": 2,
+          "value": -334312
+        },
+        "2011": {
+          "version": 1,
+          "value": -379007
+        }
+      }
+    },
+    "3.06.01": {
+      "accountCode": "3.06.01",
+      "accountDescripton": "Receitas Financeiras",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 97710
+        },
+        "2010": {
+          "version": 2,
+          "value": 115757
+        },
+        "2011": {
+          "version": 1,
+          "value": 51086
+        }
+      }
+    },
+    "3.06.02": {
+      "accountCode": "3.06.02",
+      "accountDescripton": "Despesas Financeiras",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -221370
+        },
+        "2010": {
+          "version": 2,
+          "value": -450069
+        },
+        "2011": {
+          "version": 1,
+          "value": -430093
+        }
+      }
+    },
+    "3.07": {
+      "accountCode": "3.07",
+      "accountDescripton": "Resultado Antes dos Tributos sobre o Lucro",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 540435
+        },
+        "2010": {
+          "version": 2,
+          "value": 266563
+        },
+        "2011": {
+          "version": 1,
+          "value": -116812
+        }
+      }
+    },
+    "3.08": {
+      "accountCode": "3.08",
+      "accountDescripton": "Imposto de Renda e Contribuição Social sobre o Lucro",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -73495
+        },
+        "2010": {
+          "version": 2,
+          "value": -112009
+        },
+        "2011": {
+          "version": 1,
+          "value": -83632
+        }
+      }
+    },
+    "3.08.01": {
+      "accountCode": "3.08.01",
+      "accountDescripton": "Corrente",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -23561
+        },
+        "2010": {
+          "version": 2,
+          "value": -29482
+        },
+        "2011": {
+          "version": 1,
+          "value": -16947
+        }
+      }
+    },
+    "3.08.02": {
+      "accountCode": "3.08.02",
+      "accountDescripton": "Diferido",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -49934
+        },
+        "2010": {
+          "version": 2,
+          "value": -82527
+        },
+        "2011": {
+          "version": 1,
+          "value": -66685
+        }
+      }
+    },
+    "3.09": {
+      "accountCode": "3.09",
+      "accountDescripton": "Resultado Líquido das Operações Continuadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 466940
+        },
+        "2010": {
+          "version": 2,
+          "value": 154554
+        },
+        "2011": {
+          "version": 1,
+          "value": -200444
+        }
+      }
+    },
+    "3.10": {
+      "accountCode": "3.10",
+      "accountDescripton": "Resultado Líquido de Operações Descontinuadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -6987
+        },
+        "2010": {
+          "version": 2,
+          "value": -73535
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.10.01": {
+      "accountCode": "3.10.01",
+      "accountDescripton": "Lucro/Prejuízo Líquido das Operações Descontinuadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -6987
+        },
+        "2010": {
+          "version": 2,
+          "value": -73535
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.10.02": {
+      "accountCode": "3.10.02",
+      "accountDescripton": "Ganhos/Perdas Líquidas sobre Ativos de Operações Descontinuadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.11": {
+      "accountCode": "3.11",
+      "accountDescripton": "Lucro/Prejuízo Consolidado do Período",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 459953
+        },
+        "2010": {
+          "version": 2,
+          "value": 81019
+        },
+        "2011": {
+          "version": 1,
+          "value": -200444
+        }
+      }
+    },
+    "3.11.01": {
+      "accountCode": "3.11.01",
+      "accountDescripton": "Atribuído a Sócios da Empresa Controladora",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 458166
+        },
+        "2010": {
+          "version": 2,
+          "value": 79759
+        },
+        "2011": {
+          "version": 1,
+          "value": -203828
+        }
+      }
+    },
+    "3.11.02": {
+      "accountCode": "3.11.02",
+      "accountDescripton": "Atribuído a Sócios Não Controladores",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 1787
+        },
+        "2010": {
+          "version": 2,
+          "value": 1260
+        },
+        "2011": {
+          "version": 1,
+          "value": 3384
+        }
+      }
+    },
+    "3.99": {
+      "accountCode": "3.99",
+      "accountDescripton": "Lucro por Ação - (Reais / Ação)",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.99.01": {
+      "accountCode": "3.99.01",
+      "accountDescripton": "Lucro Básico por Ação",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.99.02": {
+      "accountCode": "3.99.02",
+      "accountDescripton": "Lucro Diluído por Ação",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.01": {
+      "accountCode": "6.01",
+      "accountDescripton": "Caixa Líquido Atividades Operacionais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -384279
+        },
+        "2010": {
+          "version": 2,
+          "value": 134612
+        },
+        "2011": {
+          "version": 1,
+          "value": -210131
+        }
+      }
+    },
+    "6.01.01": {
+      "accountCode": "6.01.01",
+      "accountDescripton": "Caixa Gerado nas Operações",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 656584
+        },
+        "2010": {
+          "version": 2,
+          "value": 75476
+        },
+        "2011": {
+          "version": 1,
+          "value": 152326
+        }
+      }
+    },
+    "6.01.01.01": {
+      "accountCode": "6.01.01.01",
+      "accountDescripton": "Lucro Liquido do exercicio das Op. Continuadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 466940
+        },
+        "2010": {
+          "version": 2,
+          "value": 154554
+        },
+        "2011": {
+          "version": 1,
+          "value": -200444
+        }
+      }
+    },
+    "6.01.01.02": {
+      "accountCode": "6.01.01.02",
+      "accountDescripton": "Lucro/ Prejuizo  Liquido do exercicio das Op. Descontinuadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -6987
+        },
+        "2010": {
+          "version": 2,
+          "value": -73535
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.01.01.03": {
+      "accountCode": "6.01.01.03",
+      "accountDescripton": "Depreciação e amortização",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 227
+        },
+        "2010": {
+          "version": 2,
+          "value": 977
+        },
+        "2011": {
+          "version": 1,
+          "value": 208
+        }
+      }
+    },
+    "6.01.01.04": {
+      "accountCode": "6.01.01.04",
+      "accountDescripton": "Constituição de provisões contábeis",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 61214
+        },
+        "2010": {
+          "version": 2,
+          "value": 9039
+        },
+        "2011": {
+          "version": 1,
+          "value": 18171
+        }
+      }
+    },
+    "6.01.01.05": {
+      "accountCode": "6.01.01.05",
+      "accountDescripton": "Participação de Minoritários",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.01.01.06": {
+      "accountCode": "6.01.01.06",
+      "accountDescripton": "Apropriação de encargos com atividades de financ.",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 203921
+        },
+        "2010": {
+          "version": 2,
+          "value": 421365
+        },
+        "2011": {
+          "version": 1,
+          "value": 402544
+        }
+      }
+    },
+    "6.01.01.07": {
+      "accountCode": "6.01.01.07",
+      "accountDescripton": "Valor Justo",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -129303
+        },
+        "2010": {
+          "version": 2,
+          "value": -512959
+        },
+        "2011": {
+          "version": 1,
+          "value": -164332
+        }
+      }
+    },
+    "6.01.01.08": {
+      "accountCode": "6.01.01.08",
+      "accountDescripton": "Realização de Ágio/ Deságio sobre Aquisição da Part.",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 1442
+        }
+      }
+    },
+    "6.01.01.09": {
+      "accountCode": "6.01.01.09",
+      "accountDescripton": "Imposto de renda e contrib. social",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 60572
+        },
+        "2010": {
+          "version": 2,
+          "value": 82527
+        },
+        "2011": {
+          "version": 1,
+          "value": 66685
+        }
+      }
+    },
+    "6.01.01.10": {
+      "accountCode": "6.01.01.10",
+      "accountDescripton": "Resultado na venda do investimento",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": -7571
+        },
+        "2011": {
+          "version": 1,
+          "value": -6688
+        }
+      }
+    },
+    "6.01.01.11": {
+      "accountCode": "6.01.01.11",
+      "accountDescripton": "Despesa com bonus de subscrição",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 14010
+        }
+      }
+    },
+    "6.01.01.12": {
+      "accountCode": "6.01.01.12",
+      "accountDescripton": "Provisão para realização de perdas nos Investimentos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": -576
+        },
+        "2011": {
+          "version": 1,
+          "value": 266
+        }
+      }
+    },
+    "6.01.01.13": {
+      "accountCode": "6.01.01.13",
+      "accountDescripton": "Apropriação de pagamentos op. passados",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 1655
+        },
+        "2011": {
+          "version": 1,
+          "value": 1452
+        }
+      }
+    },
+    "6.01.02": {
+      "accountCode": "6.01.02",
+      "accountDescripton": "Variações nos Ativos e Passivos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -1040863
+        },
+        "2010": {
+          "version": 2,
+          "value": 59136
+        },
+        "2011": {
+          "version": 1,
+          "value": -362457
+        }
+      }
+    },
+    "6.01.02.01": {
+      "accountCode": "6.01.02.01",
+      "accountDescripton": "Alugueis a receber",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 2122
+        },
+        "2010": {
+          "version": 2,
+          "value": -10160
+        },
+        "2011": {
+          "version": 1,
+          "value": -4849
+        }
+      }
+    },
+    "6.01.02.02": {
+      "accountCode": "6.01.02.02",
+      "accountDescripton": "Adiantamento de fornecedores",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -9293
+        },
+        "2010": {
+          "version": 2,
+          "value": 51
+        },
+        "2011": {
+          "version": 1,
+          "value": -5851
+        }
+      }
+    },
+    "6.01.02.03": {
+      "accountCode": "6.01.02.03",
+      "accountDescripton": "Direitos creditórios",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 7942
+        },
+        "2010": {
+          "version": 2,
+          "value": -20020
+        },
+        "2011": {
+          "version": 1,
+          "value": 28092
+        }
+      }
+    },
+    "6.01.02.04": {
+      "accountCode": "6.01.02.04",
+      "accountDescripton": "Créditos tributários e outros ativos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -15349
+        },
+        "2010": {
+          "version": 2,
+          "value": 17294
+        },
+        "2011": {
+          "version": 1,
+          "value": 2728
+        }
+      }
+    },
+    "6.01.02.05": {
+      "accountCode": "6.01.02.05",
+      "accountDescripton": "Créditos com partes relacionadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -1021
+        },
+        "2010": {
+          "version": 2,
+          "value": 9202
+        },
+        "2011": {
+          "version": 1,
+          "value": -38453
+        }
+      }
+    },
+    "6.01.02.06": {
+      "accountCode": "6.01.02.06",
+      "accountDescripton": "Outras contas a receber",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -135086
+        },
+        "2010": {
+          "version": 2,
+          "value": -8575
+        },
+        "2011": {
+          "version": 1,
+          "value": -3895
+        }
+      }
+    },
+    "6.01.02.07": {
+      "accountCode": "6.01.02.07",
+      "accountDescripton": "Propriedade para investimento",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -652899
+        },
+        "2010": {
+          "version": 2,
+          "value": -346277
+        },
+        "2011": {
+          "version": 1,
+          "value": -480417
+        }
+      }
+    },
+    "6.01.02.08": {
+      "accountCode": "6.01.02.08",
+      "accountDescripton": "Recursos receb. pela venda de propriedade p/ Invest.",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 452058
+        },
+        "2010": {
+          "version": 2,
+          "value": 314875
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.01.02.09": {
+      "accountCode": "6.01.02.09",
+      "accountDescripton": "Estoque e Imoveis disponiveis para venda",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": -12270
+        }
+      }
+    },
+    "6.01.02.10": {
+      "accountCode": "6.01.02.10",
+      "accountDescripton": "Investimentos temporarios",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.01.02.11": {
+      "accountCode": "6.01.02.11",
+      "accountDescripton": "Operação descontinuada",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 63552
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.01.02.12": {
+      "accountCode": "6.01.02.12",
+      "accountDescripton": "Despesa Antecipada",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.01.02.13": {
+      "accountCode": "6.01.02.13",
+      "accountDescripton": "Fornecedores",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 3574
+        },
+        "2010": {
+          "version": 2,
+          "value": 9794
+        },
+        "2011": {
+          "version": 1,
+          "value": 27708
+        }
+      }
+    },
+    "6.01.02.14": {
+      "accountCode": "6.01.02.14",
+      "accountDescripton": "Contas a pagar e provisões",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -17086
+        },
+        "2010": {
+          "version": 2,
+          "value": 29604
+        },
+        "2011": {
+          "version": 1,
+          "value": 37447
+        }
+      }
+    },
+    "6.01.02.15": {
+      "accountCode": "6.01.02.15",
+      "accountDescripton": "Adiantamento de clientes",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -699348
+        },
+        "2010": {
+          "version": 2,
+          "value": -25528
+        },
+        "2011": {
+          "version": 1,
+          "value": 52105
+        }
+      }
+    },
+    "6.01.02.16": {
+      "accountCode": "6.01.02.16",
+      "accountDescripton": "Obrigações trabalhistas e tributárias",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 38477
+        },
+        "2010": {
+          "version": 2,
+          "value": 41854
+        },
+        "2011": {
+          "version": 1,
+          "value": -5359
+        }
+      }
+    },
+    "6.01.02.17": {
+      "accountCode": "6.01.02.17",
+      "accountDescripton": "Imposto de renda e contribuição social pagos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -15353
+        },
+        "2010": {
+          "version": 2,
+          "value": -16129
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.01.02.18": {
+      "accountCode": "6.01.02.18",
+      "accountDescripton": "Partes relacionadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 399
+        },
+        "2010": {
+          "version": 2,
+          "value": -401
+        },
+        "2011": {
+          "version": 1,
+          "value": 61109
+        }
+      }
+    },
+    "6.01.03": {
+      "accountCode": "6.01.03",
+      "accountDescripton": "Outros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.02": {
+      "accountCode": "6.02",
+      "accountDescripton": "Caixa Líquido Atividades de Investimento",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -135
+        },
+        "2010": {
+          "version": 2,
+          "value": 278188
+        },
+        "2011": {
+          "version": 1,
+          "value": 43404
+        }
+      }
+    },
+    "6.02.01": {
+      "accountCode": "6.02.01",
+      "accountDescripton": "Investimento",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": -10330
+        },
+        "2011": {
+          "version": 1,
+          "value": 12113
+        }
+      }
+    },
+    "6.02.02": {
+      "accountCode": "6.02.02",
+      "accountDescripton": "Imobilizado",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -82
+        },
+        "2010": {
+          "version": 2,
+          "value": -228
+        },
+        "2011": {
+          "version": 1,
+          "value": -1555
+        }
+      }
+    },
+    "6.02.03": {
+      "accountCode": "6.02.03",
+      "accountDescripton": "Redução de Imobilizado",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": -565
+        }
+      }
+    },
+    "6.02.04": {
+      "accountCode": "6.02.04",
+      "accountDescripton": "Intangivel e diferido",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -53
+        },
+        "2010": {
+          "version": 2,
+          "value": -96
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.02.05": {
+      "accountCode": "6.02.05",
+      "accountDescripton": "Dividendos recebidos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 5
+        },
+        "2011": {
+          "version": 1,
+          "value": 33411
+        }
+      }
+    },
+    "6.02.06": {
+      "accountCode": "6.02.06",
+      "accountDescripton": "Alienação de investimento",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 288837
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.03": {
+      "accountCode": "6.03",
+      "accountDescripton": "Caixa Líquido Atividades de Financiamento",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 165393
+        },
+        "2010": {
+          "version": 2,
+          "value": -299623
+        },
+        "2011": {
+          "version": 1,
+          "value": 53327
+        }
+      }
+    },
+    "6.03.01": {
+      "accountCode": "6.03.01",
+      "accountDescripton": "Recursos de acionistas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 330280
+        }
+      }
+    },
+    "6.03.02": {
+      "accountCode": "6.03.02",
+      "accountDescripton": "Liquidação Cessão de direitos creditórios",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -9572
+        },
+        "2010": {
+          "version": 2,
+          "value": -10356
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.03.03": {
+      "accountCode": "6.03.03",
+      "accountDescripton": "Aumento de Empréstimo",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 574833
+        },
+        "2010": {
+          "version": 2,
+          "value": 609202
+        },
+        "2011": {
+          "version": 1,
+          "value": 712208
+        }
+      }
+    },
+    "6.03.04": {
+      "accountCode": "6.03.04",
+      "accountDescripton": "Redução de Empréstimo",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -149175
+        },
+        "2010": {
+          "version": 2,
+          "value": -975372
+        },
+        "2011": {
+          "version": 1,
+          "value": -766515
+        }
+      }
+    },
+    "6.03.05": {
+      "accountCode": "6.03.05",
+      "accountDescripton": "Juros pagos sobre empréstimo",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -135002
+        },
+        "2010": {
+          "version": 2,
+          "value": -114679
+        },
+        "2011": {
+          "version": 1,
+          "value": -123343
+        }
+      }
+    },
+    "6.03.06": {
+      "accountCode": "6.03.06",
+      "accountDescripton": "Aumento cédulas de créditos imobiliarios",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 28576
+        },
+        "2010": {
+          "version": 2,
+          "value": 244527
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.03.07": {
+      "accountCode": "6.03.07",
+      "accountDescripton": "Redução de cédulas de créditos imobiliários",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -1427
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": -15495
+        }
+      }
+    },
+    "6.03.08": {
+      "accountCode": "6.03.08",
+      "accountDescripton": "Juros pagos sobre cedulas de cred. imobiliarios",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -2223
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": -6518
+        }
+      }
+    },
+    "6.03.09": {
+      "accountCode": "6.03.09",
+      "accountDescripton": "Emissão de CRI",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": -127524
+        }
+      }
+    },
+    "6.03.10": {
+      "accountCode": "6.03.10",
+      "accountDescripton": "Amortização de CRI",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -60638
+        },
+        "2010": {
+          "version": 2,
+          "value": -74463
+        },
+        "2011": {
+          "version": 1,
+          "value": -77015
+        }
+      }
+    },
+    "6.03.11": {
+      "accountCode": "6.03.11",
+      "accountDescripton": "Aumento de Debêntures",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 101180
+        },
+        "2011": {
+          "version": 1,
+          "value": 200000
+        }
+      }
+    },
+    "6.03.12": {
+      "accountCode": "6.03.12",
+      "accountDescripton": "Liquidação de Debêntures",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": -9999
+        },
+        "2011": {
+          "version": 1,
+          "value": -9999
+        }
+      }
+    },
+    "6.03.13": {
+      "accountCode": "6.03.13",
+      "accountDescripton": "Participação de minoritarios",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -78
+        },
+        "2010": {
+          "version": 2,
+          "value": 5558
+        },
+        "2011": {
+          "version": 1,
+          "value": -29514
+        }
+      }
+    },
+    "6.03.14": {
+      "accountCode": "6.03.14",
+      "accountDescripton": "Liquidação de impostos parcelados",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -3079
+        },
+        "2010": {
+          "version": 2,
+          "value": -5874
+        },
+        "2011": {
+          "version": 1,
+          "value": -7558
+        }
+      }
+    },
+    "6.03.15": {
+      "accountCode": "6.03.15",
+      "accountDescripton": "Juros pagos impostos parcelados",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -680
+        },
+        "2010": {
+          "version": 2,
+          "value": -403
+        },
+        "2011": {
+          "version": 1,
+          "value": -1245
+        }
+      }
+    },
+    "6.03.16": {
+      "accountCode": "6.03.16",
+      "accountDescripton": "Juros pagos s/ certificados receb. imob.",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -76142
+        },
+        "2010": {
+          "version": 2,
+          "value": -68944
+        },
+        "2011": {
+          "version": 1,
+          "value": -17698
+        }
+      }
+    },
+    "6.04": {
+      "accountCode": "6.04",
+      "accountDescripton": "Variação Cambial s/ Caixa e Equivalentes",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.05": {
+      "accountCode": "6.05",
+      "accountDescripton": "Aumento (Redução) de Caixa e Equivalentes",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -219021
+        },
+        "2010": {
+          "version": 2,
+          "value": 113177
+        },
+        "2011": {
+          "version": 1,
+          "value": -113400
+        }
+      }
+    },
+    "6.05.01": {
+      "accountCode": "6.05.01",
+      "accountDescripton": "Saldo Inicial de Caixa e Equivalentes",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 372500
+        },
+        "2010": {
+          "version": 2,
+          "value": 153479
+        },
+        "2011": {
+          "version": 1,
+          "value": 266656
+        }
+      }
+    },
+    "6.05.02": {
+      "accountCode": "6.05.02",
+      "accountDescripton": "Saldo Final de Caixa e Equivalentes",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 153479
+        },
+        "2010": {
+          "version": 2,
+          "value": 266656
+        },
+        "2011": {
+          "version": 1,
+          "value": 153256
+        }
+      }
+    },
+    "7.01": {
+      "accountCode": "7.01",
+      "accountDescripton": "Receitas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 1412484
+        },
+        "2010": {
+          "version": 2,
+          "value": 1331717
+        },
+        "2011": {
+          "version": 1,
+          "value": 393197
+        }
+      }
+    },
+    "7.01.01": {
+      "accountCode": "7.01.01",
+      "accountDescripton": "Vendas de Mercadorias, Produtos e Serviços",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.01.02": {
+      "accountCode": "7.01.02",
+      "accountDescripton": "Outras Receitas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 1412484
+        },
+        "2010": {
+          "version": 2,
+          "value": 1331717
+        },
+        "2011": {
+          "version": 1,
+          "value": 393197
+        }
+      }
+    },
+    "7.01.02.01": {
+      "accountCode": "7.01.02.01",
+      "accountDescripton": "Receita imobiliária",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 1060000
+        },
+        "2010": {
+          "version": 2,
+          "value": 613901
+        },
+        "2011": {
+          "version": 1,
+          "value": 39300
+        }
+      }
+    },
+    "7.01.02.02": {
+      "accountCode": "7.01.02.02",
+      "accountDescripton": "Receita de arrendamentos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 173579
+        },
+        "2010": {
+          "version": 2,
+          "value": 170559
+        },
+        "2011": {
+          "version": 1,
+          "value": 184720
+        }
+      }
+    },
+    "7.01.02.03": {
+      "accountCode": "7.01.02.03",
+      "accountDescripton": "Cancelamentos e Abatimentos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": -234
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.01.02.04": {
+      "accountCode": "7.01.02.04",
+      "accountDescripton": "Capitalização de encargos financeiros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 49602
+        },
+        "2010": {
+          "version": 2,
+          "value": 26958
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.01.02.05": {
+      "accountCode": "7.01.02.05",
+      "accountDescripton": "Outras receitas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 7574
+        },
+        "2011": {
+          "version": 1,
+          "value": 4845
+        }
+      }
+    },
+    "7.01.02.06": {
+      "accountCode": "7.01.02.06",
+      "accountDescripton": "Ajuste a Valor Justo",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 129303
+        },
+        "2010": {
+          "version": 2,
+          "value": 512959
+        },
+        "2011": {
+          "version": 1,
+          "value": 164332
+        }
+      }
+    },
+    "7.01.03": {
+      "accountCode": "7.01.03",
+      "accountDescripton": "Receitas refs. à Construção de Ativos Próprios",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.01.04": {
+      "accountCode": "7.01.04",
+      "accountDescripton": "Provisão/Reversão de Créds. Liquidação Duvidosa",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.02": {
+      "accountCode": "7.02",
+      "accountDescripton": "Insumos Adquiridos de Terceiros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -689100
+        },
+        "2010": {
+          "version": 2,
+          "value": -780672
+        },
+        "2011": {
+          "version": 1,
+          "value": -133381
+        }
+      }
+    },
+    "7.02.01": {
+      "accountCode": "7.02.01",
+      "accountDescripton": "Custos Prods., Mercs. e Servs. Vendidos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.02.02": {
+      "accountCode": "7.02.02",
+      "accountDescripton": "Materiais, Energia, Servs. de Terceiros e Outros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.02.03": {
+      "accountCode": "7.02.03",
+      "accountDescripton": "Perda/Recuperação de Valores Ativos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.02.04": {
+      "accountCode": "7.02.04",
+      "accountDescripton": "Outros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -689100
+        },
+        "2010": {
+          "version": 2,
+          "value": -780672
+        },
+        "2011": {
+          "version": 1,
+          "value": -133381
+        }
+      }
+    },
+    "7.02.04.01": {
+      "accountCode": "7.02.04.01",
+      "accountDescripton": "Custo de alienação imobiliária",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -590369
+        },
+        "2010": {
+          "version": 2,
+          "value": -472885
+        },
+        "2011": {
+          "version": 1,
+          "value": -35110
+        }
+      }
+    },
+    "7.02.04.02": {
+      "accountCode": "7.02.04.02",
+      "accountDescripton": "Serviço prestado de terceiros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -33854
+        },
+        "2010": {
+          "version": 2,
+          "value": -52021
+        },
+        "2011": {
+          "version": 1,
+          "value": -40898
+        }
+      }
+    },
+    "7.02.04.03": {
+      "accountCode": "7.02.04.03",
+      "accountDescripton": "Concessionárias de consumo",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -1098
+        },
+        "2010": {
+          "version": 2,
+          "value": -4207
+        },
+        "2011": {
+          "version": 1,
+          "value": -3549
+        }
+      }
+    },
+    "7.02.04.04": {
+      "accountCode": "7.02.04.04",
+      "accountDescripton": "Outras despesas operacionais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -39238
+        },
+        "2010": {
+          "version": 2,
+          "value": -91437
+        },
+        "2011": {
+          "version": 1,
+          "value": -24089
+        }
+      }
+    },
+    "7.02.04.05": {
+      "accountCode": "7.02.04.05",
+      "accountDescripton": "Despesa com emissão de títulos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -1801
+        },
+        "2010": {
+          "version": 2,
+          "value": -1655
+        },
+        "2011": {
+          "version": 1,
+          "value": -2187
+        }
+      }
+    },
+    "7.02.04.06": {
+      "accountCode": "7.02.04.06",
+      "accountDescripton": "Comissões e despesas bancárias",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -15444
+        },
+        "2010": {
+          "version": 2,
+          "value": -51766
+        },
+        "2011": {
+          "version": 1,
+          "value": -27548
+        }
+      }
+    },
+    "7.02.04.07": {
+      "accountCode": "7.02.04.07",
+      "accountDescripton": "Perdas de recuperação de valores ativos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -309
+        },
+        "2010": {
+          "version": 2,
+          "value": -33166
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.02.04.08": {
+      "accountCode": "7.02.04.08",
+      "accountDescripton": "Operações Descontinuadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -6987
+        },
+        "2010": {
+          "version": 2,
+          "value": -73535
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.03": {
+      "accountCode": "7.03",
+      "accountDescripton": "Valor Adicionado Bruto",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 723384
+        },
+        "2010": {
+          "version": 2,
+          "value": 551045
+        },
+        "2011": {
+          "version": 1,
+          "value": 259816
+        }
+      }
+    },
+    "7.04": {
+      "accountCode": "7.04",
+      "accountDescripton": "Retenções",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -227
+        },
+        "2010": {
+          "version": 2,
+          "value": -979
+        },
+        "2011": {
+          "version": 1,
+          "value": -208
+        }
+      }
+    },
+    "7.04.01": {
+      "accountCode": "7.04.01",
+      "accountDescripton": "Depreciação, Amortização e Exaustão",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -227
+        },
+        "2010": {
+          "version": 2,
+          "value": -979
+        },
+        "2011": {
+          "version": 1,
+          "value": -208
+        }
+      }
+    },
+    "7.04.02": {
+      "accountCode": "7.04.02",
+      "accountDescripton": "Outras",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.04.02.01": {
+      "accountCode": "7.04.02.01",
+      "accountDescripton": "Amortização de Ágio sobre investimento",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        }
+      }
+    },
+    "7.05": {
+      "accountCode": "7.05",
+      "accountDescripton": "Valor Adicionado Líquido Produzido",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 723157
+        },
+        "2010": {
+          "version": 2,
+          "value": 550066
+        },
+        "2011": {
+          "version": 1,
+          "value": 259608
+        }
+      }
+    },
+    "7.06": {
+      "accountCode": "7.06",
+      "accountDescripton": "Vlr Adicionado Recebido em Transferência",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 47885
+        },
+        "2010": {
+          "version": 2,
+          "value": 101182
+        },
+        "2011": {
+          "version": 1,
+          "value": 68145
+        }
+      }
+    },
+    "7.06.01": {
+      "accountCode": "7.06.01",
+      "accountDescripton": "Resultado de Equivalência Patrimonial",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.06.02": {
+      "accountCode": "7.06.02",
+      "accountDescripton": "Receitas Financeiras",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.06.03": {
+      "accountCode": "7.06.03",
+      "accountDescripton": "Outros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 47885
+        },
+        "2010": {
+          "version": 2,
+          "value": 101182
+        },
+        "2011": {
+          "version": 1,
+          "value": 68145
+        }
+      }
+    },
+    "7.06.03.01": {
+      "accountCode": "7.06.03.01",
+      "accountDescripton": "Juros sobre aplicação financeiras",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 22394
+        },
+        "2010": {
+          "version": 2,
+          "value": 16008
+        },
+        "2011": {
+          "version": 1,
+          "value": 9964
+        }
+      }
+    },
+    "7.06.03.02": {
+      "accountCode": "7.06.03.02",
+      "accountDescripton": "Variação monetaria ativa",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 2731
+        },
+        "2010": {
+          "version": 2,
+          "value": 17377
+        },
+        "2011": {
+          "version": 1,
+          "value": 3013
+        }
+      }
+    },
+    "7.06.03.03": {
+      "accountCode": "7.06.03.03",
+      "accountDescripton": "Remuneração sobre direitos creditórios",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 22469
+        },
+        "2010": {
+          "version": 2,
+          "value": 53158
+        },
+        "2011": {
+          "version": 1,
+          "value": 37474
+        }
+      }
+    },
+    "7.06.03.04": {
+      "accountCode": "7.06.03.04",
+      "accountDescripton": "Outras receitas financeiras",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 512
+        },
+        "2010": {
+          "version": 2,
+          "value": 2256
+        },
+        "2011": {
+          "version": 1,
+          "value": 635
+        }
+      }
+    },
+    "7.06.03.05": {
+      "accountCode": "7.06.03.05",
+      "accountDescripton": "Ganhos e perdas com participações societárias",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -724
+        },
+        "2010": {
+          "version": 2,
+          "value": 2653
+        },
+        "2011": {
+          "version": 1,
+          "value": -266
+        }
+      }
+    },
+    "7.06.03.06": {
+      "accountCode": "7.06.03.06",
+      "accountDescripton": "Receitas e despesas diversas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 503
+        },
+        "2010": {
+          "version": 2,
+          "value": 9730
+        },
+        "2011": {
+          "version": 1,
+          "value": 17325
+        }
+      }
+    },
+    "7.07": {
+      "accountCode": "7.07",
+      "accountDescripton": "Valor Adicionado Total a Distribuir",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 771042
+        },
+        "2010": {
+          "version": 2,
+          "value": 651248
+        },
+        "2011": {
+          "version": 1,
+          "value": 327753
+        }
+      }
+    },
+    "7.08": {
+      "accountCode": "7.08",
+      "accountDescripton": "Distribuição do Valor Adicionado",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 771042
+        },
+        "2010": {
+          "version": 2,
+          "value": 651248
+        },
+        "2011": {
+          "version": 1,
+          "value": 327753
+        }
+      }
+    },
+    "7.08.01": {
+      "accountCode": "7.08.01",
+      "accountDescripton": "Pessoal",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 19748
+        },
+        "2010": {
+          "version": 2,
+          "value": 23888
+        },
+        "2011": {
+          "version": 1,
+          "value": 20082
+        }
+      }
+    },
+    "7.08.01.01": {
+      "accountCode": "7.08.01.01",
+      "accountDescripton": "Remuneração Direta",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.01.02": {
+      "accountCode": "7.08.01.02",
+      "accountDescripton": "Benefícios",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.01.03": {
+      "accountCode": "7.08.01.03",
+      "accountDescripton": "F.G.T.S.",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.01.04": {
+      "accountCode": "7.08.01.04",
+      "accountDescripton": "Outros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.02": {
+      "accountCode": "7.08.02",
+      "accountDescripton": "Impostos, Taxas e Contribuições",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 85416
+        },
+        "2010": {
+          "version": 2,
+          "value": 148038
+        },
+        "2011": {
+          "version": 1,
+          "value": 105571
+        }
+      }
+    },
+    "7.08.02.01": {
+      "accountCode": "7.08.02.01",
+      "accountDescripton": "Federais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.02.02": {
+      "accountCode": "7.08.02.02",
+      "accountDescripton": "Estaduais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.02.03": {
+      "accountCode": "7.08.02.03",
+      "accountDescripton": "Municipais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.03": {
+      "accountCode": "7.08.03",
+      "accountDescripton": "Remuneração de Capitais de Terceiros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 205925
+        },
+        "2010": {
+          "version": 2,
+          "value": 398303
+        },
+        "2011": {
+          "version": 1,
+          "value": 402544
+        }
+      }
+    },
+    "7.08.03.01": {
+      "accountCode": "7.08.03.01",
+      "accountDescripton": "Juros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 205925
+        },
+        "2010": {
+          "version": 2,
+          "value": 398303
+        },
+        "2011": {
+          "version": 1,
+          "value": 402544
+        }
+      }
+    },
+    "7.08.03.02": {
+      "accountCode": "7.08.03.02",
+      "accountDescripton": "Aluguéis",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.03.03": {
+      "accountCode": "7.08.03.03",
+      "accountDescripton": "Outras",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.04": {
+      "accountCode": "7.08.04",
+      "accountDescripton": "Remuneração de Capitais Próprios",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 459953
+        },
+        "2010": {
+          "version": 2,
+          "value": 81019
+        },
+        "2011": {
+          "version": 1,
+          "value": -200444
+        }
+      }
+    },
+    "7.08.04.01": {
+      "accountCode": "7.08.04.01",
+      "accountDescripton": "Juros sobre o Capital Próprio",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.04.02": {
+      "accountCode": "7.08.04.02",
+      "accountDescripton": "Dividendos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.04.03": {
+      "accountCode": "7.08.04.03",
+      "accountDescripton": "Lucros Retidos / Prejuízo do Período",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 458166
+        },
+        "2010": {
+          "version": 2,
+          "value": 79759
+        },
+        "2011": {
+          "version": 1,
+          "value": -203828
+        }
+      }
+    },
+    "7.08.04.04": {
+      "accountCode": "7.08.04.04",
+      "accountDescripton": "Part. Não Controladores nos Lucros Retidos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 1787
+        },
+        "2010": {
+          "version": 2,
+          "value": 1260
+        },
+        "2011": {
+          "version": 1,
+          "value": 3384
+        }
+      }
+    },
+    "7.08.05": {
+      "accountCode": "7.08.05",
+      "accountDescripton": "Outros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
     "1.01.03.02.03": {
       "accountCode": "1.01.03.02.03",
       "accountDescripton": "Direitos sobre Cisão WTSP",
+      "data": {
+        "2010": {
+          "version": 1,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.01.01.14": {
+      "accountCode": "6.01.01.14",
+      "accountDescripton": "Participação de Minoritarios",
+      "data": {
+        "2010": {
+          "version": 1,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.01.01.15": {
+      "accountCode": "6.01.01.15",
+      "accountDescripton": "Resultado na Alineação Propriedade de Investimento",
+      "data": {
+        "2010": {
+          "version": 1,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 18447
+        }
+      }
+    },
+    "6.01.01.16": {
+      "accountCode": "6.01.01.16",
+      "accountDescripton": "Provisão para creditos de liquidação duvidosa",
+      "data": {
+        "2010": {
+          "version": 1,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 565
+        }
+      }
+    },
+    "6.01.02.19": {
+      "accountCode": "6.01.02.19",
+      "accountDescripton": "Impostos Diferidos",
+      "data": {
+        "2010": {
+          "version": 1,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": -20552
+        }
+      }
+    },
+    "6.03.17": {
+      "accountCode": "6.03.17",
+      "accountDescripton": "Incorporação caixa CME Participações Ltda",
+      "data": {
+        "2010": {
+          "version": 1,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 63
+        }
+      }
+    },
+    "6.03.18": {
+      "accountCode": "6.03.18",
+      "accountDescripton": " Participação de minoritarios ",
+      "data": {
+        "2010": {
+          "version": 1,
+          "value": 5558
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.03.19": {
+      "accountCode": "6.03.19",
+      "accountDescripton": "Capital de Giro",
+      "data": {
+        "2010": {
+          "version": 1,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 17999
+        }
+      }
+    },
+    "6.03.20": {
+      "accountCode": "6.03.20",
+      "accountDescripton": "Liquidação de Capital de Giro",
+      "data": {
+        "2010": {
+          "version": 1,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": -24799
+        }
+      }
+    },
+    "7.06.03.07": {
+      "accountCode": "7.06.03.07",
+      "accountDescripton": "Provisão para perdas nos investimentos",
+      "data": {
+        "2010": {
+          "version": 1,
+          "value": 0
+        },
+        "2011": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.06.03.08": {
+      "accountCode": "7.06.03.08",
+      "accountDescripton": "Perda Decorrente redução de capital",
       "data": {
         "2010": {
           "version": 1,

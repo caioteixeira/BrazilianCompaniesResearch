@@ -29,6 +29,32 @@
         }
       }
     },
+    "2": {
+      "accountCode": "2",
+      "accountDescripton": "Passivo Total",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 212042
+        },
+        "2016": {
+          "version": 1,
+          "value": 259550
+        },
+        "2017": {
+          "version": 2,
+          "value": 294750
+        },
+        "2018": {
+          "version": 2,
+          "value": 361393
+        },
+        "2019": {
+          "version": 1,
+          "value": 420171
+        }
+      }
+    },
     "1.01": {
       "accountCode": "1.01",
       "accountDescripton": "Ativo Circulante",
@@ -1613,6 +1639,5502 @@
         }
       }
     },
+    "2.01": {
+      "accountCode": "2.01",
+      "accountDescripton": "Passivo Circulante",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 80613
+        },
+        "2016": {
+          "version": 1,
+          "value": 127648
+        },
+        "2017": {
+          "version": 2,
+          "value": 166225
+        },
+        "2018": {
+          "version": 2,
+          "value": 153606
+        },
+        "2019": {
+          "version": 1,
+          "value": 193449
+        }
+      }
+    },
+    "2.01.01": {
+      "accountCode": "2.01.01",
+      "accountDescripton": "Obrigações Sociais e Trabalhistas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 31430
+        },
+        "2016": {
+          "version": 1,
+          "value": 41722
+        },
+        "2017": {
+          "version": 2,
+          "value": 41091
+        },
+        "2018": {
+          "version": 2,
+          "value": 39902
+        },
+        "2019": {
+          "version": 1,
+          "value": 35422
+        }
+      }
+    },
+    "2.01.01.01": {
+      "accountCode": "2.01.01.01",
+      "accountDescripton": "Obrigações Sociais",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.01.02": {
+      "accountCode": "2.01.01.02",
+      "accountDescripton": "Obrigações Trabalhistas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.02": {
+      "accountCode": "2.01.02",
+      "accountDescripton": "Fornecedores",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 5630
+        },
+        "2016": {
+          "version": 1,
+          "value": 11329
+        },
+        "2017": {
+          "version": 2,
+          "value": 16840
+        },
+        "2018": {
+          "version": 2,
+          "value": 21164
+        },
+        "2019": {
+          "version": 1,
+          "value": 24139
+        }
+      }
+    },
+    "2.01.02.01": {
+      "accountCode": "2.01.02.01",
+      "accountDescripton": "Fornecedores Nacionais",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 5630
+        },
+        "2016": {
+          "version": 1,
+          "value": 11329
+        },
+        "2017": {
+          "version": 2,
+          "value": 16840
+        },
+        "2018": {
+          "version": 2,
+          "value": 21164
+        },
+        "2019": {
+          "version": 1,
+          "value": 24139
+        }
+      }
+    },
+    "2.01.02.02": {
+      "accountCode": "2.01.02.02",
+      "accountDescripton": "Fornecedores Estrangeiros",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.03": {
+      "accountCode": "2.01.03",
+      "accountDescripton": "Obrigações Fiscais",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 11669
+        },
+        "2016": {
+          "version": 1,
+          "value": 15564
+        },
+        "2017": {
+          "version": 2,
+          "value": 17310
+        },
+        "2018": {
+          "version": 2,
+          "value": 19609
+        },
+        "2019": {
+          "version": 1,
+          "value": 29120
+        }
+      }
+    },
+    "2.01.03.01": {
+      "accountCode": "2.01.03.01",
+      "accountDescripton": "Obrigações Fiscais Federais",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 7563
+        },
+        "2016": {
+          "version": 1,
+          "value": 10742
+        },
+        "2017": {
+          "version": 2,
+          "value": 8537
+        },
+        "2018": {
+          "version": 2,
+          "value": 9440
+        },
+        "2019": {
+          "version": 1,
+          "value": 21557
+        }
+      }
+    },
+    "2.01.03.01.01": {
+      "accountCode": "2.01.03.01.01",
+      "accountDescripton": "Imposto de Renda e Contribuição Social a Pagar",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 1518
+        },
+        "2016": {
+          "version": 1,
+          "value": 2725
+        },
+        "2017": {
+          "version": 2,
+          "value": 1980
+        },
+        "2018": {
+          "version": 2,
+          "value": 3565
+        },
+        "2019": {
+          "version": 1,
+          "value": 2118
+        }
+      }
+    },
+    "2.01.03.01.02": {
+      "accountCode": "2.01.03.01.02",
+      "accountDescripton": "Demais Obrigações Fiscais Federais",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 6045
+        },
+        "2016": {
+          "version": 1,
+          "value": 8017
+        },
+        "2017": {
+          "version": 2,
+          "value": 6557
+        },
+        "2018": {
+          "version": 2,
+          "value": 5875
+        },
+        "2019": {
+          "version": 1,
+          "value": 19439
+        }
+      }
+    },
+    "2.01.03.02": {
+      "accountCode": "2.01.03.02",
+      "accountDescripton": "Obrigações Fiscais Estaduais",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.03.03": {
+      "accountCode": "2.01.03.03",
+      "accountDescripton": "Obrigações Fiscais Municipais",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 4106
+        },
+        "2016": {
+          "version": 1,
+          "value": 4822
+        },
+        "2017": {
+          "version": 2,
+          "value": 8773
+        },
+        "2018": {
+          "version": 2,
+          "value": 10169
+        },
+        "2019": {
+          "version": 1,
+          "value": 7563
+        }
+      }
+    },
+    "2.01.04": {
+      "accountCode": "2.01.04",
+      "accountDescripton": "Empréstimos e Financiamentos",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 26675
+        },
+        "2016": {
+          "version": 1,
+          "value": 47897
+        },
+        "2017": {
+          "version": 2,
+          "value": 80035
+        },
+        "2018": {
+          "version": 2,
+          "value": 51242
+        },
+        "2019": {
+          "version": 1,
+          "value": 73522
+        }
+      }
+    },
+    "2.01.04.01": {
+      "accountCode": "2.01.04.01",
+      "accountDescripton": "Empréstimos e Financiamentos",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.04.01.01": {
+      "accountCode": "2.01.04.01.01",
+      "accountDescripton": "Em Moeda Nacional",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.04.01.02": {
+      "accountCode": "2.01.04.01.02",
+      "accountDescripton": "Em Moeda Estrangeira",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.04.02": {
+      "accountCode": "2.01.04.02",
+      "accountDescripton": "Debêntures",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.04.03": {
+      "accountCode": "2.01.04.03",
+      "accountDescripton": "Financiamento por Arrendamento Financeiro",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05": {
+      "accountCode": "2.01.05",
+      "accountDescripton": "Outras Obrigações",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 5209
+        },
+        "2016": {
+          "version": 1,
+          "value": 11136
+        },
+        "2017": {
+          "version": 2,
+          "value": 10949
+        },
+        "2018": {
+          "version": 2,
+          "value": 21689
+        },
+        "2019": {
+          "version": 1,
+          "value": 31246
+        }
+      }
+    },
+    "2.01.05.01": {
+      "accountCode": "2.01.05.01",
+      "accountDescripton": "Passivos com Partes Relacionadas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05.01.01": {
+      "accountCode": "2.01.05.01.01",
+      "accountDescripton": "Débitos com Coligadas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05.01.03": {
+      "accountCode": "2.01.05.01.03",
+      "accountDescripton": "Débitos com Controladores",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05.01.04": {
+      "accountCode": "2.01.05.01.04",
+      "accountDescripton": "Débitos com Outras Partes Relacionadas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05.02": {
+      "accountCode": "2.01.05.02",
+      "accountDescripton": "Outros",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 5209
+        },
+        "2016": {
+          "version": 1,
+          "value": 11136
+        },
+        "2017": {
+          "version": 2,
+          "value": 10949
+        },
+        "2018": {
+          "version": 2,
+          "value": 21689
+        },
+        "2019": {
+          "version": 1,
+          "value": 31246
+        }
+      }
+    },
+    "2.01.05.02.01": {
+      "accountCode": "2.01.05.02.01",
+      "accountDescripton": "Dividendos e JCP a Pagar",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 235
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05.02.02": {
+      "accountCode": "2.01.05.02.02",
+      "accountDescripton": "Dividendo Mínimo Obrigatório a Pagar",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 1628
+        },
+        "2017": {
+          "version": 2,
+          "value": 2377
+        },
+        "2018": {
+          "version": 2,
+          "value": 83
+        },
+        "2019": {
+          "version": 1,
+          "value": 83
+        }
+      }
+    },
+    "2.01.05.02.03": {
+      "accountCode": "2.01.05.02.03",
+      "accountDescripton": "Obrigações por Pagamentos Baseados em Ações",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05.02.04": {
+      "accountCode": "2.01.05.02.04",
+      "accountDescripton": "Aquisição de Controladas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 4393
+        },
+        "2016": {
+          "version": 1,
+          "value": 8149
+        },
+        "2017": {
+          "version": 2,
+          "value": 4573
+        },
+        "2018": {
+          "version": 2,
+          "value": 18490
+        },
+        "2019": {
+          "version": 1,
+          "value": 19213
+        }
+      }
+    },
+    "2.01.05.02.05": {
+      "accountCode": "2.01.05.02.05",
+      "accountDescripton": "Outras Contas a Pagar",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 816
+        },
+        "2016": {
+          "version": 1,
+          "value": 1124
+        },
+        "2017": {
+          "version": 2,
+          "value": 2015
+        },
+        "2018": {
+          "version": 2,
+          "value": 3116
+        },
+        "2019": {
+          "version": 1,
+          "value": 4479
+        }
+      }
+    },
+    "2.01.06": {
+      "accountCode": "2.01.06",
+      "accountDescripton": "Provisões",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.01": {
+      "accountCode": "2.01.06.01",
+      "accountDescripton": "Provisões Fiscais Previdenciárias Trabalhistas e Cíveis",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.01.01": {
+      "accountCode": "2.01.06.01.01",
+      "accountDescripton": "Provisões Fiscais",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.01.02": {
+      "accountCode": "2.01.06.01.02",
+      "accountDescripton": "Provisões Previdenciárias e Trabalhistas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.01.03": {
+      "accountCode": "2.01.06.01.03",
+      "accountDescripton": "Provisões para Benefícios a Empregados",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.01.04": {
+      "accountCode": "2.01.06.01.04",
+      "accountDescripton": "Provisões Cíveis",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.02": {
+      "accountCode": "2.01.06.02",
+      "accountDescripton": "Outras Provisões",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.02.01": {
+      "accountCode": "2.01.06.02.01",
+      "accountDescripton": "Provisões para Garantias",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.02.02": {
+      "accountCode": "2.01.06.02.02",
+      "accountDescripton": "Provisões para Reestruturação",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.02.03": {
+      "accountCode": "2.01.06.02.03",
+      "accountDescripton": "Provisões para Passivos Ambientais e de Desativação",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.07": {
+      "accountCode": "2.01.07",
+      "accountDescripton": "Passivos sobre Ativos Não-Correntes a Venda e Descontinuados",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.07.01": {
+      "accountCode": "2.01.07.01",
+      "accountDescripton": "Passivos sobre Ativos Não-Correntes a Venda",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.07.02": {
+      "accountCode": "2.01.07.02",
+      "accountDescripton": "Passivos sobre Ativos de Operações Descontinuadas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02": {
+      "accountCode": "2.02",
+      "accountDescripton": "Passivo Não Circulante",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 81950
+        },
+        "2016": {
+          "version": 1,
+          "value": 70178
+        },
+        "2017": {
+          "version": 2,
+          "value": 53168
+        },
+        "2018": {
+          "version": 2,
+          "value": 136161
+        },
+        "2019": {
+          "version": 1,
+          "value": 174120
+        }
+      }
+    },
+    "2.02.01": {
+      "accountCode": "2.02.01",
+      "accountDescripton": "Empréstimos e Financiamentos",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 42945
+        },
+        "2016": {
+          "version": 1,
+          "value": 39970
+        },
+        "2017": {
+          "version": 2,
+          "value": 34022
+        },
+        "2018": {
+          "version": 2,
+          "value": 91457
+        },
+        "2019": {
+          "version": 1,
+          "value": 97276
+        }
+      }
+    },
+    "2.02.01.01": {
+      "accountCode": "2.02.01.01",
+      "accountDescripton": "Empréstimos e Financiamentos",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.01.01.01": {
+      "accountCode": "2.02.01.01.01",
+      "accountDescripton": "Em Moeda Nacional",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.01.01.02": {
+      "accountCode": "2.02.01.01.02",
+      "accountDescripton": "Em Moeda Estrangeira",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.01.02": {
+      "accountCode": "2.02.01.02",
+      "accountDescripton": "Debêntures",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.01.03": {
+      "accountCode": "2.02.01.03",
+      "accountDescripton": "Financiamento por Arrendamento Financeiro",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.02": {
+      "accountCode": "2.02.02",
+      "accountDescripton": "Outras Obrigações",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 28802
+        },
+        "2016": {
+          "version": 1,
+          "value": 22675
+        },
+        "2017": {
+          "version": 2,
+          "value": 18466
+        },
+        "2018": {
+          "version": 2,
+          "value": 43389
+        },
+        "2019": {
+          "version": 1,
+          "value": 75250
+        }
+      }
+    },
+    "2.02.02.01": {
+      "accountCode": "2.02.02.01",
+      "accountDescripton": "Passivos com Partes Relacionadas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.02.01.01": {
+      "accountCode": "2.02.02.01.01",
+      "accountDescripton": "Débitos com Coligadas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.02.01.03": {
+      "accountCode": "2.02.02.01.03",
+      "accountDescripton": "Débitos com Controladores",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.02.01.04": {
+      "accountCode": "2.02.02.01.04",
+      "accountDescripton": "Débitos com Outras Partes Relacionadas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.02.02": {
+      "accountCode": "2.02.02.02",
+      "accountDescripton": "Outros",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 28802
+        },
+        "2016": {
+          "version": 1,
+          "value": 22675
+        },
+        "2017": {
+          "version": 2,
+          "value": 18466
+        },
+        "2018": {
+          "version": 2,
+          "value": 43389
+        },
+        "2019": {
+          "version": 1,
+          "value": 75250
+        }
+      }
+    },
+    "2.02.02.02.01": {
+      "accountCode": "2.02.02.02.01",
+      "accountDescripton": "Obrigações por Pagamentos Baseados em Ações",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.02.02.02": {
+      "accountCode": "2.02.02.02.02",
+      "accountDescripton": "Adiantamento para Futuro Aumento de Capital",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.02.02.03": {
+      "accountCode": "2.02.02.02.03",
+      "accountDescripton": "Parcelamento de Tributos",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 9477
+        },
+        "2016": {
+          "version": 1,
+          "value": 9012
+        },
+        "2017": {
+          "version": 2,
+          "value": 6768
+        },
+        "2018": {
+          "version": 2,
+          "value": 8372
+        },
+        "2019": {
+          "version": 1,
+          "value": 35496
+        }
+      }
+    },
+    "2.02.02.02.04": {
+      "accountCode": "2.02.02.02.04",
+      "accountDescripton": "Parcelamento de Imposto de Renda e Contribuição Social",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 7041
+        },
+        "2016": {
+          "version": 1,
+          "value": 6136
+        },
+        "2017": {
+          "version": 2,
+          "value": 7275
+        },
+        "2018": {
+          "version": 2,
+          "value": 5056
+        },
+        "2019": {
+          "version": 1,
+          "value": 4260
+        }
+      }
+    },
+    "2.02.02.02.05": {
+      "accountCode": "2.02.02.02.05",
+      "accountDescripton": "Aquisição de Controladas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 12284
+        },
+        "2016": {
+          "version": 1,
+          "value": 7527
+        },
+        "2017": {
+          "version": 2,
+          "value": 4423
+        },
+        "2018": {
+          "version": 2,
+          "value": 29961
+        },
+        "2019": {
+          "version": 1,
+          "value": 15997
+        }
+      }
+    },
+    "2.02.03": {
+      "accountCode": "2.02.03",
+      "accountDescripton": "Tributos Diferidos",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 9778
+        },
+        "2016": {
+          "version": 1,
+          "value": 7157
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.03.01": {
+      "accountCode": "2.02.03.01",
+      "accountDescripton": "Imposto de Renda e Contribuição Social Diferidos",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 9778
+        },
+        "2016": {
+          "version": 1,
+          "value": 7157
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.04": {
+      "accountCode": "2.02.04",
+      "accountDescripton": "Provisões",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 425
+        },
+        "2016": {
+          "version": 1,
+          "value": 376
+        },
+        "2017": {
+          "version": 2,
+          "value": 680
+        },
+        "2018": {
+          "version": 2,
+          "value": 1315
+        },
+        "2019": {
+          "version": 1,
+          "value": 1594
+        }
+      }
+    },
+    "2.02.04.01": {
+      "accountCode": "2.02.04.01",
+      "accountDescripton": "Provisões Fiscais Previdenciárias Trabalhistas e Cíveis",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 425
+        },
+        "2016": {
+          "version": 1,
+          "value": 376
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.04.01.01": {
+      "accountCode": "2.02.04.01.01",
+      "accountDescripton": "Provisões Fiscais",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.04.01.02": {
+      "accountCode": "2.02.04.01.02",
+      "accountDescripton": "Provisões Previdenciárias e Trabalhistas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 425
+        },
+        "2016": {
+          "version": 1,
+          "value": 376
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.04.01.03": {
+      "accountCode": "2.02.04.01.03",
+      "accountDescripton": "Provisões para Benefícios a Empregados",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.04.01.04": {
+      "accountCode": "2.02.04.01.04",
+      "accountDescripton": "Provisões Cíveis",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.04.02": {
+      "accountCode": "2.02.04.02",
+      "accountDescripton": "Outras Provisões",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.04.02.01": {
+      "accountCode": "2.02.04.02.01",
+      "accountDescripton": "Provisões para Garantias",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.04.02.02": {
+      "accountCode": "2.02.04.02.02",
+      "accountDescripton": "Provisões para Reestruturação",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.04.02.03": {
+      "accountCode": "2.02.04.02.03",
+      "accountDescripton": "Provisões para Passivos Ambientais e de Desativação",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.05": {
+      "accountCode": "2.02.05",
+      "accountDescripton": "Passivos sobre Ativos Não-Correntes a Venda e Descontinuados",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.05.01": {
+      "accountCode": "2.02.05.01",
+      "accountDescripton": "Passivos sobre Ativos Não-Correntes a Venda",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.05.02": {
+      "accountCode": "2.02.05.02",
+      "accountDescripton": "Passivos sobre Ativos de Operações Descontinuadas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.06": {
+      "accountCode": "2.02.06",
+      "accountDescripton": "Lucros e Receitas a Apropriar",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.06.01": {
+      "accountCode": "2.02.06.01",
+      "accountDescripton": "Lucros a Apropriar",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.06.02": {
+      "accountCode": "2.02.06.02",
+      "accountDescripton": "Receitas a Apropriar",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.06.03": {
+      "accountCode": "2.02.06.03",
+      "accountDescripton": "Subvenções de Investimento a Apropriar",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03": {
+      "accountCode": "2.03",
+      "accountDescripton": "Patrimônio Líquido Consolidado",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 49479
+        },
+        "2016": {
+          "version": 1,
+          "value": 61724
+        },
+        "2017": {
+          "version": 2,
+          "value": 75357
+        },
+        "2018": {
+          "version": 2,
+          "value": 71626
+        },
+        "2019": {
+          "version": 1,
+          "value": 52602
+        }
+      }
+    },
+    "2.03.01": {
+      "accountCode": "2.03.01",
+      "accountDescripton": "Capital Social Realizado",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 47000
+        },
+        "2016": {
+          "version": 1,
+          "value": 59000
+        },
+        "2017": {
+          "version": 2,
+          "value": 65000
+        },
+        "2018": {
+          "version": 2,
+          "value": 65000
+        },
+        "2019": {
+          "version": 1,
+          "value": 65000
+        }
+      }
+    },
+    "2.03.02": {
+      "accountCode": "2.03.02",
+      "accountDescripton": "Reservas de Capital",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.02.01": {
+      "accountCode": "2.03.02.01",
+      "accountDescripton": "Ágio na Emissão de Ações",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.02.02": {
+      "accountCode": "2.03.02.02",
+      "accountDescripton": "Reserva Especial de Ágio na Incorporação",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.02.03": {
+      "accountCode": "2.03.02.03",
+      "accountDescripton": "Alienação de Bônus de Subscrição",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.02.04": {
+      "accountCode": "2.03.02.04",
+      "accountDescripton": "Opções Outorgadas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.02.05": {
+      "accountCode": "2.03.02.05",
+      "accountDescripton": "Ações em Tesouraria",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.02.06": {
+      "accountCode": "2.03.02.06",
+      "accountDescripton": "Adiantamento para Futuro Aumento de Capital",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.03": {
+      "accountCode": "2.03.03",
+      "accountDescripton": "Reservas de Reavaliação",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04": {
+      "accountCode": "2.03.04",
+      "accountDescripton": "Reservas de Lucros",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 182
+        },
+        "2016": {
+          "version": 1,
+          "value": 4857
+        },
+        "2017": {
+          "version": 2,
+          "value": 12490
+        },
+        "2018": {
+          "version": 2,
+          "value": 8759
+        },
+        "2019": {
+          "version": 1,
+          "value": 1010
+        }
+      }
+    },
+    "2.03.04.01": {
+      "accountCode": "2.03.04.01",
+      "accountDescripton": "Reserva Legal",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 182
+        },
+        "2016": {
+          "version": 1,
+          "value": 509
+        },
+        "2017": {
+          "version": 2,
+          "value": 1010
+        },
+        "2018": {
+          "version": 2,
+          "value": 1010
+        },
+        "2019": {
+          "version": 1,
+          "value": 1010
+        }
+      }
+    },
+    "2.03.04.02": {
+      "accountCode": "2.03.04.02",
+      "accountDescripton": "Reserva Estatutária",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.03": {
+      "accountCode": "2.03.04.03",
+      "accountDescripton": "Reserva para Contingências",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.04": {
+      "accountCode": "2.03.04.04",
+      "accountDescripton": "Reserva de Lucros a Realizar",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.05": {
+      "accountCode": "2.03.04.05",
+      "accountDescripton": "Reserva de Retenção de Lucros",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 4348
+        },
+        "2017": {
+          "version": 2,
+          "value": 11480
+        },
+        "2018": {
+          "version": 2,
+          "value": 7749
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.06": {
+      "accountCode": "2.03.04.06",
+      "accountDescripton": "Reserva Especial para Dividendos Não Distribuídos",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.07": {
+      "accountCode": "2.03.04.07",
+      "accountDescripton": "Reserva de Incentivos Fiscais",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.08": {
+      "accountCode": "2.03.04.08",
+      "accountDescripton": "Dividendo Adicional Proposto",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.09": {
+      "accountCode": "2.03.04.09",
+      "accountDescripton": "Ações em Tesouraria",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.05": {
+      "accountCode": "2.03.05",
+      "accountDescripton": "Lucros/Prejuízos Acumulados",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -447
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": -11275
+        }
+      }
+    },
+    "2.03.06": {
+      "accountCode": "2.03.06",
+      "accountDescripton": "Ajustes de Avaliação Patrimonial",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": -2133
+        },
+        "2017": {
+          "version": 2,
+          "value": -2133
+        },
+        "2018": {
+          "version": 2,
+          "value": -2133
+        },
+        "2019": {
+          "version": 1,
+          "value": -2133
+        }
+      }
+    },
+    "2.03.07": {
+      "accountCode": "2.03.07",
+      "accountDescripton": "Ajustes Acumulados de Conversão",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.08": {
+      "accountCode": "2.03.08",
+      "accountDescripton": "Outros Resultados Abrangentes",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.09": {
+      "accountCode": "2.03.09",
+      "accountDescripton": "Participação dos Acionistas Não Controladores",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 2744
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.01": {
+      "accountCode": "3.01",
+      "accountDescripton": "Receita de Venda de Bens e/ou Serviços",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 321020
+        },
+        "2016": {
+          "version": 1,
+          "value": 494843
+        },
+        "2017": {
+          "version": 2,
+          "value": 527843
+        },
+        "2018": {
+          "version": 2,
+          "value": 532446
+        },
+        "2019": {
+          "version": 1,
+          "value": 513535
+        }
+      }
+    },
+    "3.02": {
+      "accountCode": "3.02",
+      "accountDescripton": "Custo dos Bens e/ou Serviços Vendidos",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -237910
+        },
+        "2016": {
+          "version": 1,
+          "value": -354728
+        },
+        "2017": {
+          "version": 2,
+          "value": -368671
+        },
+        "2018": {
+          "version": 2,
+          "value": -379386
+        },
+        "2019": {
+          "version": 1,
+          "value": -365832
+        }
+      }
+    },
+    "3.03": {
+      "accountCode": "3.03",
+      "accountDescripton": "Resultado Bruto",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 83110
+        },
+        "2016": {
+          "version": 1,
+          "value": 140115
+        },
+        "2017": {
+          "version": 2,
+          "value": 159172
+        },
+        "2018": {
+          "version": 2,
+          "value": 153060
+        },
+        "2019": {
+          "version": 1,
+          "value": 147703
+        }
+      }
+    },
+    "3.04": {
+      "accountCode": "3.04",
+      "accountDescripton": "Despesas/Receitas Operacionais",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -70231
+        },
+        "2016": {
+          "version": 1,
+          "value": -116085
+        },
+        "2017": {
+          "version": 2,
+          "value": -137517
+        },
+        "2018": {
+          "version": 2,
+          "value": -132370
+        },
+        "2019": {
+          "version": 1,
+          "value": -143795
+        }
+      }
+    },
+    "3.04.01": {
+      "accountCode": "3.04.01",
+      "accountDescripton": "Despesas com Vendas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -1501
+        },
+        "2016": {
+          "version": 1,
+          "value": -1333
+        },
+        "2017": {
+          "version": 2,
+          "value": -1880
+        },
+        "2018": {
+          "version": 2,
+          "value": -1365
+        },
+        "2019": {
+          "version": 1,
+          "value": -1273
+        }
+      }
+    },
+    "3.04.02": {
+      "accountCode": "3.04.02",
+      "accountDescripton": "Despesas Gerais e Administrativas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -68730
+        },
+        "2016": {
+          "version": 1,
+          "value": -113072
+        },
+        "2017": {
+          "version": 2,
+          "value": -133196
+        },
+        "2018": {
+          "version": 2,
+          "value": -132544
+        },
+        "2019": {
+          "version": 1,
+          "value": -140769
+        }
+      }
+    },
+    "3.04.03": {
+      "accountCode": "3.04.03",
+      "accountDescripton": "Perdas pela Não Recuperabilidade de Ativos",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.04.04": {
+      "accountCode": "3.04.04",
+      "accountDescripton": "Outras Receitas Operacionais",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.04.05": {
+      "accountCode": "3.04.05",
+      "accountDescripton": "Outras Despesas Operacionais",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": -1680
+        },
+        "2017": {
+          "version": 2,
+          "value": -2441
+        },
+        "2018": {
+          "version": 2,
+          "value": 1539
+        },
+        "2019": {
+          "version": 1,
+          "value": -1753
+        }
+      }
+    },
+    "3.04.06": {
+      "accountCode": "3.04.06",
+      "accountDescripton": "Resultado de Equivalência Patrimonial",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.05": {
+      "accountCode": "3.05",
+      "accountDescripton": "Resultado Antes do Resultado Financeiro e dos Tributos",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 12879
+        },
+        "2016": {
+          "version": 1,
+          "value": 24030
+        },
+        "2017": {
+          "version": 2,
+          "value": 21655
+        },
+        "2018": {
+          "version": 2,
+          "value": 20690
+        },
+        "2019": {
+          "version": 1,
+          "value": 3908
+        }
+      }
+    },
+    "3.06": {
+      "accountCode": "3.06",
+      "accountDescripton": "Resultado Financeiro",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -7296
+        },
+        "2016": {
+          "version": 1,
+          "value": -12715
+        },
+        "2017": {
+          "version": 2,
+          "value": -18973
+        },
+        "2018": {
+          "version": 2,
+          "value": -26236
+        },
+        "2019": {
+          "version": 1,
+          "value": -32137
+        }
+      }
+    },
+    "3.06.01": {
+      "accountCode": "3.06.01",
+      "accountDescripton": "Receitas Financeiras",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 1939
+        },
+        "2016": {
+          "version": 1,
+          "value": 1503
+        },
+        "2017": {
+          "version": 2,
+          "value": 1318
+        },
+        "2018": {
+          "version": 2,
+          "value": 1846
+        },
+        "2019": {
+          "version": 1,
+          "value": 1300
+        }
+      }
+    },
+    "3.06.02": {
+      "accountCode": "3.06.02",
+      "accountDescripton": "Despesas Financeiras",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -9235
+        },
+        "2016": {
+          "version": 1,
+          "value": -14218
+        },
+        "2017": {
+          "version": 2,
+          "value": -20291
+        },
+        "2018": {
+          "version": 2,
+          "value": -28082
+        },
+        "2019": {
+          "version": 1,
+          "value": -33437
+        }
+      }
+    },
+    "3.07": {
+      "accountCode": "3.07",
+      "accountDescripton": "Resultado Antes dos Tributos sobre o Lucro",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 5583
+        },
+        "2016": {
+          "version": 1,
+          "value": 11315
+        },
+        "2017": {
+          "version": 2,
+          "value": 2682
+        },
+        "2018": {
+          "version": 2,
+          "value": -5546
+        },
+        "2019": {
+          "version": 1,
+          "value": -28229
+        }
+      }
+    },
+    "3.08": {
+      "accountCode": "3.08",
+      "accountDescripton": "Imposto de Renda e Contribuição Social sobre o Lucro",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -1615
+        },
+        "2016": {
+          "version": 1,
+          "value": -3776
+        },
+        "2017": {
+          "version": 2,
+          "value": 7328
+        },
+        "2018": {
+          "version": 2,
+          "value": 1815
+        },
+        "2019": {
+          "version": 1,
+          "value": 9205
+        }
+      }
+    },
+    "3.08.01": {
+      "accountCode": "3.08.01",
+      "accountDescripton": "Corrente",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -4532
+        },
+        "2016": {
+          "version": 1,
+          "value": -6101
+        },
+        "2017": {
+          "version": 2,
+          "value": -74
+        },
+        "2018": {
+          "version": 2,
+          "value": -90
+        },
+        "2019": {
+          "version": 1,
+          "value": -739
+        }
+      }
+    },
+    "3.08.02": {
+      "accountCode": "3.08.02",
+      "accountDescripton": "Diferido",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 2917
+        },
+        "2016": {
+          "version": 1,
+          "value": 2325
+        },
+        "2017": {
+          "version": 2,
+          "value": 7402
+        },
+        "2018": {
+          "version": 2,
+          "value": 1905
+        },
+        "2019": {
+          "version": 1,
+          "value": 9944
+        }
+      }
+    },
+    "3.09": {
+      "accountCode": "3.09",
+      "accountDescripton": "Resultado Líquido das Operações Continuadas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 3968
+        },
+        "2016": {
+          "version": 1,
+          "value": 7539
+        },
+        "2017": {
+          "version": 2,
+          "value": 10010
+        },
+        "2018": {
+          "version": 2,
+          "value": -3731
+        },
+        "2019": {
+          "version": 1,
+          "value": -19024
+        }
+      }
+    },
+    "3.10": {
+      "accountCode": "3.10",
+      "accountDescripton": "Resultado Líquido de Operações Descontinuadas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.10.01": {
+      "accountCode": "3.10.01",
+      "accountDescripton": "Lucro/Prejuízo Líquido das Operações Descontinuadas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.10.02": {
+      "accountCode": "3.10.02",
+      "accountDescripton": "Ganhos/Perdas Líquidas sobre Ativos de Operações Descontinuadas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.11": {
+      "accountCode": "3.11",
+      "accountDescripton": "Lucro/Prejuízo Consolidado do Período",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 3968
+        },
+        "2016": {
+          "version": 1,
+          "value": 7539
+        },
+        "2017": {
+          "version": 2,
+          "value": 10010
+        },
+        "2018": {
+          "version": 2,
+          "value": -3731
+        },
+        "2019": {
+          "version": 1,
+          "value": -19024
+        }
+      }
+    },
+    "3.11.01": {
+      "accountCode": "3.11.01",
+      "accountDescripton": "Atribuído a Sócios da Empresa Controladora",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 3866
+        },
+        "2016": {
+          "version": 1,
+          "value": 6985
+        },
+        "2017": {
+          "version": 2,
+          "value": 10010
+        },
+        "2018": {
+          "version": 2,
+          "value": -3731
+        },
+        "2019": {
+          "version": 1,
+          "value": -19024
+        }
+      }
+    },
+    "3.11.02": {
+      "accountCode": "3.11.02",
+      "accountDescripton": "Atribuído a Sócios Não Controladores",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 102
+        },
+        "2016": {
+          "version": 1,
+          "value": 554
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.99": {
+      "accountCode": "3.99",
+      "accountDescripton": "Lucro por Ação - (Reais / Ação)",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.99.01": {
+      "accountCode": "3.99.01",
+      "accountDescripton": "Lucro Básico por Ação",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.99.01.01": {
+      "accountCode": "3.99.01.01",
+      "accountDescripton": "ON",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 1.42
+        },
+        "2016": {
+          "version": 1,
+          "value": 2.36
+        },
+        "2017": {
+          "version": 2,
+          "value": 3.15
+        },
+        "2018": {
+          "version": 2,
+          "value": -1.15
+        },
+        "2019": {
+          "version": 1,
+          "value": -5.86
+        }
+      }
+    },
+    "3.99.02": {
+      "accountCode": "3.99.02",
+      "accountDescripton": "Lucro Diluído por Ação",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.99.02.01": {
+      "accountCode": "3.99.02.01",
+      "accountDescripton": "ON",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 1.42
+        },
+        "2016": {
+          "version": 1,
+          "value": 2.36
+        },
+        "2017": {
+          "version": 2,
+          "value": 3.15
+        },
+        "2018": {
+          "version": 2,
+          "value": -1.15
+        },
+        "2019": {
+          "version": 1,
+          "value": -5.86
+        }
+      }
+    },
+    "6.01": {
+      "accountCode": "6.01",
+      "accountDescripton": "Caixa Líquido Atividades Operacionais",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 14178
+        },
+        "2016": {
+          "version": 1,
+          "value": 11940
+        },
+        "2017": {
+          "version": 2,
+          "value": -2038
+        },
+        "2018": {
+          "version": 2,
+          "value": 17891
+        },
+        "2019": {
+          "version": 1,
+          "value": 48574
+        }
+      }
+    },
+    "6.01.01": {
+      "accountCode": "6.01.01",
+      "accountDescripton": "Caixa Gerado nas Operações",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 29052
+        },
+        "2016": {
+          "version": 1,
+          "value": 43583
+        },
+        "2017": {
+          "version": 2,
+          "value": 44843
+        },
+        "2018": {
+          "version": 2,
+          "value": 41998
+        },
+        "2019": {
+          "version": 1,
+          "value": 33409
+        }
+      }
+    },
+    "6.01.01.01": {
+      "accountCode": "6.01.01.01",
+      "accountDescripton": "Lucros antes do imposto de renda e contribuição social",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 5583
+        },
+        "2016": {
+          "version": 1,
+          "value": 11315
+        },
+        "2017": {
+          "version": 2,
+          "value": 2682
+        },
+        "2018": {
+          "version": 2,
+          "value": -5546
+        },
+        "2019": {
+          "version": 1,
+          "value": -28229
+        }
+      }
+    },
+    "6.01.01.02": {
+      "accountCode": "6.01.01.02",
+      "accountDescripton": "Depreciação e amortização",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 14291
+        },
+        "2016": {
+          "version": 1,
+          "value": 19175
+        },
+        "2017": {
+          "version": 2,
+          "value": 23141
+        },
+        "2018": {
+          "version": 2,
+          "value": 25174
+        },
+        "2019": {
+          "version": 1,
+          "value": 38037
+        }
+      }
+    },
+    "6.01.01.03": {
+      "accountCode": "6.01.01.03",
+      "accountDescripton": "Provisão para créditos de liquidação duvidosa",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 89
+        },
+        "2017": {
+          "version": 2,
+          "value": 3646
+        },
+        "2018": {
+          "version": 2,
+          "value": 791
+        },
+        "2019": {
+          "version": 1,
+          "value": -298
+        }
+      }
+    },
+    "6.01.01.04": {
+      "accountCode": "6.01.01.04",
+      "accountDescripton": "Provisão para riscos trabalhistas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": -49
+        },
+        "2017": {
+          "version": 2,
+          "value": 304
+        },
+        "2018": {
+          "version": 2,
+          "value": 90
+        },
+        "2019": {
+          "version": 1,
+          "value": 279
+        }
+      }
+    },
+    "6.01.01.05": {
+      "accountCode": "6.01.01.05",
+      "accountDescripton": "Baixas de ativos imobilizado e intangível",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 1503
+        },
+        "2016": {
+          "version": 1,
+          "value": 465
+        },
+        "2017": {
+          "version": 2,
+          "value": 128
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.01.01.06": {
+      "accountCode": "6.01.01.06",
+      "accountDescripton": "Juros e variação cambial líquida",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 7675
+        },
+        "2016": {
+          "version": 1,
+          "value": 12588
+        },
+        "2017": {
+          "version": 2,
+          "value": 11335
+        },
+        "2018": {
+          "version": 2,
+          "value": 18730
+        },
+        "2019": {
+          "version": 1,
+          "value": 22858
+        }
+      }
+    },
+    "6.01.02": {
+      "accountCode": "6.01.02",
+      "accountDescripton": "Variações nos Ativos e Passivos",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -6471
+        },
+        "2016": {
+          "version": 1,
+          "value": -11190
+        },
+        "2017": {
+          "version": 2,
+          "value": -36123
+        },
+        "2018": {
+          "version": 2,
+          "value": -6986
+        },
+        "2019": {
+          "version": 1,
+          "value": 19843
+        }
+      }
+    },
+    "6.01.02.01": {
+      "accountCode": "6.01.02.01",
+      "accountDescripton": "Contas a receber de clientes",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -34262
+        },
+        "2016": {
+          "version": 1,
+          "value": -27305
+        },
+        "2017": {
+          "version": 2,
+          "value": -14475
+        },
+        "2018": {
+          "version": 2,
+          "value": -17940
+        },
+        "2019": {
+          "version": 1,
+          "value": -20223
+        }
+      }
+    },
+    "6.01.02.02": {
+      "accountCode": "6.01.02.02",
+      "accountDescripton": "Impostos a recuperar",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -1462
+        },
+        "2016": {
+          "version": 1,
+          "value": -2071
+        },
+        "2017": {
+          "version": 2,
+          "value": -6837
+        },
+        "2018": {
+          "version": 2,
+          "value": -1170
+        },
+        "2019": {
+          "version": 1,
+          "value": -1292
+        }
+      }
+    },
+    "6.01.02.03": {
+      "accountCode": "6.01.02.03",
+      "accountDescripton": "Outras contas a receber",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -1823
+        },
+        "2016": {
+          "version": 1,
+          "value": -1202
+        },
+        "2017": {
+          "version": 2,
+          "value": -12364
+        },
+        "2018": {
+          "version": 2,
+          "value": 5385
+        },
+        "2019": {
+          "version": 1,
+          "value": 5285
+        }
+      }
+    },
+    "6.01.02.04": {
+      "accountCode": "6.01.02.04",
+      "accountDescripton": "Fornecedores",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 767
+        },
+        "2016": {
+          "version": 1,
+          "value": 5699
+        },
+        "2017": {
+          "version": 2,
+          "value": 4795
+        },
+        "2018": {
+          "version": 2,
+          "value": 4212
+        },
+        "2019": {
+          "version": 1,
+          "value": 2975
+        }
+      }
+    },
+    "6.01.02.05": {
+      "accountCode": "6.01.02.05",
+      "accountDescripton": "Salários e encargos sociais",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 17172
+        },
+        "2016": {
+          "version": 1,
+          "value": 10292
+        },
+        "2017": {
+          "version": 2,
+          "value": -631
+        },
+        "2018": {
+          "version": 2,
+          "value": -2349
+        },
+        "2019": {
+          "version": 1,
+          "value": -4480
+        }
+      }
+    },
+    "6.01.02.06": {
+      "accountCode": "6.01.02.06",
+      "accountDescripton": "Obrigações fiscais",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 13004
+        },
+        "2016": {
+          "version": 1,
+          "value": 6943
+        },
+        "2017": {
+          "version": 2,
+          "value": -7502
+        },
+        "2018": {
+          "version": 2,
+          "value": 3783
+        },
+        "2019": {
+          "version": 1,
+          "value": 36212
+        }
+      }
+    },
+    "6.01.02.07": {
+      "accountCode": "6.01.02.07",
+      "accountDescripton": "Outras contas a pagar",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 133
+        },
+        "2016": {
+          "version": 1,
+          "value": -3546
+        },
+        "2017": {
+          "version": 2,
+          "value": 891
+        },
+        "2018": {
+          "version": 2,
+          "value": 1093
+        },
+        "2019": {
+          "version": 1,
+          "value": 1366
+        }
+      }
+    },
+    "6.01.03": {
+      "accountCode": "6.01.03",
+      "accountDescripton": "Outros",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -8403
+        },
+        "2016": {
+          "version": 1,
+          "value": -20453
+        },
+        "2017": {
+          "version": 2,
+          "value": -10758
+        },
+        "2018": {
+          "version": 2,
+          "value": -17121
+        },
+        "2019": {
+          "version": 1,
+          "value": -4678
+        }
+      }
+    },
+    "6.01.03.01": {
+      "accountCode": "6.01.03.01",
+      "accountDescripton": "Imposto de renda e contribuição social pagos",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -2153
+        },
+        "2016": {
+          "version": 1,
+          "value": -5359
+        },
+        "2017": {
+          "version": 2,
+          "value": -238
+        },
+        "2018": {
+          "version": 2,
+          "value": -16150
+        },
+        "2019": {
+          "version": 1,
+          "value": -3563
+        }
+      }
+    },
+    "6.01.03.02": {
+      "accountCode": "6.01.03.02",
+      "accountDescripton": "Juros pagos",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -6250
+        },
+        "2016": {
+          "version": 1,
+          "value": -15094
+        },
+        "2017": {
+          "version": 2,
+          "value": -10520
+        },
+        "2018": {
+          "version": 2,
+          "value": -971
+        },
+        "2019": {
+          "version": 1,
+          "value": -1115
+        }
+      }
+    },
+    "6.02": {
+      "accountCode": "6.02",
+      "accountDescripton": "Caixa Líquido Atividades de Investimento",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -53884
+        },
+        "2016": {
+          "version": 1,
+          "value": -29458
+        },
+        "2017": {
+          "version": 2,
+          "value": -36833
+        },
+        "2018": {
+          "version": 2,
+          "value": -33448
+        },
+        "2019": {
+          "version": 1,
+          "value": -44925
+        }
+      }
+    },
+    "6.02.01": {
+      "accountCode": "6.02.01",
+      "accountDescripton": "Pagamento de cotas adquiridas de controladas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": -5836
+        },
+        "2017": {
+          "version": 2,
+          "value": -8180
+        },
+        "2018": {
+          "version": 2,
+          "value": -4859
+        },
+        "2019": {
+          "version": 1,
+          "value": -14941
+        }
+      }
+    },
+    "6.02.02": {
+      "accountCode": "6.02.02",
+      "accountDescripton": "Partes relacionadas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 1255
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.02.03": {
+      "accountCode": "6.02.03",
+      "accountDescripton": "Aquisições de investimentos",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -29757
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.02.04": {
+      "accountCode": "6.02.04",
+      "accountDescripton": "Aquisições de ativos imobilizados e intangíveis",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -24127
+        },
+        "2016": {
+          "version": 1,
+          "value": -24877
+        },
+        "2017": {
+          "version": 2,
+          "value": -29316
+        },
+        "2018": {
+          "version": 2,
+          "value": -29097
+        },
+        "2019": {
+          "version": 1,
+          "value": -24757
+        }
+      }
+    },
+    "6.03": {
+      "accountCode": "6.03",
+      "accountDescripton": "Caixa Líquido Atividades de Financiamento",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 39703
+        },
+        "2016": {
+          "version": 1,
+          "value": 20167
+        },
+        "2017": {
+          "version": 2,
+          "value": 29378
+        },
+        "2018": {
+          "version": 2,
+          "value": 23997
+        },
+        "2019": {
+          "version": 1,
+          "value": 3280
+        }
+      }
+    },
+    "6.03.01": {
+      "accountCode": "6.03.01",
+      "accountDescripton": "Aumento de capital",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 12000
+        },
+        "2016": {
+          "version": 1,
+          "value": 12000
+        },
+        "2017": {
+          "version": 2,
+          "value": 6000
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.03.02": {
+      "accountCode": "6.03.02",
+      "accountDescripton": "Amortizações de empréstimos e financiamentos",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -58946
+        },
+        "2016": {
+          "version": 1,
+          "value": -65227
+        },
+        "2017": {
+          "version": 2,
+          "value": -49530
+        },
+        "2018": {
+          "version": 2,
+          "value": -120799
+        },
+        "2019": {
+          "version": 1,
+          "value": -109734
+        }
+      }
+    },
+    "6.03.03": {
+      "accountCode": "6.03.03",
+      "accountDescripton": "Captações de empréstimos e financiamentos",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 86649
+        },
+        "2016": {
+          "version": 1,
+          "value": 73394
+        },
+        "2017": {
+          "version": 2,
+          "value": 74771
+        },
+        "2018": {
+          "version": 2,
+          "value": 147173
+        },
+        "2019": {
+          "version": 1,
+          "value": 124347
+        }
+      }
+    },
+    "6.03.04": {
+      "accountCode": "6.03.04",
+      "accountDescripton": "Pagamento de dividendos",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": -1863
+        },
+        "2018": {
+          "version": 2,
+          "value": -2377
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.04": {
+      "accountCode": "6.04",
+      "accountDescripton": "Variação Cambial s/ Caixa e Equivalentes",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.05": {
+      "accountCode": "6.05",
+      "accountDescripton": "Aumento (Redução) de Caixa e Equivalentes",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -3
+        },
+        "2016": {
+          "version": 1,
+          "value": 2649
+        },
+        "2017": {
+          "version": 2,
+          "value": -9493
+        },
+        "2018": {
+          "version": 2,
+          "value": 8440
+        },
+        "2019": {
+          "version": 1,
+          "value": 6929
+        }
+      }
+    },
+    "6.05.01": {
+      "accountCode": "6.05.01",
+      "accountDescripton": "Saldo Inicial de Caixa e Equivalentes",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 26240
+        },
+        "2016": {
+          "version": 1,
+          "value": 26237
+        },
+        "2017": {
+          "version": 2,
+          "value": 28886
+        },
+        "2018": {
+          "version": 2,
+          "value": 19393
+        },
+        "2019": {
+          "version": 1,
+          "value": 27833
+        }
+      }
+    },
+    "6.05.02": {
+      "accountCode": "6.05.02",
+      "accountDescripton": "Saldo Final de Caixa e Equivalentes",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 26237
+        },
+        "2016": {
+          "version": 1,
+          "value": 28886
+        },
+        "2017": {
+          "version": 2,
+          "value": 19393
+        },
+        "2018": {
+          "version": 2,
+          "value": 27833
+        },
+        "2019": {
+          "version": 1,
+          "value": 34762
+        }
+      }
+    },
+    "7.01": {
+      "accountCode": "7.01",
+      "accountDescripton": "Receitas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 351750
+        },
+        "2016": {
+          "version": 1,
+          "value": 545522
+        },
+        "2017": {
+          "version": 2,
+          "value": 578126
+        },
+        "2018": {
+          "version": 2,
+          "value": 586830
+        },
+        "2019": {
+          "version": 1,
+          "value": 574467
+        }
+      }
+    },
+    "7.01.01": {
+      "accountCode": "7.01.01",
+      "accountDescripton": "Vendas de Mercadorias, Produtos e Serviços",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 349190
+        },
+        "2016": {
+          "version": 1,
+          "value": 541760
+        },
+        "2017": {
+          "version": 2,
+          "value": 580204
+        },
+        "2018": {
+          "version": 2,
+          "value": 587586
+        },
+        "2019": {
+          "version": 1,
+          "value": 570798
+        }
+      }
+    },
+    "7.01.02": {
+      "accountCode": "7.01.02",
+      "accountDescripton": "Outras Receitas",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 2560
+        },
+        "2016": {
+          "version": 1,
+          "value": 3762
+        },
+        "2017": {
+          "version": 2,
+          "value": 1568
+        },
+        "2018": {
+          "version": 2,
+          "value": 125
+        },
+        "2019": {
+          "version": 1,
+          "value": 3372
+        }
+      }
+    },
+    "7.01.03": {
+      "accountCode": "7.01.03",
+      "accountDescripton": "Receitas refs. à Construção de Ativos Próprios",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.01.04": {
+      "accountCode": "7.01.04",
+      "accountDescripton": "Provisão/Reversão de Créds. Liquidação Duvidosa",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": -3646
+        },
+        "2018": {
+          "version": 2,
+          "value": -881
+        },
+        "2019": {
+          "version": 1,
+          "value": 297
+        }
+      }
+    },
+    "7.02": {
+      "accountCode": "7.02",
+      "accountDescripton": "Insumos Adquiridos de Terceiros",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -54708
+        },
+        "2016": {
+          "version": 1,
+          "value": -96223
+        },
+        "2017": {
+          "version": 2,
+          "value": -108767
+        },
+        "2018": {
+          "version": 2,
+          "value": -99394
+        },
+        "2019": {
+          "version": 1,
+          "value": -99707
+        }
+      }
+    },
+    "7.02.01": {
+      "accountCode": "7.02.01",
+      "accountDescripton": "Custos Prods., Mercs. e Servs. Vendidos",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -36932
+        },
+        "2016": {
+          "version": 1,
+          "value": -47937
+        },
+        "2017": {
+          "version": 2,
+          "value": -67564
+        },
+        "2018": {
+          "version": 2,
+          "value": -59889
+        },
+        "2019": {
+          "version": 1,
+          "value": -56194
+        }
+      }
+    },
+    "7.02.02": {
+      "accountCode": "7.02.02",
+      "accountDescripton": "Materiais, Energia, Servs. de Terceiros e Outros",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -17776
+        },
+        "2016": {
+          "version": 1,
+          "value": -48286
+        },
+        "2017": {
+          "version": 2,
+          "value": -41203
+        },
+        "2018": {
+          "version": 2,
+          "value": -39505
+        },
+        "2019": {
+          "version": 1,
+          "value": -43513
+        }
+      }
+    },
+    "7.02.03": {
+      "accountCode": "7.02.03",
+      "accountDescripton": "Perda/Recuperação de Valores Ativos",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.02.04": {
+      "accountCode": "7.02.04",
+      "accountDescripton": "Outros",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.03": {
+      "accountCode": "7.03",
+      "accountDescripton": "Valor Adicionado Bruto",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 297042
+        },
+        "2016": {
+          "version": 1,
+          "value": 449299
+        },
+        "2017": {
+          "version": 2,
+          "value": 469359
+        },
+        "2018": {
+          "version": 2,
+          "value": 487436
+        },
+        "2019": {
+          "version": 1,
+          "value": 474760
+        }
+      }
+    },
+    "7.04": {
+      "accountCode": "7.04",
+      "accountDescripton": "Retenções",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -14291
+        },
+        "2016": {
+          "version": 1,
+          "value": -19175
+        },
+        "2017": {
+          "version": 2,
+          "value": -23141
+        },
+        "2018": {
+          "version": 2,
+          "value": -25174
+        },
+        "2019": {
+          "version": 1,
+          "value": -38037
+        }
+      }
+    },
+    "7.04.01": {
+      "accountCode": "7.04.01",
+      "accountDescripton": "Depreciação, Amortização e Exaustão",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": -14291
+        },
+        "2016": {
+          "version": 1,
+          "value": -19175
+        },
+        "2017": {
+          "version": 2,
+          "value": -23141
+        },
+        "2018": {
+          "version": 2,
+          "value": -25174
+        },
+        "2019": {
+          "version": 1,
+          "value": -38037
+        }
+      }
+    },
+    "7.04.02": {
+      "accountCode": "7.04.02",
+      "accountDescripton": "Outras",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.05": {
+      "accountCode": "7.05",
+      "accountDescripton": "Valor Adicionado Líquido Produzido",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 282751
+        },
+        "2016": {
+          "version": 1,
+          "value": 430124
+        },
+        "2017": {
+          "version": 2,
+          "value": 446218
+        },
+        "2018": {
+          "version": 2,
+          "value": 462262
+        },
+        "2019": {
+          "version": 1,
+          "value": 436723
+        }
+      }
+    },
+    "7.06": {
+      "accountCode": "7.06",
+      "accountDescripton": "Vlr Adicionado Recebido em Transferência",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 1939
+        },
+        "2016": {
+          "version": 1,
+          "value": 1503
+        },
+        "2017": {
+          "version": 2,
+          "value": 1318
+        },
+        "2018": {
+          "version": 2,
+          "value": 1962
+        },
+        "2019": {
+          "version": 1,
+          "value": 1300
+        }
+      }
+    },
+    "7.06.01": {
+      "accountCode": "7.06.01",
+      "accountDescripton": "Resultado de Equivalência Patrimonial",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.06.02": {
+      "accountCode": "7.06.02",
+      "accountDescripton": "Receitas Financeiras",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 1939
+        },
+        "2016": {
+          "version": 1,
+          "value": 1503
+        },
+        "2017": {
+          "version": 2,
+          "value": 1318
+        },
+        "2018": {
+          "version": 2,
+          "value": 1962
+        },
+        "2019": {
+          "version": 1,
+          "value": 1300
+        }
+      }
+    },
+    "7.06.03": {
+      "accountCode": "7.06.03",
+      "accountDescripton": "Outros",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.07": {
+      "accountCode": "7.07",
+      "accountDescripton": "Valor Adicionado Total a Distribuir",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 284690
+        },
+        "2016": {
+          "version": 1,
+          "value": 431627
+        },
+        "2017": {
+          "version": 2,
+          "value": 447536
+        },
+        "2018": {
+          "version": 2,
+          "value": 464224
+        },
+        "2019": {
+          "version": 1,
+          "value": 438023
+        }
+      }
+    },
+    "7.08": {
+      "accountCode": "7.08",
+      "accountDescripton": "Distribuição do Valor Adicionado",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 284690
+        },
+        "2016": {
+          "version": 1,
+          "value": 431627
+        },
+        "2017": {
+          "version": 2,
+          "value": 447536
+        },
+        "2018": {
+          "version": 2,
+          "value": 464224
+        },
+        "2019": {
+          "version": 1,
+          "value": 438023
+        }
+      }
+    },
+    "7.08.01": {
+      "accountCode": "7.08.01",
+      "accountDescripton": "Pessoal",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 215876
+        },
+        "2016": {
+          "version": 1,
+          "value": 344985
+        },
+        "2017": {
+          "version": 2,
+          "value": 359228
+        },
+        "2018": {
+          "version": 2,
+          "value": 372634
+        },
+        "2019": {
+          "version": 1,
+          "value": 372548
+        }
+      }
+    },
+    "7.08.01.01": {
+      "accountCode": "7.08.01.01",
+      "accountDescripton": "Remuneração Direta",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 178913
+        },
+        "2016": {
+          "version": 1,
+          "value": 280303
+        },
+        "2017": {
+          "version": 2,
+          "value": 257311
+        },
+        "2018": {
+          "version": 2,
+          "value": 264878
+        },
+        "2019": {
+          "version": 1,
+          "value": 257366
+        }
+      }
+    },
+    "7.08.01.02": {
+      "accountCode": "7.08.01.02",
+      "accountDescripton": "Benefícios",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 36963
+        },
+        "2016": {
+          "version": 1,
+          "value": 64682
+        },
+        "2017": {
+          "version": 2,
+          "value": 59801
+        },
+        "2018": {
+          "version": 2,
+          "value": 60492
+        },
+        "2019": {
+          "version": 1,
+          "value": 61652
+        }
+      }
+    },
+    "7.08.01.03": {
+      "accountCode": "7.08.01.03",
+      "accountDescripton": "F.G.T.S.",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 22145
+        },
+        "2018": {
+          "version": 2,
+          "value": 22710
+        },
+        "2019": {
+          "version": 1,
+          "value": 25190
+        }
+      }
+    },
+    "7.08.01.04": {
+      "accountCode": "7.08.01.04",
+      "accountDescripton": "Outros",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 19971
+        },
+        "2018": {
+          "version": 2,
+          "value": 24554
+        },
+        "2019": {
+          "version": 1,
+          "value": 28340
+        }
+      }
+    },
+    "7.08.02": {
+      "accountCode": "7.08.02",
+      "accountDescripton": "Impostos, Taxas e Contribuições",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 46423
+        },
+        "2016": {
+          "version": 1,
+          "value": 53158
+        },
+        "2017": {
+          "version": 2,
+          "value": 46130
+        },
+        "2018": {
+          "version": 2,
+          "value": 53821
+        },
+        "2019": {
+          "version": 1,
+          "value": 47752
+        }
+      }
+    },
+    "7.08.02.01": {
+      "accountCode": "7.08.02.01",
+      "accountDescripton": "Federais",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 35880
+        },
+        "2016": {
+          "version": 1,
+          "value": 35175
+        },
+        "2017": {
+          "version": 2,
+          "value": 30824
+        },
+        "2018": {
+          "version": 2,
+          "value": 36620
+        },
+        "2019": {
+          "version": 1,
+          "value": 28467
+        }
+      }
+    },
+    "7.08.02.02": {
+      "accountCode": "7.08.02.02",
+      "accountDescripton": "Estaduais",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.02.03": {
+      "accountCode": "7.08.02.03",
+      "accountDescripton": "Municipais",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 10543
+        },
+        "2016": {
+          "version": 1,
+          "value": 17983
+        },
+        "2017": {
+          "version": 2,
+          "value": 15306
+        },
+        "2018": {
+          "version": 2,
+          "value": 17201
+        },
+        "2019": {
+          "version": 1,
+          "value": 19285
+        }
+      }
+    },
+    "7.08.03": {
+      "accountCode": "7.08.03",
+      "accountDescripton": "Remuneração de Capitais de Terceiros",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 18423
+        },
+        "2016": {
+          "version": 1,
+          "value": 25945
+        },
+        "2017": {
+          "version": 2,
+          "value": 32168
+        },
+        "2018": {
+          "version": 2,
+          "value": 41500
+        },
+        "2019": {
+          "version": 1,
+          "value": 36747
+        }
+      }
+    },
+    "7.08.03.01": {
+      "accountCode": "7.08.03.01",
+      "accountDescripton": "Juros",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 9235
+        },
+        "2016": {
+          "version": 1,
+          "value": 14218
+        },
+        "2017": {
+          "version": 2,
+          "value": 20291
+        },
+        "2018": {
+          "version": 2,
+          "value": 28200
+        },
+        "2019": {
+          "version": 1,
+          "value": 33437
+        }
+      }
+    },
+    "7.08.03.02": {
+      "accountCode": "7.08.03.02",
+      "accountDescripton": "Aluguéis",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 9188
+        },
+        "2016": {
+          "version": 1,
+          "value": 11727
+        },
+        "2017": {
+          "version": 2,
+          "value": 11877
+        },
+        "2018": {
+          "version": 2,
+          "value": 13300
+        },
+        "2019": {
+          "version": 1,
+          "value": 3310
+        }
+      }
+    },
+    "7.08.03.03": {
+      "accountCode": "7.08.03.03",
+      "accountDescripton": "Outras",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.04": {
+      "accountCode": "7.08.04",
+      "accountDescripton": "Remuneração de Capitais Próprios",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 3968
+        },
+        "2016": {
+          "version": 1,
+          "value": 7539
+        },
+        "2017": {
+          "version": 2,
+          "value": 10010
+        },
+        "2018": {
+          "version": 2,
+          "value": -3731
+        },
+        "2019": {
+          "version": 1,
+          "value": -19024
+        }
+      }
+    },
+    "7.08.04.01": {
+      "accountCode": "7.08.04.01",
+      "accountDescripton": "Juros sobre o Capital Próprio",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.04.02": {
+      "accountCode": "7.08.04.02",
+      "accountDescripton": "Dividendos",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 1863
+        },
+        "2017": {
+          "version": 2,
+          "value": 2377
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.04.03": {
+      "accountCode": "7.08.04.03",
+      "accountDescripton": "Lucros Retidos / Prejuízo do Período",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 3968
+        },
+        "2016": {
+          "version": 1,
+          "value": 5676
+        },
+        "2017": {
+          "version": 2,
+          "value": 7633
+        },
+        "2018": {
+          "version": 2,
+          "value": -3731
+        },
+        "2019": {
+          "version": 1,
+          "value": -19024
+        }
+      }
+    },
+    "7.08.04.04": {
+      "accountCode": "7.08.04.04",
+      "accountDescripton": "Part. Não Controladores nos Lucros Retidos",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.05": {
+      "accountCode": "7.08.05",
+      "accountDescripton": "Outros",
+      "data": {
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05.02.06": {
+      "accountCode": "2.01.05.02.06",
+      "accountDescripton": "Instrumentos financeiros derivativos",
+      "data": {
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 1984
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 7471
+        }
+      }
+    },
+    "6.01.01.07": {
+      "accountCode": "6.01.01.07",
+      "accountDescripton": "Instrumentos financeiros derivativos",
+      "data": {
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 3607
+        },
+        "2018": {
+          "version": 2,
+          "value": 2759
+        },
+        "2019": {
+          "version": 1,
+          "value": 762
+        }
+      }
+    },
+    "6.01.01.08": {
+      "accountCode": "6.01.01.08",
+      "accountDescripton": "Equivalência patrimonial",
+      "data": {
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 0
+        },
+        "2018": {
+          "version": 2,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.02.05": {
+      "accountCode": "6.02.05",
+      "accountDescripton": "Caixa adquirido de controladas",
+      "data": {
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 2,
+          "value": 663
+        },
+        "2018": {
+          "version": 2,
+          "value": 508
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
     "1.01.02.03": {
       "accountCode": "1.01.02.03",
       "accountDescripton": "Aplicações Financeiras Avaliadas ao Custo Amortizado",
@@ -1808,6 +7330,62 @@
         "2019": {
           "version": 1,
           "value": 2638
+        }
+      }
+    },
+    "2.02.02.02.06": {
+      "accountCode": "2.02.02.02.06",
+      "accountDescripton": "Arrendamentos Mercantis",
+      "data": {
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 19497
+        }
+      }
+    },
+    "6.02.06": {
+      "accountCode": "6.02.06",
+      "accountDescripton": "Aplicações Financeiras",
+      "data": {
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": -5227
+        }
+      }
+    },
+    "6.03.05": {
+      "accountCode": "6.03.05",
+      "accountDescripton": "Arrendamentos Mercantis",
+      "data": {
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": -11333
+        }
+      }
+    },
+    "7.04.02.01": {
+      "accountCode": "7.04.02.01",
+      "accountDescripton": "Amortização arrendamentos mercantis - direito de uso",
+      "data": {
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
         }
       }
     }

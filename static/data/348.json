@@ -53,6 +53,56 @@
         }
       }
     },
+    "2": {
+      "accountCode": "2",
+      "accountDescripton": "Passivo Total",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 106417
+        },
+        "2010": {
+          "version": 2,
+          "value": 135182
+        },
+        "2011": {
+          "version": 4,
+          "value": 804367
+        },
+        "2012": {
+          "version": 4,
+          "value": 745013
+        },
+        "2013": {
+          "version": 2,
+          "value": 211579
+        },
+        "2014": {
+          "version": 2,
+          "value": 207418
+        },
+        "2015": {
+          "version": 1,
+          "value": 219172
+        },
+        "2016": {
+          "version": 1,
+          "value": 229278
+        },
+        "2017": {
+          "version": 1,
+          "value": 243166
+        },
+        "2018": {
+          "version": 1,
+          "value": 259368
+        },
+        "2019": {
+          "version": 1,
+          "value": 248981
+        }
+      }
+    },
     "1.01": {
       "accountCode": "1.01",
       "accountDescripton": "Ativo Circulante",
@@ -2720,6 +2770,8898 @@
         "2019": {
           "version": 1,
           "value": 0
+        }
+      }
+    },
+    "2.01": {
+      "accountCode": "2.01",
+      "accountDescripton": "Passivo Circulante",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 49534
+        },
+        "2010": {
+          "version": 2,
+          "value": 36405
+        },
+        "2011": {
+          "version": 4,
+          "value": 39828
+        },
+        "2012": {
+          "version": 4,
+          "value": 42760
+        },
+        "2013": {
+          "version": 2,
+          "value": 53576
+        },
+        "2014": {
+          "version": 2,
+          "value": 31340
+        },
+        "2015": {
+          "version": 1,
+          "value": 36490
+        },
+        "2016": {
+          "version": 1,
+          "value": 43083
+        },
+        "2017": {
+          "version": 1,
+          "value": 78364
+        },
+        "2018": {
+          "version": 1,
+          "value": 80128
+        },
+        "2019": {
+          "version": 1,
+          "value": 90295
+        }
+      }
+    },
+    "2.01.01": {
+      "accountCode": "2.01.01",
+      "accountDescripton": "Obrigações Sociais e Trabalhistas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 20631
+        },
+        "2010": {
+          "version": 2,
+          "value": 13012
+        },
+        "2011": {
+          "version": 4,
+          "value": 11819
+        },
+        "2012": {
+          "version": 4,
+          "value": 12623
+        },
+        "2013": {
+          "version": 2,
+          "value": 15206
+        },
+        "2014": {
+          "version": 2,
+          "value": 4309
+        },
+        "2015": {
+          "version": 1,
+          "value": 4656
+        },
+        "2016": {
+          "version": 1,
+          "value": 5226
+        },
+        "2017": {
+          "version": 1,
+          "value": 11923
+        },
+        "2018": {
+          "version": 1,
+          "value": 9436
+        },
+        "2019": {
+          "version": 1,
+          "value": 12056
+        }
+      }
+    },
+    "2.01.01.01": {
+      "accountCode": "2.01.01.01",
+      "accountDescripton": "Obrigações Sociais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 12623
+        },
+        "2013": {
+          "version": 2,
+          "value": 15206
+        },
+        "2014": {
+          "version": 2,
+          "value": 4309
+        },
+        "2015": {
+          "version": 1,
+          "value": 4656
+        },
+        "2016": {
+          "version": 1,
+          "value": 5226
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.01.02": {
+      "accountCode": "2.01.01.02",
+      "accountDescripton": "Obrigações Trabalhistas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 20631
+        },
+        "2010": {
+          "version": 2,
+          "value": 13012
+        },
+        "2011": {
+          "version": 4,
+          "value": 11819
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 11923
+        },
+        "2018": {
+          "version": 1,
+          "value": 9436
+        },
+        "2019": {
+          "version": 1,
+          "value": 12056
+        }
+      }
+    },
+    "2.01.02": {
+      "accountCode": "2.01.02",
+      "accountDescripton": "Fornecedores",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 5207
+        },
+        "2013": {
+          "version": 2,
+          "value": 10767
+        },
+        "2014": {
+          "version": 2,
+          "value": 4647
+        },
+        "2015": {
+          "version": 1,
+          "value": 3590
+        },
+        "2016": {
+          "version": 1,
+          "value": 4176
+        },
+        "2017": {
+          "version": 1,
+          "value": 17577
+        },
+        "2018": {
+          "version": 1,
+          "value": 16733
+        },
+        "2019": {
+          "version": 1,
+          "value": 19249
+        }
+      }
+    },
+    "2.01.02.01": {
+      "accountCode": "2.01.02.01",
+      "accountDescripton": "Fornecedores Nacionais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 5207
+        },
+        "2013": {
+          "version": 2,
+          "value": 10767
+        },
+        "2014": {
+          "version": 2,
+          "value": 4647
+        },
+        "2015": {
+          "version": 1,
+          "value": 3590
+        },
+        "2016": {
+          "version": 1,
+          "value": 4176
+        },
+        "2017": {
+          "version": 1,
+          "value": 17577
+        },
+        "2018": {
+          "version": 1,
+          "value": 16733
+        },
+        "2019": {
+          "version": 1,
+          "value": 19249
+        }
+      }
+    },
+    "2.01.02.02": {
+      "accountCode": "2.01.02.02",
+      "accountDescripton": "Fornecedores Estrangeiros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.03": {
+      "accountCode": "2.01.03",
+      "accountDescripton": "Obrigações Fiscais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 26742
+        },
+        "2010": {
+          "version": 2,
+          "value": 18781
+        },
+        "2011": {
+          "version": 4,
+          "value": 22269
+        },
+        "2012": {
+          "version": 4,
+          "value": 23516
+        },
+        "2013": {
+          "version": 2,
+          "value": 27603
+        },
+        "2014": {
+          "version": 2,
+          "value": 22384
+        },
+        "2015": {
+          "version": 1,
+          "value": 28244
+        },
+        "2016": {
+          "version": 1,
+          "value": 33681
+        },
+        "2017": {
+          "version": 1,
+          "value": 48864
+        },
+        "2018": {
+          "version": 1,
+          "value": 53959
+        },
+        "2019": {
+          "version": 1,
+          "value": 58990
+        }
+      }
+    },
+    "2.01.03.01": {
+      "accountCode": "2.01.03.01",
+      "accountDescripton": "Obrigações Fiscais Federais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 26742
+        },
+        "2010": {
+          "version": 2,
+          "value": 18781
+        },
+        "2011": {
+          "version": 4,
+          "value": 5098
+        },
+        "2012": {
+          "version": 4,
+          "value": 5694
+        },
+        "2013": {
+          "version": 2,
+          "value": 6724
+        },
+        "2014": {
+          "version": 2,
+          "value": 1141
+        },
+        "2015": {
+          "version": 1,
+          "value": 2380
+        },
+        "2016": {
+          "version": 1,
+          "value": 3668
+        },
+        "2017": {
+          "version": 1,
+          "value": 6795
+        },
+        "2018": {
+          "version": 1,
+          "value": 8664
+        },
+        "2019": {
+          "version": 1,
+          "value": 10657
+        }
+      }
+    },
+    "2.01.03.01.01": {
+      "accountCode": "2.01.03.01.01",
+      "accountDescripton": "Imposto de Renda e Contribuição Social a Pagar",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 26742
+        },
+        "2010": {
+          "version": 2,
+          "value": 18781
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 5694
+        },
+        "2013": {
+          "version": 2,
+          "value": 6724
+        },
+        "2014": {
+          "version": 2,
+          "value": 1141
+        },
+        "2015": {
+          "version": 1,
+          "value": 2380
+        },
+        "2016": {
+          "version": 1,
+          "value": 3668
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.03.02": {
+      "accountCode": "2.01.03.02",
+      "accountDescripton": "Obrigações Fiscais Estaduais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 16875
+        },
+        "2012": {
+          "version": 4,
+          "value": 7396
+        },
+        "2013": {
+          "version": 2,
+          "value": 7781
+        },
+        "2014": {
+          "version": 2,
+          "value": 7416
+        },
+        "2015": {
+          "version": 1,
+          "value": 7652
+        },
+        "2016": {
+          "version": 1,
+          "value": 7901
+        },
+        "2017": {
+          "version": 1,
+          "value": 11379
+        },
+        "2018": {
+          "version": 1,
+          "value": 9933
+        },
+        "2019": {
+          "version": 1,
+          "value": 10141
+        }
+      }
+    },
+    "2.01.03.03": {
+      "accountCode": "2.01.03.03",
+      "accountDescripton": "Obrigações Fiscais Municipais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 296
+        },
+        "2012": {
+          "version": 4,
+          "value": 10426
+        },
+        "2013": {
+          "version": 2,
+          "value": 13098
+        },
+        "2014": {
+          "version": 2,
+          "value": 13827
+        },
+        "2015": {
+          "version": 1,
+          "value": 18212
+        },
+        "2016": {
+          "version": 1,
+          "value": 22112
+        },
+        "2017": {
+          "version": 1,
+          "value": 30690
+        },
+        "2018": {
+          "version": 1,
+          "value": 35362
+        },
+        "2019": {
+          "version": 1,
+          "value": 38192
+        }
+      }
+    },
+    "2.01.04": {
+      "accountCode": "2.01.04",
+      "accountDescripton": "Empréstimos e Financiamentos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 130
+        },
+        "2010": {
+          "version": 2,
+          "value": 4201
+        },
+        "2011": {
+          "version": 4,
+          "value": 4404
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.04.01": {
+      "accountCode": "2.01.04.01",
+      "accountDescripton": "Empréstimos e Financiamentos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 130
+        },
+        "2010": {
+          "version": 2,
+          "value": 4201
+        },
+        "2011": {
+          "version": 4,
+          "value": 4404
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.04.01.01": {
+      "accountCode": "2.01.04.01.01",
+      "accountDescripton": "Em Moeda Nacional",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 130
+        },
+        "2010": {
+          "version": 2,
+          "value": 4201
+        },
+        "2011": {
+          "version": 4,
+          "value": 4404
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.04.01.02": {
+      "accountCode": "2.01.04.01.02",
+      "accountDescripton": "Em Moeda Estrangeira",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.04.02": {
+      "accountCode": "2.01.04.02",
+      "accountDescripton": "Debêntures",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.04.03": {
+      "accountCode": "2.01.04.03",
+      "accountDescripton": "Financiamento por Arrendamento Financeiro",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05": {
+      "accountCode": "2.01.05",
+      "accountDescripton": "Outras Obrigações",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 411
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05.01": {
+      "accountCode": "2.01.05.01",
+      "accountDescripton": "Passivos com Partes Relacionadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 411
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05.01.01": {
+      "accountCode": "2.01.05.01.01",
+      "accountDescripton": "Débitos com Coligadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05.01.03": {
+      "accountCode": "2.01.05.01.03",
+      "accountDescripton": "Débitos com Controladores",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05.01.04": {
+      "accountCode": "2.01.05.01.04",
+      "accountDescripton": "Débitos com Outras Partes Relacionadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05.02": {
+      "accountCode": "2.01.05.02",
+      "accountDescripton": "Outros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05.02.01": {
+      "accountCode": "2.01.05.02.01",
+      "accountDescripton": "Dividendos e JCP a Pagar",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05.02.02": {
+      "accountCode": "2.01.05.02.02",
+      "accountDescripton": "Dividendo Mínimo Obrigatório a Pagar",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.05.02.03": {
+      "accountCode": "2.01.05.02.03",
+      "accountDescripton": "Obrigações por Pagamentos Baseados em Ações",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06": {
+      "accountCode": "2.01.06",
+      "accountDescripton": "Provisões",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 2031
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 1336
+        },
+        "2012": {
+          "version": 4,
+          "value": 1414
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.01": {
+      "accountCode": "2.01.06.01",
+      "accountDescripton": "Provisões Fiscais Previdenciárias Trabalhistas e Cíveis",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 2031
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.01.01": {
+      "accountCode": "2.01.06.01.01",
+      "accountDescripton": "Provisões Fiscais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.01.02": {
+      "accountCode": "2.01.06.01.02",
+      "accountDescripton": "Provisões Previdenciárias e Trabalhistas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 2031
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.01.03": {
+      "accountCode": "2.01.06.01.03",
+      "accountDescripton": "Provisões para Benefícios a Empregados",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.01.04": {
+      "accountCode": "2.01.06.01.04",
+      "accountDescripton": "Provisões Cíveis",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.02": {
+      "accountCode": "2.01.06.02",
+      "accountDescripton": "Outras Provisões",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 1336
+        },
+        "2012": {
+          "version": 4,
+          "value": 1414
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.02.01": {
+      "accountCode": "2.01.06.02.01",
+      "accountDescripton": "Provisões para Garantias",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 1336
+        },
+        "2012": {
+          "version": 4,
+          "value": 1414
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.02.02": {
+      "accountCode": "2.01.06.02.02",
+      "accountDescripton": "Provisões para Reestruturação",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.06.02.03": {
+      "accountCode": "2.01.06.02.03",
+      "accountDescripton": "Provisões para Passivos Ambientais e de Desativação",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.07": {
+      "accountCode": "2.01.07",
+      "accountDescripton": "Passivos sobre Ativos Não-Correntes a Venda e Descontinuados",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.07.01": {
+      "accountCode": "2.01.07.01",
+      "accountDescripton": "Passivos sobre Ativos Não-Correntes a Venda",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.01.07.02": {
+      "accountCode": "2.01.07.02",
+      "accountDescripton": "Passivos sobre Ativos de Operações Descontinuadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02": {
+      "accountCode": "2.02",
+      "accountDescripton": "Passivo Não Circulante",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 549333
+        },
+        "2010": {
+          "version": 2,
+          "value": 550473
+        },
+        "2011": {
+          "version": 4,
+          "value": 997056
+        },
+        "2012": {
+          "version": 4,
+          "value": 757963
+        },
+        "2013": {
+          "version": 2,
+          "value": 773582
+        },
+        "2014": {
+          "version": 2,
+          "value": 812343
+        },
+        "2015": {
+          "version": 1,
+          "value": 896352
+        },
+        "2016": {
+          "version": 1,
+          "value": 997321
+        },
+        "2017": {
+          "version": 1,
+          "value": 931925
+        },
+        "2018": {
+          "version": 1,
+          "value": 1018476
+        },
+        "2019": {
+          "version": 1,
+          "value": 1062431
+        }
+      }
+    },
+    "2.02.01": {
+      "accountCode": "2.02.01",
+      "accountDescripton": "Empréstimos e Financiamentos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 404978
+        },
+        "2010": {
+          "version": 2,
+          "value": 395029
+        },
+        "2011": {
+          "version": 4,
+          "value": 507257
+        },
+        "2012": {
+          "version": 4,
+          "value": 529714
+        },
+        "2013": {
+          "version": 2,
+          "value": 672267
+        },
+        "2014": {
+          "version": 2,
+          "value": 709212
+        },
+        "2015": {
+          "version": 1,
+          "value": 783520
+        },
+        "2016": {
+          "version": 1,
+          "value": 881215
+        },
+        "2017": {
+          "version": 1,
+          "value": 807114
+        },
+        "2018": {
+          "version": 1,
+          "value": 897242
+        },
+        "2019": {
+          "version": 1,
+          "value": 940086
+        }
+      }
+    },
+    "2.02.01.01": {
+      "accountCode": "2.02.01.01",
+      "accountDescripton": "Empréstimos e Financiamentos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 404978
+        },
+        "2010": {
+          "version": 2,
+          "value": 395029
+        },
+        "2011": {
+          "version": 4,
+          "value": 507257
+        },
+        "2012": {
+          "version": 4,
+          "value": 529714
+        },
+        "2013": {
+          "version": 2,
+          "value": 672267
+        },
+        "2014": {
+          "version": 2,
+          "value": 709212
+        },
+        "2015": {
+          "version": 1,
+          "value": 783520
+        },
+        "2016": {
+          "version": 1,
+          "value": 881215
+        },
+        "2017": {
+          "version": 1,
+          "value": 807114
+        },
+        "2018": {
+          "version": 1,
+          "value": 897242
+        },
+        "2019": {
+          "version": 1,
+          "value": 940086
+        }
+      }
+    },
+    "2.02.01.01.01": {
+      "accountCode": "2.02.01.01.01",
+      "accountDescripton": "Em Moeda Nacional",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 404978
+        },
+        "2010": {
+          "version": 2,
+          "value": 395029
+        },
+        "2011": {
+          "version": 4,
+          "value": 507257
+        },
+        "2012": {
+          "version": 4,
+          "value": 529714
+        },
+        "2013": {
+          "version": 2,
+          "value": 672267
+        },
+        "2014": {
+          "version": 2,
+          "value": 709212
+        },
+        "2015": {
+          "version": 1,
+          "value": 783520
+        },
+        "2016": {
+          "version": 1,
+          "value": 881215
+        },
+        "2017": {
+          "version": 1,
+          "value": 807114
+        },
+        "2018": {
+          "version": 1,
+          "value": 897242
+        },
+        "2019": {
+          "version": 1,
+          "value": 940086
+        }
+      }
+    },
+    "2.02.01.01.02": {
+      "accountCode": "2.02.01.01.02",
+      "accountDescripton": "Em Moeda Estrangeira",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.01.02": {
+      "accountCode": "2.02.01.02",
+      "accountDescripton": "Debêntures",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.01.03": {
+      "accountCode": "2.02.01.03",
+      "accountDescripton": "Financiamento por Arrendamento Financeiro",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.02": {
+      "accountCode": "2.02.02",
+      "accountDescripton": "Outras Obrigações",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 81143
+        },
+        "2010": {
+          "version": 2,
+          "value": 84567
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 9760
+        },
+        "2013": {
+          "version": 2,
+          "value": 13166
+        },
+        "2014": {
+          "version": 2,
+          "value": 11629
+        },
+        "2015": {
+          "version": 1,
+          "value": 12084
+        },
+        "2016": {
+          "version": 1,
+          "value": 8332
+        },
+        "2017": {
+          "version": 1,
+          "value": 1708
+        },
+        "2018": {
+          "version": 1,
+          "value": 618
+        },
+        "2019": {
+          "version": 1,
+          "value": 718
+        }
+      }
+    },
+    "2.02.02.01": {
+      "accountCode": "2.02.02.01",
+      "accountDescripton": "Passivos com Partes Relacionadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 81143
+        },
+        "2010": {
+          "version": 2,
+          "value": 84567
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 9760
+        },
+        "2013": {
+          "version": 2,
+          "value": 13166
+        },
+        "2014": {
+          "version": 2,
+          "value": 11629
+        },
+        "2015": {
+          "version": 1,
+          "value": 12084
+        },
+        "2016": {
+          "version": 1,
+          "value": 8332
+        },
+        "2017": {
+          "version": 1,
+          "value": 1708
+        },
+        "2018": {
+          "version": 1,
+          "value": 618
+        },
+        "2019": {
+          "version": 1,
+          "value": 718
+        }
+      }
+    },
+    "2.02.02.01.01": {
+      "accountCode": "2.02.02.01.01",
+      "accountDescripton": "Débitos com Coligadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 81143
+        },
+        "2010": {
+          "version": 2,
+          "value": 84567
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.02.01.03": {
+      "accountCode": "2.02.02.01.03",
+      "accountDescripton": "Débitos com Controladores",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.02.01.04": {
+      "accountCode": "2.02.02.01.04",
+      "accountDescripton": "Débitos com Outras Partes Relacionadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 9760
+        },
+        "2013": {
+          "version": 2,
+          "value": 13166
+        },
+        "2014": {
+          "version": 2,
+          "value": 11629
+        },
+        "2015": {
+          "version": 1,
+          "value": 12084
+        },
+        "2016": {
+          "version": 1,
+          "value": 8332
+        },
+        "2017": {
+          "version": 1,
+          "value": 1708
+        },
+        "2018": {
+          "version": 1,
+          "value": 618
+        },
+        "2019": {
+          "version": 1,
+          "value": 718
+        }
+      }
+    },
+    "2.02.02.02": {
+      "accountCode": "2.02.02.02",
+      "accountDescripton": "Outros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.02.02.01": {
+      "accountCode": "2.02.02.02.01",
+      "accountDescripton": "Obrigações por Pagamentos Baseados em Ações",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.02.02.02": {
+      "accountCode": "2.02.02.02.02",
+      "accountDescripton": "Adiantamento para Futuro Aumento de Capital",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.03": {
+      "accountCode": "2.02.03",
+      "accountDescripton": "Tributos Diferidos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.03.01": {
+      "accountCode": "2.02.03.01",
+      "accountDescripton": "Imposto de Renda e Contribuição Social Diferidos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.04": {
+      "accountCode": "2.02.04",
+      "accountDescripton": "Provisões",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 63212
+        },
+        "2010": {
+          "version": 2,
+          "value": 70877
+        },
+        "2011": {
+          "version": 4,
+          "value": 70855
+        },
+        "2012": {
+          "version": 4,
+          "value": 164879
+        },
+        "2013": {
+          "version": 2,
+          "value": 88149
+        },
+        "2014": {
+          "version": 2,
+          "value": 91502
+        },
+        "2015": {
+          "version": 1,
+          "value": 100748
+        },
+        "2016": {
+          "version": 1,
+          "value": 107774
+        },
+        "2017": {
+          "version": 1,
+          "value": 123103
+        },
+        "2018": {
+          "version": 1,
+          "value": 120616
+        },
+        "2019": {
+          "version": 1,
+          "value": 121627
+        }
+      }
+    },
+    "2.02.04.01": {
+      "accountCode": "2.02.04.01",
+      "accountDescripton": "Provisões Fiscais Previdenciárias Trabalhistas e Cíveis",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 63212
+        },
+        "2010": {
+          "version": 2,
+          "value": 70877
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 159224
+        },
+        "2013": {
+          "version": 2,
+          "value": 82228
+        },
+        "2014": {
+          "version": 2,
+          "value": 83787
+        },
+        "2015": {
+          "version": 1,
+          "value": 93033
+        },
+        "2016": {
+          "version": 1,
+          "value": 98876
+        },
+        "2017": {
+          "version": 1,
+          "value": 123103
+        },
+        "2018": {
+          "version": 1,
+          "value": 120616
+        },
+        "2019": {
+          "version": 1,
+          "value": 121627
+        }
+      }
+    },
+    "2.02.04.01.01": {
+      "accountCode": "2.02.04.01.01",
+      "accountDescripton": "Provisões Fiscais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 78884
+        },
+        "2018": {
+          "version": 1,
+          "value": 87206
+        },
+        "2019": {
+          "version": 1,
+          "value": 87532
+        }
+      }
+    },
+    "2.02.04.01.02": {
+      "accountCode": "2.02.04.01.02",
+      "accountDescripton": "Provisões Previdenciárias e Trabalhistas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 15222
+        },
+        "2018": {
+          "version": 1,
+          "value": 3525
+        },
+        "2019": {
+          "version": 1,
+          "value": 3525
+        }
+      }
+    },
+    "2.02.04.01.03": {
+      "accountCode": "2.02.04.01.03",
+      "accountDescripton": "Provisões para Benefícios a Empregados",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.04.01.04": {
+      "accountCode": "2.02.04.01.04",
+      "accountDescripton": "Provisões Cíveis",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 159224
+        },
+        "2013": {
+          "version": 2,
+          "value": 82228
+        },
+        "2014": {
+          "version": 2,
+          "value": 83787
+        },
+        "2015": {
+          "version": 1,
+          "value": 93033
+        },
+        "2016": {
+          "version": 1,
+          "value": 98876
+        },
+        "2017": {
+          "version": 1,
+          "value": 28997
+        },
+        "2018": {
+          "version": 1,
+          "value": 29885
+        },
+        "2019": {
+          "version": 1,
+          "value": 30570
+        }
+      }
+    },
+    "2.02.04.02": {
+      "accountCode": "2.02.04.02",
+      "accountDescripton": "Outras Provisões",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 70855
+        },
+        "2012": {
+          "version": 4,
+          "value": 5655
+        },
+        "2013": {
+          "version": 2,
+          "value": 5921
+        },
+        "2014": {
+          "version": 2,
+          "value": 7715
+        },
+        "2015": {
+          "version": 1,
+          "value": 7715
+        },
+        "2016": {
+          "version": 1,
+          "value": 8898
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.04.02.01": {
+      "accountCode": "2.02.04.02.01",
+      "accountDescripton": "Provisões para Garantias",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 5343
+        },
+        "2012": {
+          "version": 4,
+          "value": 5655
+        },
+        "2013": {
+          "version": 2,
+          "value": 5921
+        },
+        "2014": {
+          "version": 2,
+          "value": 7715
+        },
+        "2015": {
+          "version": 1,
+          "value": 7715
+        },
+        "2016": {
+          "version": 1,
+          "value": 8898
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.04.02.02": {
+      "accountCode": "2.02.04.02.02",
+      "accountDescripton": "Provisões para Reestruturação",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 65512
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.04.02.03": {
+      "accountCode": "2.02.04.02.03",
+      "accountDescripton": "Provisões para Passivos Ambientais e de Desativação",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.05": {
+      "accountCode": "2.02.05",
+      "accountDescripton": "Passivos sobre Ativos Não-Correntes a Venda e Descontinuados",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.05.01": {
+      "accountCode": "2.02.05.01",
+      "accountDescripton": "Passivos sobre Ativos Não-Correntes a Venda",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.05.02": {
+      "accountCode": "2.02.05.02",
+      "accountDescripton": "Passivos sobre Ativos de Operações Descontinuadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.06": {
+      "accountCode": "2.02.06",
+      "accountDescripton": "Lucros e Receitas a Apropriar",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 418944
+        },
+        "2012": {
+          "version": 4,
+          "value": 53610
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.06.01": {
+      "accountCode": "2.02.06.01",
+      "accountDescripton": "Lucros a Apropriar",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.06.02": {
+      "accountCode": "2.02.06.02",
+      "accountDescripton": "Receitas a Apropriar",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 418944
+        },
+        "2012": {
+          "version": 4,
+          "value": 53610
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.02.06.03": {
+      "accountCode": "2.02.06.03",
+      "accountDescripton": "Subvenções de Investimento a Apropriar",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03": {
+      "accountCode": "2.03",
+      "accountDescripton": "Patrimônio Líquido Consolidado",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -492450
+        },
+        "2010": {
+          "version": 2,
+          "value": -451696
+        },
+        "2011": {
+          "version": 4,
+          "value": -232517
+        },
+        "2012": {
+          "version": 4,
+          "value": -55710
+        },
+        "2013": {
+          "version": 2,
+          "value": -615579
+        },
+        "2014": {
+          "version": 2,
+          "value": -636265
+        },
+        "2015": {
+          "version": 1,
+          "value": -713670
+        },
+        "2016": {
+          "version": 1,
+          "value": -811126
+        },
+        "2017": {
+          "version": 1,
+          "value": -767123
+        },
+        "2018": {
+          "version": 1,
+          "value": -839236
+        },
+        "2019": {
+          "version": 1,
+          "value": -903745
+        }
+      }
+    },
+    "2.03.01": {
+      "accountCode": "2.03.01",
+      "accountDescripton": "Capital Social Realizado",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 41000
+        },
+        "2010": {
+          "version": 2,
+          "value": 41000
+        },
+        "2011": {
+          "version": 4,
+          "value": 41000
+        },
+        "2012": {
+          "version": 4,
+          "value": 41000
+        },
+        "2013": {
+          "version": 2,
+          "value": 41000
+        },
+        "2014": {
+          "version": 2,
+          "value": 41000
+        },
+        "2015": {
+          "version": 1,
+          "value": 41000
+        },
+        "2016": {
+          "version": 1,
+          "value": 41000
+        },
+        "2017": {
+          "version": 1,
+          "value": 41000
+        },
+        "2018": {
+          "version": 1,
+          "value": 41000
+        },
+        "2019": {
+          "version": 1,
+          "value": 41000
+        }
+      }
+    },
+    "2.03.02": {
+      "accountCode": "2.03.02",
+      "accountDescripton": "Reservas de Capital",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 3746
+        },
+        "2011": {
+          "version": 4,
+          "value": 3746
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.02.01": {
+      "accountCode": "2.03.02.01",
+      "accountDescripton": "Ágio na Emissão de Ações",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.02.02": {
+      "accountCode": "2.03.02.02",
+      "accountDescripton": "Reserva Especial de Ágio na Incorporação",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.02.03": {
+      "accountCode": "2.03.02.03",
+      "accountDescripton": "Alienação de Bônus de Subscrição",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.02.04": {
+      "accountCode": "2.03.02.04",
+      "accountDescripton": "Opções Outorgadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.02.05": {
+      "accountCode": "2.03.02.05",
+      "accountDescripton": "Ações em Tesouraria",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.02.06": {
+      "accountCode": "2.03.02.06",
+      "accountDescripton": "Adiantamento para Futuro Aumento de Capital",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.03": {
+      "accountCode": "2.03.03",
+      "accountDescripton": "Reservas de Reavaliação",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 11491
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04": {
+      "accountCode": "2.03.04",
+      "accountDescripton": "Reservas de Lucros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.01": {
+      "accountCode": "2.03.04.01",
+      "accountDescripton": "Reserva Legal",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.02": {
+      "accountCode": "2.03.04.02",
+      "accountDescripton": "Reserva Estatutária",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.03": {
+      "accountCode": "2.03.04.03",
+      "accountDescripton": "Reserva para Contingências",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.04": {
+      "accountCode": "2.03.04.04",
+      "accountDescripton": "Reserva de Lucros a Realizar",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.05": {
+      "accountCode": "2.03.04.05",
+      "accountDescripton": "Reserva de Retenção de Lucros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.06": {
+      "accountCode": "2.03.04.06",
+      "accountDescripton": "Reserva Especial para Dividendos Não Distribuídos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.07": {
+      "accountCode": "2.03.04.07",
+      "accountDescripton": "Reserva de Incentivos Fiscais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.08": {
+      "accountCode": "2.03.04.08",
+      "accountDescripton": "Dividendo Adicional Proposto",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.04.09": {
+      "accountCode": "2.03.04.09",
+      "accountDescripton": "Ações em Tesouraria",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.05": {
+      "accountCode": "2.03.05",
+      "accountDescripton": "Lucros/Prejuízos Acumulados",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -544941
+        },
+        "2010": {
+          "version": 2,
+          "value": -496442
+        },
+        "2011": {
+          "version": 4,
+          "value": -277263
+        },
+        "2012": {
+          "version": 4,
+          "value": -100456
+        },
+        "2013": {
+          "version": 2,
+          "value": -659264
+        },
+        "2014": {
+          "version": 2,
+          "value": -679201
+        },
+        "2015": {
+          "version": 1,
+          "value": -755857
+        },
+        "2016": {
+          "version": 1,
+          "value": -852564
+        },
+        "2017": {
+          "version": 1,
+          "value": -808561
+        },
+        "2018": {
+          "version": 1,
+          "value": -880674
+        },
+        "2019": {
+          "version": 1,
+          "value": -945183
+        }
+      }
+    },
+    "2.03.06": {
+      "accountCode": "2.03.06",
+      "accountDescripton": "Ajustes de Avaliação Patrimonial",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 3746
+        },
+        "2013": {
+          "version": 2,
+          "value": 2685
+        },
+        "2014": {
+          "version": 2,
+          "value": 1936
+        },
+        "2015": {
+          "version": 1,
+          "value": 1187
+        },
+        "2016": {
+          "version": 1,
+          "value": 438
+        },
+        "2017": {
+          "version": 1,
+          "value": 438
+        },
+        "2018": {
+          "version": 1,
+          "value": 438
+        },
+        "2019": {
+          "version": 1,
+          "value": 438
+        }
+      }
+    },
+    "2.03.07": {
+      "accountCode": "2.03.07",
+      "accountDescripton": "Ajustes Acumulados de Conversão",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.08": {
+      "accountCode": "2.03.08",
+      "accountDescripton": "Outros Resultados Abrangentes",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "2.03.09": {
+      "accountCode": "2.03.09",
+      "accountDescripton": "Participação dos Acionistas Não Controladores",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.01": {
+      "accountCode": "3.01",
+      "accountDescripton": "Receita de Venda de Bens e/ou Serviços",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 3956
+        },
+        "2010": {
+          "version": 2,
+          "value": 268
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 13318
+        },
+        "2013": {
+          "version": 2,
+          "value": 3386
+        },
+        "2014": {
+          "version": 2,
+          "value": 8342
+        },
+        "2015": {
+          "version": 1,
+          "value": 8563
+        },
+        "2016": {
+          "version": 1,
+          "value": 8337
+        },
+        "2017": {
+          "version": 1,
+          "value": 4522
+        },
+        "2018": {
+          "version": 1,
+          "value": 4530
+        },
+        "2019": {
+          "version": 1,
+          "value": 5278
+        }
+      }
+    },
+    "3.02": {
+      "accountCode": "3.02",
+      "accountDescripton": "Custo dos Bens e/ou Serviços Vendidos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -23133
+        },
+        "2010": {
+          "version": 2,
+          "value": -777
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": -2938
+        },
+        "2013": {
+          "version": 2,
+          "value": -3162
+        },
+        "2014": {
+          "version": 2,
+          "value": -3053
+        },
+        "2015": {
+          "version": 1,
+          "value": -1771
+        },
+        "2016": {
+          "version": 1,
+          "value": -1675
+        },
+        "2017": {
+          "version": 1,
+          "value": -1021
+        },
+        "2018": {
+          "version": 1,
+          "value": -1108
+        },
+        "2019": {
+          "version": 1,
+          "value": -1145
+        }
+      }
+    },
+    "3.03": {
+      "accountCode": "3.03",
+      "accountDescripton": "Resultado Bruto",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -19177
+        },
+        "2010": {
+          "version": 2,
+          "value": -509
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 10380
+        },
+        "2013": {
+          "version": 2,
+          "value": 224
+        },
+        "2014": {
+          "version": 2,
+          "value": 5289
+        },
+        "2015": {
+          "version": 1,
+          "value": 6792
+        },
+        "2016": {
+          "version": 1,
+          "value": 6662
+        },
+        "2017": {
+          "version": 1,
+          "value": 3501
+        },
+        "2018": {
+          "version": 1,
+          "value": 3422
+        },
+        "2019": {
+          "version": 1,
+          "value": 4133
+        }
+      }
+    },
+    "3.04": {
+      "accountCode": "3.04",
+      "accountDescripton": "Despesas/Receitas Operacionais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 42811
+        },
+        "2010": {
+          "version": 2,
+          "value": 12481
+        },
+        "2011": {
+          "version": 4,
+          "value": 2328
+        },
+        "2012": {
+          "version": 4,
+          "value": 160621
+        },
+        "2013": {
+          "version": 2,
+          "value": 11093
+        },
+        "2014": {
+          "version": 2,
+          "value": 28941
+        },
+        "2015": {
+          "version": 1,
+          "value": -17727
+        },
+        "2016": {
+          "version": 1,
+          "value": -15059
+        },
+        "2017": {
+          "version": 1,
+          "value": 140460
+        },
+        "2018": {
+          "version": 1,
+          "value": -12369
+        },
+        "2019": {
+          "version": 1,
+          "value": -9989
+        }
+      }
+    },
+    "3.04.01": {
+      "accountCode": "3.04.01",
+      "accountDescripton": "Despesas com Vendas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -9444
+        },
+        "2010": {
+          "version": 2,
+          "value": -9414
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.04.02": {
+      "accountCode": "3.04.02",
+      "accountDescripton": "Despesas Gerais e Administrativas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -5205
+        },
+        "2010": {
+          "version": 2,
+          "value": -2412
+        },
+        "2011": {
+          "version": 4,
+          "value": -23988
+        },
+        "2012": {
+          "version": 4,
+          "value": -19042
+        },
+        "2013": {
+          "version": 2,
+          "value": -7412
+        },
+        "2014": {
+          "version": 2,
+          "value": -10192
+        },
+        "2015": {
+          "version": 1,
+          "value": -7601
+        },
+        "2016": {
+          "version": 1,
+          "value": -7237
+        },
+        "2017": {
+          "version": 1,
+          "value": -45387
+        },
+        "2018": {
+          "version": 1,
+          "value": -14851
+        },
+        "2019": {
+          "version": 1,
+          "value": -14998
+        }
+      }
+    },
+    "3.04.03": {
+      "accountCode": "3.04.03",
+      "accountDescripton": "Perdas pela Não Recuperabilidade de Ativos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.04.04": {
+      "accountCode": "3.04.04",
+      "accountDescripton": "Outras Receitas Operacionais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 179663
+        },
+        "2013": {
+          "version": 2,
+          "value": 18505
+        },
+        "2014": {
+          "version": 2,
+          "value": 79052
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 247715
+        },
+        "2018": {
+          "version": 1,
+          "value": 2482
+        },
+        "2019": {
+          "version": 1,
+          "value": 5009
+        }
+      }
+    },
+    "3.04.05": {
+      "accountCode": "3.04.05",
+      "accountDescripton": "Outras Despesas Operacionais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 73164
+        },
+        "2010": {
+          "version": 2,
+          "value": 7923
+        },
+        "2011": {
+          "version": 4,
+          "value": 19059
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": -39919
+        },
+        "2015": {
+          "version": 1,
+          "value": -10126
+        },
+        "2016": {
+          "version": 1,
+          "value": -7822
+        },
+        "2017": {
+          "version": 1,
+          "value": -61868
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.04.06": {
+      "accountCode": "3.04.06",
+      "accountDescripton": "Resultado de Equivalência Patrimonial",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -15704
+        },
+        "2010": {
+          "version": 2,
+          "value": 16384
+        },
+        "2011": {
+          "version": 4,
+          "value": 7257
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.05": {
+      "accountCode": "3.05",
+      "accountDescripton": "Resultado Antes do Resultado Financeiro e dos Tributos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 23634
+        },
+        "2010": {
+          "version": 2,
+          "value": 11972
+        },
+        "2011": {
+          "version": 4,
+          "value": 2328
+        },
+        "2012": {
+          "version": 4,
+          "value": 171001
+        },
+        "2013": {
+          "version": 2,
+          "value": 11317
+        },
+        "2014": {
+          "version": 2,
+          "value": 34230
+        },
+        "2015": {
+          "version": 1,
+          "value": -10935
+        },
+        "2016": {
+          "version": 1,
+          "value": -8397
+        },
+        "2017": {
+          "version": 1,
+          "value": 143961
+        },
+        "2018": {
+          "version": 1,
+          "value": -8947
+        },
+        "2019": {
+          "version": 1,
+          "value": -5856
+        }
+      }
+    },
+    "3.06": {
+      "accountCode": "3.06",
+      "accountDescripton": "Resultado Financeiro",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -77494
+        },
+        "2010": {
+          "version": 2,
+          "value": -25370
+        },
+        "2011": {
+          "version": 4,
+          "value": -40135
+        },
+        "2012": {
+          "version": 4,
+          "value": 894
+        },
+        "2013": {
+          "version": 2,
+          "value": -59392
+        },
+        "2014": {
+          "version": 2,
+          "value": -89441
+        },
+        "2015": {
+          "version": 1,
+          "value": -66470
+        },
+        "2016": {
+          "version": 1,
+          "value": -89059
+        },
+        "2017": {
+          "version": 1,
+          "value": -99958
+        },
+        "2018": {
+          "version": 1,
+          "value": -63166
+        },
+        "2019": {
+          "version": 1,
+          "value": -58654
+        }
+      }
+    },
+    "3.06.01": {
+      "accountCode": "3.06.01",
+      "accountDescripton": "Receitas Financeiras",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 52465
+        },
+        "2010": {
+          "version": 2,
+          "value": 17244
+        },
+        "2011": {
+          "version": 4,
+          "value": 30219
+        },
+        "2012": {
+          "version": 4,
+          "value": 19675
+        },
+        "2013": {
+          "version": 2,
+          "value": 3279
+        },
+        "2014": {
+          "version": 2,
+          "value": 7976
+        },
+        "2015": {
+          "version": 1,
+          "value": 6517
+        },
+        "2016": {
+          "version": 1,
+          "value": 16541
+        },
+        "2017": {
+          "version": 1,
+          "value": 7777
+        },
+        "2018": {
+          "version": 1,
+          "value": 10736
+        },
+        "2019": {
+          "version": 1,
+          "value": -8725
+        }
+      }
+    },
+    "3.06.02": {
+      "accountCode": "3.06.02",
+      "accountDescripton": "Despesas Financeiras",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -129959
+        },
+        "2010": {
+          "version": 2,
+          "value": -42614
+        },
+        "2011": {
+          "version": 4,
+          "value": -70354
+        },
+        "2012": {
+          "version": 4,
+          "value": -18781
+        },
+        "2013": {
+          "version": 2,
+          "value": -62671
+        },
+        "2014": {
+          "version": 2,
+          "value": -97417
+        },
+        "2015": {
+          "version": 1,
+          "value": -72987
+        },
+        "2016": {
+          "version": 1,
+          "value": -105600
+        },
+        "2017": {
+          "version": 1,
+          "value": -107735
+        },
+        "2018": {
+          "version": 1,
+          "value": -73902
+        },
+        "2019": {
+          "version": 1,
+          "value": -49929
+        }
+      }
+    },
+    "3.07": {
+      "accountCode": "3.07",
+      "accountDescripton": "Resultado Antes dos Tributos sobre o Lucro",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -53860
+        },
+        "2010": {
+          "version": 2,
+          "value": -13398
+        },
+        "2011": {
+          "version": 4,
+          "value": -37807
+        },
+        "2012": {
+          "version": 4,
+          "value": 171895
+        },
+        "2013": {
+          "version": 2,
+          "value": -48075
+        },
+        "2014": {
+          "version": 2,
+          "value": -55211
+        },
+        "2015": {
+          "version": 1,
+          "value": -77405
+        },
+        "2016": {
+          "version": 1,
+          "value": -97456
+        },
+        "2017": {
+          "version": 1,
+          "value": 44003
+        },
+        "2018": {
+          "version": 1,
+          "value": -72113
+        },
+        "2019": {
+          "version": 1,
+          "value": -64510
+        }
+      }
+    },
+    "3.08": {
+      "accountCode": "3.08",
+      "accountDescripton": "Imposto de Renda e Contribuição Social sobre o Lucro",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 6411
+        },
+        "2012": {
+          "version": 4,
+          "value": 4912
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.08.01": {
+      "accountCode": "3.08.01",
+      "accountDescripton": "Corrente",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.08.02": {
+      "accountCode": "3.08.02",
+      "accountDescripton": "Diferido",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 6411
+        },
+        "2012": {
+          "version": 4,
+          "value": 4912
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.09": {
+      "accountCode": "3.09",
+      "accountDescripton": "Resultado Líquido das Operações Continuadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -53860
+        },
+        "2010": {
+          "version": 2,
+          "value": -13398
+        },
+        "2011": {
+          "version": 4,
+          "value": -31396
+        },
+        "2012": {
+          "version": 4,
+          "value": 176807
+        },
+        "2013": {
+          "version": 2,
+          "value": -48075
+        },
+        "2014": {
+          "version": 2,
+          "value": -55211
+        },
+        "2015": {
+          "version": 1,
+          "value": -77405
+        },
+        "2016": {
+          "version": 1,
+          "value": -97456
+        },
+        "2017": {
+          "version": 1,
+          "value": 44003
+        },
+        "2018": {
+          "version": 1,
+          "value": -72113
+        },
+        "2019": {
+          "version": 1,
+          "value": -64510
+        }
+      }
+    },
+    "3.10": {
+      "accountCode": "3.10",
+      "accountDescripton": "Resultado Líquido de Operações Descontinuadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.10.01": {
+      "accountCode": "3.10.01",
+      "accountDescripton": "Lucro/Prejuízo Líquido das Operações Descontinuadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.10.02": {
+      "accountCode": "3.10.02",
+      "accountDescripton": "Ganhos/Perdas Líquidas sobre Ativos de Operações Descontinuadas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.11": {
+      "accountCode": "3.11",
+      "accountDescripton": "Lucro/Prejuízo Consolidado do Período",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -53860
+        },
+        "2010": {
+          "version": 2,
+          "value": -13398
+        },
+        "2011": {
+          "version": 4,
+          "value": -31396
+        },
+        "2012": {
+          "version": 4,
+          "value": 176807
+        },
+        "2013": {
+          "version": 2,
+          "value": -48075
+        },
+        "2014": {
+          "version": 2,
+          "value": -55211
+        },
+        "2015": {
+          "version": 1,
+          "value": -77405
+        },
+        "2016": {
+          "version": 1,
+          "value": -97456
+        },
+        "2017": {
+          "version": 1,
+          "value": 44003
+        },
+        "2018": {
+          "version": 1,
+          "value": -72113
+        },
+        "2019": {
+          "version": 1,
+          "value": -64510
+        }
+      }
+    },
+    "3.11.01": {
+      "accountCode": "3.11.01",
+      "accountDescripton": "Atribuído a Sócios da Empresa Controladora",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -53860
+        },
+        "2010": {
+          "version": 2,
+          "value": -13398
+        },
+        "2011": {
+          "version": 4,
+          "value": -31396
+        },
+        "2012": {
+          "version": 4,
+          "value": 176807
+        },
+        "2013": {
+          "version": 2,
+          "value": -48075
+        },
+        "2014": {
+          "version": 2,
+          "value": -55211
+        },
+        "2015": {
+          "version": 1,
+          "value": -77405
+        },
+        "2016": {
+          "version": 1,
+          "value": -97456
+        },
+        "2017": {
+          "version": 1,
+          "value": 44003
+        },
+        "2018": {
+          "version": 1,
+          "value": -72113
+        },
+        "2019": {
+          "version": 1,
+          "value": -64510
+        }
+      }
+    },
+    "3.11.02": {
+      "accountCode": "3.11.02",
+      "accountDescripton": "Atribuído a Sócios Não Controladores",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.99": {
+      "accountCode": "3.99",
+      "accountDescripton": "Lucro por Ação - (Reais / Ação)",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.99.01": {
+      "accountCode": "3.99.01",
+      "accountDescripton": "Lucro Básico por Ação",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.99.02": {
+      "accountCode": "3.99.02",
+      "accountDescripton": "Lucro Diluído por Ação",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.01": {
+      "accountCode": "6.01",
+      "accountDescripton": "Caixa Líquido Atividades Operacionais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -115622
+        },
+        "2010": {
+          "version": 2,
+          "value": -32286
+        },
+        "2011": {
+          "version": 4,
+          "value": -36864
+        },
+        "2012": {
+          "version": 4,
+          "value": -19055
+        },
+        "2013": {
+          "version": 2,
+          "value": -1
+        },
+        "2014": {
+          "version": 2,
+          "value": 9
+        },
+        "2015": {
+          "version": 1,
+          "value": -2
+        },
+        "2016": {
+          "version": 1,
+          "value": 5804
+        },
+        "2017": {
+          "version": 1,
+          "value": 612
+        },
+        "2018": {
+          "version": 1,
+          "value": 1091
+        },
+        "2019": {
+          "version": 1,
+          "value": -15
+        }
+      }
+    },
+    "6.01.01": {
+      "accountCode": "6.01.01",
+      "accountDescripton": "Caixa Gerado nas Operações",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -55556
+        },
+        "2010": {
+          "version": 2,
+          "value": -9848
+        },
+        "2011": {
+          "version": 4,
+          "value": 201268
+        },
+        "2012": {
+          "version": 4,
+          "value": 196366
+        },
+        "2013": {
+          "version": 2,
+          "value": -3408
+        },
+        "2014": {
+          "version": 2,
+          "value": 1546
+        },
+        "2015": {
+          "version": 1,
+          "value": -457
+        },
+        "2016": {
+          "version": 1,
+          "value": 9556
+        },
+        "2017": {
+          "version": 1,
+          "value": 142635
+        },
+        "2018": {
+          "version": 1,
+          "value": -49956
+        },
+        "2019": {
+          "version": 1,
+          "value": -40342
+        }
+      }
+    },
+    "6.01.02": {
+      "accountCode": "6.01.02",
+      "accountDescripton": "Variações nos Ativos e Passivos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -60066
+        },
+        "2010": {
+          "version": 2,
+          "value": -22438
+        },
+        "2011": {
+          "version": 4,
+          "value": -238132
+        },
+        "2012": {
+          "version": 4,
+          "value": -215421
+        },
+        "2013": {
+          "version": 2,
+          "value": 3407
+        },
+        "2014": {
+          "version": 2,
+          "value": -1537
+        },
+        "2015": {
+          "version": 1,
+          "value": 455
+        },
+        "2016": {
+          "version": 1,
+          "value": -3752
+        },
+        "2017": {
+          "version": 1,
+          "value": -142023
+        },
+        "2018": {
+          "version": 1,
+          "value": 51047
+        },
+        "2019": {
+          "version": 1,
+          "value": 40327
+        }
+      }
+    },
+    "6.01.03": {
+      "accountCode": "6.01.03",
+      "accountDescripton": "Outros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.02": {
+      "accountCode": "6.02",
+      "accountDescripton": "Caixa Líquido Atividades de Investimento",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 23049
+        },
+        "2011": {
+          "version": 4,
+          "value": -1083
+        },
+        "2012": {
+          "version": 4,
+          "value": 394
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.03": {
+      "accountCode": "6.03",
+      "accountDescripton": "Caixa Líquido Atividades de Financiamento",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 115826
+        },
+        "2010": {
+          "version": 2,
+          "value": 9203
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 18661
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": -6626
+        },
+        "2018": {
+          "version": 1,
+          "value": -1089
+        },
+        "2019": {
+          "version": 1,
+          "value": 100
+        }
+      }
+    },
+    "6.04": {
+      "accountCode": "6.04",
+      "accountDescripton": "Variação Cambial s/ Caixa e Equivalentes",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 37787
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "6.05": {
+      "accountCode": "6.05",
+      "accountDescripton": "Aumento (Redução) de Caixa e Equivalentes",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 204
+        },
+        "2010": {
+          "version": 2,
+          "value": -34
+        },
+        "2011": {
+          "version": 4,
+          "value": -160
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": -1
+        },
+        "2014": {
+          "version": 2,
+          "value": 9
+        },
+        "2015": {
+          "version": 1,
+          "value": -2
+        },
+        "2016": {
+          "version": 1,
+          "value": 5804
+        },
+        "2017": {
+          "version": 1,
+          "value": -6014
+        },
+        "2018": {
+          "version": 1,
+          "value": 2
+        },
+        "2019": {
+          "version": 1,
+          "value": 85
+        }
+      }
+    },
+    "6.05.01": {
+      "accountCode": "6.05.01",
+      "accountDescripton": "Saldo Inicial de Caixa e Equivalentes",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 205
+        },
+        "2010": {
+          "version": 2,
+          "value": 409
+        },
+        "2011": {
+          "version": 4,
+          "value": 374
+        },
+        "2012": {
+          "version": 4,
+          "value": 214
+        },
+        "2013": {
+          "version": 2,
+          "value": 214
+        },
+        "2014": {
+          "version": 2,
+          "value": 213
+        },
+        "2015": {
+          "version": 1,
+          "value": 222
+        },
+        "2016": {
+          "version": 1,
+          "value": 220
+        },
+        "2017": {
+          "version": 1,
+          "value": 6024
+        },
+        "2018": {
+          "version": 1,
+          "value": 11
+        },
+        "2019": {
+          "version": 1,
+          "value": 13
+        }
+      }
+    },
+    "6.05.02": {
+      "accountCode": "6.05.02",
+      "accountDescripton": "Saldo Final de Caixa e Equivalentes",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 409
+        },
+        "2010": {
+          "version": 2,
+          "value": 375
+        },
+        "2011": {
+          "version": 4,
+          "value": 214
+        },
+        "2012": {
+          "version": 4,
+          "value": 214
+        },
+        "2013": {
+          "version": 2,
+          "value": 213
+        },
+        "2014": {
+          "version": 2,
+          "value": 222
+        },
+        "2015": {
+          "version": 1,
+          "value": 220
+        },
+        "2016": {
+          "version": 1,
+          "value": 6024
+        },
+        "2017": {
+          "version": 1,
+          "value": 10
+        },
+        "2018": {
+          "version": 1,
+          "value": 13
+        },
+        "2019": {
+          "version": 1,
+          "value": 98
+        }
+      }
+    },
+    "7.01": {
+      "accountCode": "7.01",
+      "accountDescripton": "Receitas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 52460
+        },
+        "2010": {
+          "version": 2,
+          "value": 8369
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 14644
+        },
+        "2013": {
+          "version": 2,
+          "value": 3386
+        },
+        "2014": {
+          "version": 2,
+          "value": 8342
+        },
+        "2015": {
+          "version": 1,
+          "value": 8563
+        },
+        "2016": {
+          "version": 1,
+          "value": 8337
+        },
+        "2017": {
+          "version": 1,
+          "value": 195519
+        },
+        "2018": {
+          "version": 1,
+          "value": 9441
+        },
+        "2019": {
+          "version": 1,
+          "value": 10286
+        }
+      }
+    },
+    "7.01.01": {
+      "accountCode": "7.01.01",
+      "accountDescripton": "Vendas de Mercadorias, Produtos e Serviços",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 5680
+        },
+        "2010": {
+          "version": 2,
+          "value": 446
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 14515
+        },
+        "2013": {
+          "version": 2,
+          "value": 3361
+        },
+        "2014": {
+          "version": 2,
+          "value": 8302
+        },
+        "2015": {
+          "version": 1,
+          "value": 8482
+        },
+        "2016": {
+          "version": 1,
+          "value": 8255
+        },
+        "2017": {
+          "version": 1,
+          "value": 4522
+        },
+        "2018": {
+          "version": 1,
+          "value": 4109
+        },
+        "2019": {
+          "version": 1,
+          "value": 5277
+        }
+      }
+    },
+    "7.01.02": {
+      "accountCode": "7.01.02",
+      "accountDescripton": "Outras Receitas",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 46780
+        },
+        "2010": {
+          "version": 2,
+          "value": 7923
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 129
+        },
+        "2013": {
+          "version": 2,
+          "value": 25
+        },
+        "2014": {
+          "version": 2,
+          "value": 40
+        },
+        "2015": {
+          "version": 1,
+          "value": 81
+        },
+        "2016": {
+          "version": 1,
+          "value": 82
+        },
+        "2017": {
+          "version": 1,
+          "value": 190997
+        },
+        "2018": {
+          "version": 1,
+          "value": 5332
+        },
+        "2019": {
+          "version": 1,
+          "value": 5009
+        }
+      }
+    },
+    "7.01.03": {
+      "accountCode": "7.01.03",
+      "accountDescripton": "Receitas refs. à Construção de Ativos Próprios",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.01.04": {
+      "accountCode": "7.01.04",
+      "accountDescripton": "Provisão/Reversão de Créds. Liquidação Duvidosa",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.02": {
+      "accountCode": "7.02",
+      "accountDescripton": "Insumos Adquiridos de Terceiros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 9818
+        },
+        "2010": {
+          "version": 2,
+          "value": -777
+        },
+        "2011": {
+          "version": 4,
+          "value": 16087
+        },
+        "2012": {
+          "version": 4,
+          "value": 166222
+        },
+        "2013": {
+          "version": 2,
+          "value": -4927
+        },
+        "2014": {
+          "version": 2,
+          "value": -45349
+        },
+        "2015": {
+          "version": 1,
+          "value": -3510
+        },
+        "2016": {
+          "version": 1,
+          "value": -2623
+        },
+        "2017": {
+          "version": 1,
+          "value": -29562
+        },
+        "2018": {
+          "version": 1,
+          "value": -687
+        },
+        "2019": {
+          "version": 1,
+          "value": -658
+        }
+      }
+    },
+    "7.02.01": {
+      "accountCode": "7.02.01",
+      "accountDescripton": "Custos Prods., Mercs. e Servs. Vendidos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -11918
+        },
+        "2010": {
+          "version": 2,
+          "value": -777
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": -2938
+        },
+        "2013": {
+          "version": 2,
+          "value": -2851
+        },
+        "2014": {
+          "version": 2,
+          "value": -2281
+        },
+        "2015": {
+          "version": 1,
+          "value": -979
+        },
+        "2016": {
+          "version": 1,
+          "value": -904
+        },
+        "2017": {
+          "version": 1,
+          "value": -602
+        },
+        "2018": {
+          "version": 1,
+          "value": -687
+        },
+        "2019": {
+          "version": 1,
+          "value": -658
+        }
+      }
+    },
+    "7.02.02": {
+      "accountCode": "7.02.02",
+      "accountDescripton": "Materiais, Energia, Servs. de Terceiros e Outros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 21736
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 16087
+        },
+        "2012": {
+          "version": 4,
+          "value": -4185
+        },
+        "2013": {
+          "version": 2,
+          "value": -1860
+        },
+        "2014": {
+          "version": 2,
+          "value": -2592
+        },
+        "2015": {
+          "version": 1,
+          "value": -2531
+        },
+        "2016": {
+          "version": 1,
+          "value": -1779
+        },
+        "2017": {
+          "version": 1,
+          "value": -29010
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.02.03": {
+      "accountCode": "7.02.03",
+      "accountDescripton": "Perda/Recuperação de Valores Ativos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": -10237
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": -39919
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 60
+        },
+        "2017": {
+          "version": 1,
+          "value": 50
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.02.04": {
+      "accountCode": "7.02.04",
+      "accountDescripton": "Outros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 183582
+        },
+        "2013": {
+          "version": 2,
+          "value": -216
+        },
+        "2014": {
+          "version": 2,
+          "value": -557
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.03": {
+      "accountCode": "7.03",
+      "accountDescripton": "Valor Adicionado Bruto",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 62278
+        },
+        "2010": {
+          "version": 2,
+          "value": 7592
+        },
+        "2011": {
+          "version": 4,
+          "value": 16087
+        },
+        "2012": {
+          "version": 4,
+          "value": 180866
+        },
+        "2013": {
+          "version": 2,
+          "value": -1541
+        },
+        "2014": {
+          "version": 2,
+          "value": -37007
+        },
+        "2015": {
+          "version": 1,
+          "value": 5053
+        },
+        "2016": {
+          "version": 1,
+          "value": 5714
+        },
+        "2017": {
+          "version": 1,
+          "value": 165957
+        },
+        "2018": {
+          "version": 1,
+          "value": 8754
+        },
+        "2019": {
+          "version": 1,
+          "value": 9628
+        }
+      }
+    },
+    "7.04": {
+      "accountCode": "7.04",
+      "accountDescripton": "Retenções",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -8720
+        },
+        "2010": {
+          "version": 2,
+          "value": -1554
+        },
+        "2011": {
+          "version": 4,
+          "value": -5523
+        },
+        "2012": {
+          "version": 4,
+          "value": -6384
+        },
+        "2013": {
+          "version": 2,
+          "value": -2855
+        },
+        "2014": {
+          "version": 2,
+          "value": -2938
+        },
+        "2015": {
+          "version": 1,
+          "value": -3917
+        },
+        "2016": {
+          "version": 1,
+          "value": -2587
+        },
+        "2017": {
+          "version": 1,
+          "value": -7006
+        },
+        "2018": {
+          "version": 1,
+          "value": -13892
+        },
+        "2019": {
+          "version": 1,
+          "value": -12069
+        }
+      }
+    },
+    "7.04.01": {
+      "accountCode": "7.04.01",
+      "accountDescripton": "Depreciação, Amortização e Exaustão",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -8720
+        },
+        "2010": {
+          "version": 2,
+          "value": -1554
+        },
+        "2011": {
+          "version": 4,
+          "value": -5523
+        },
+        "2012": {
+          "version": 4,
+          "value": -6384
+        },
+        "2013": {
+          "version": 2,
+          "value": -2855
+        },
+        "2014": {
+          "version": 2,
+          "value": -2938
+        },
+        "2015": {
+          "version": 1,
+          "value": -3917
+        },
+        "2016": {
+          "version": 1,
+          "value": -2587
+        },
+        "2017": {
+          "version": 1,
+          "value": -1806
+        },
+        "2018": {
+          "version": 1,
+          "value": -1833
+        },
+        "2019": {
+          "version": 1,
+          "value": -1833
+        }
+      }
+    },
+    "7.04.02": {
+      "accountCode": "7.04.02",
+      "accountDescripton": "Outras",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": -5200
+        },
+        "2018": {
+          "version": 1,
+          "value": -12059
+        },
+        "2019": {
+          "version": 1,
+          "value": -10236
+        }
+      }
+    },
+    "7.05": {
+      "accountCode": "7.05",
+      "accountDescripton": "Valor Adicionado Líquido Produzido",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 53558
+        },
+        "2010": {
+          "version": 2,
+          "value": 6038
+        },
+        "2011": {
+          "version": 4,
+          "value": 10564
+        },
+        "2012": {
+          "version": 4,
+          "value": 174482
+        },
+        "2013": {
+          "version": 2,
+          "value": -4396
+        },
+        "2014": {
+          "version": 2,
+          "value": -39945
+        },
+        "2015": {
+          "version": 1,
+          "value": 1136
+        },
+        "2016": {
+          "version": 1,
+          "value": 3127
+        },
+        "2017": {
+          "version": 1,
+          "value": 158951
+        },
+        "2018": {
+          "version": 1,
+          "value": -5138
+        },
+        "2019": {
+          "version": 1,
+          "value": -2441
+        }
+      }
+    },
+    "7.06": {
+      "accountCode": "7.06",
+      "accountDescripton": "Vlr Adicionado Recebido em Transferência",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 55224
+        },
+        "2010": {
+          "version": 2,
+          "value": 33628
+        },
+        "2011": {
+          "version": 4,
+          "value": 37476
+        },
+        "2012": {
+          "version": 4,
+          "value": 19675
+        },
+        "2013": {
+          "version": 2,
+          "value": 21785
+        },
+        "2014": {
+          "version": 2,
+          "value": 87028
+        },
+        "2015": {
+          "version": 1,
+          "value": -3165
+        },
+        "2016": {
+          "version": 1,
+          "value": 9515
+        },
+        "2017": {
+          "version": 1,
+          "value": 7777
+        },
+        "2018": {
+          "version": 1,
+          "value": 10736
+        },
+        "2019": {
+          "version": 1,
+          "value": -8725
+        }
+      }
+    },
+    "7.06.01": {
+      "accountCode": "7.06.01",
+      "accountDescripton": "Resultado de Equivalência Patrimonial",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -15426
+        },
+        "2010": {
+          "version": 2,
+          "value": 16384
+        },
+        "2011": {
+          "version": 4,
+          "value": 7257
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.06.02": {
+      "accountCode": "7.06.02",
+      "accountDescripton": "Receitas Financeiras",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 70650
+        },
+        "2010": {
+          "version": 2,
+          "value": 17244
+        },
+        "2011": {
+          "version": 4,
+          "value": 30219
+        },
+        "2012": {
+          "version": 4,
+          "value": 19675
+        },
+        "2013": {
+          "version": 2,
+          "value": 3279
+        },
+        "2014": {
+          "version": 2,
+          "value": 7976
+        },
+        "2015": {
+          "version": 1,
+          "value": 6517
+        },
+        "2016": {
+          "version": 1,
+          "value": 16541
+        },
+        "2017": {
+          "version": 1,
+          "value": 7777
+        },
+        "2018": {
+          "version": 1,
+          "value": 10736
+        },
+        "2019": {
+          "version": 1,
+          "value": -8725
+        }
+      }
+    },
+    "7.06.03": {
+      "accountCode": "7.06.03",
+      "accountDescripton": "Outros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 18506
+        },
+        "2014": {
+          "version": 2,
+          "value": 79052
+        },
+        "2015": {
+          "version": 1,
+          "value": -9682
+        },
+        "2016": {
+          "version": 1,
+          "value": -7026
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.07": {
+      "accountCode": "7.07",
+      "accountDescripton": "Valor Adicionado Total a Distribuir",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 108782
+        },
+        "2010": {
+          "version": 2,
+          "value": 39666
+        },
+        "2011": {
+          "version": 4,
+          "value": 48040
+        },
+        "2012": {
+          "version": 4,
+          "value": 194157
+        },
+        "2013": {
+          "version": 2,
+          "value": 17389
+        },
+        "2014": {
+          "version": 2,
+          "value": 47083
+        },
+        "2015": {
+          "version": 1,
+          "value": -2029
+        },
+        "2016": {
+          "version": 1,
+          "value": 12642
+        },
+        "2017": {
+          "version": 1,
+          "value": 166728
+        },
+        "2018": {
+          "version": 1,
+          "value": 5598
+        },
+        "2019": {
+          "version": 1,
+          "value": -11166
+        }
+      }
+    },
+    "7.08": {
+      "accountCode": "7.08",
+      "accountDescripton": "Distribuição do Valor Adicionado",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 108782
+        },
+        "2010": {
+          "version": 2,
+          "value": 39666
+        },
+        "2011": {
+          "version": 4,
+          "value": 48040
+        },
+        "2012": {
+          "version": 4,
+          "value": 194157
+        },
+        "2013": {
+          "version": 2,
+          "value": 17389
+        },
+        "2014": {
+          "version": 2,
+          "value": 47083
+        },
+        "2015": {
+          "version": 1,
+          "value": -2029
+        },
+        "2016": {
+          "version": 1,
+          "value": 12642
+        },
+        "2017": {
+          "version": 1,
+          "value": 166728
+        },
+        "2018": {
+          "version": 1,
+          "value": 5598
+        },
+        "2019": {
+          "version": 1,
+          "value": -11166
+        }
+      }
+    },
+    "7.08.01": {
+      "accountCode": "7.08.01",
+      "accountDescripton": "Pessoal",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 11518
+        },
+        "2010": {
+          "version": 2,
+          "value": 10272
+        },
+        "2011": {
+          "version": 4,
+          "value": 9080
+        },
+        "2012": {
+          "version": 4,
+          "value": 1890
+        },
+        "2013": {
+          "version": 2,
+          "value": 2032
+        },
+        "2014": {
+          "version": 2,
+          "value": 4047
+        },
+        "2015": {
+          "version": 1,
+          "value": 700
+        },
+        "2016": {
+          "version": 1,
+          "value": 2799
+        },
+        "2017": {
+          "version": 1,
+          "value": 13625
+        },
+        "2018": {
+          "version": 1,
+          "value": 3096
+        },
+        "2019": {
+          "version": 1,
+          "value": 2692
+        }
+      }
+    },
+    "7.08.01.01": {
+      "accountCode": "7.08.01.01",
+      "accountDescripton": "Remuneração Direta",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 11518
+        },
+        "2010": {
+          "version": 2,
+          "value": 10272
+        },
+        "2011": {
+          "version": 4,
+          "value": 9080
+        },
+        "2012": {
+          "version": 4,
+          "value": 1562
+        },
+        "2013": {
+          "version": 2,
+          "value": 1571
+        },
+        "2014": {
+          "version": 2,
+          "value": 3893
+        },
+        "2015": {
+          "version": 1,
+          "value": 677
+        },
+        "2016": {
+          "version": 1,
+          "value": 214
+        },
+        "2017": {
+          "version": 1,
+          "value": 150
+        },
+        "2018": {
+          "version": 1,
+          "value": 1651
+        },
+        "2019": {
+          "version": 1,
+          "value": 1308
+        }
+      }
+    },
+    "7.08.01.02": {
+      "accountCode": "7.08.01.02",
+      "accountDescripton": "Benefícios",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 240
+        },
+        "2013": {
+          "version": 2,
+          "value": 336
+        },
+        "2014": {
+          "version": 2,
+          "value": 102
+        },
+        "2015": {
+          "version": 1,
+          "value": 19
+        },
+        "2016": {
+          "version": 1,
+          "value": 40
+        },
+        "2017": {
+          "version": 1,
+          "value": 65
+        },
+        "2018": {
+          "version": 1,
+          "value": 864
+        },
+        "2019": {
+          "version": 1,
+          "value": 849
+        }
+      }
+    },
+    "7.08.01.03": {
+      "accountCode": "7.08.01.03",
+      "accountDescripton": "F.G.T.S.",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 88
+        },
+        "2013": {
+          "version": 2,
+          "value": 125
+        },
+        "2014": {
+          "version": 2,
+          "value": 52
+        },
+        "2015": {
+          "version": 1,
+          "value": 4
+        },
+        "2016": {
+          "version": 1,
+          "value": 17
+        },
+        "2017": {
+          "version": 1,
+          "value": 15
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 99
+        }
+      }
+    },
+    "7.08.01.04": {
+      "accountCode": "7.08.01.04",
+      "accountDescripton": "Outros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 2528
+        },
+        "2017": {
+          "version": 1,
+          "value": 13395
+        },
+        "2018": {
+          "version": 1,
+          "value": 581
+        },
+        "2019": {
+          "version": 1,
+          "value": 436
+        }
+      }
+    },
+    "7.08.02": {
+      "accountCode": "7.08.02",
+      "accountDescripton": "Impostos, Taxas e Contribuições",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 1382
+        },
+        "2010": {
+          "version": 2,
+          "value": 178
+        },
+        "2011": {
+          "version": 4,
+          "value": 2
+        },
+        "2012": {
+          "version": 4,
+          "value": -3321
+        },
+        "2013": {
+          "version": 2,
+          "value": 761
+        },
+        "2014": {
+          "version": 2,
+          "value": 830
+        },
+        "2015": {
+          "version": 1,
+          "value": 1689
+        },
+        "2016": {
+          "version": 1,
+          "value": 1699
+        },
+        "2017": {
+          "version": 1,
+          "value": 1365
+        },
+        "2018": {
+          "version": 1,
+          "value": 713
+        },
+        "2019": {
+          "version": 1,
+          "value": 724
+        }
+      }
+    },
+    "7.08.02.01": {
+      "accountCode": "7.08.02.01",
+      "accountDescripton": "Federais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 1382
+        },
+        "2010": {
+          "version": 2,
+          "value": 178
+        },
+        "2011": {
+          "version": 4,
+          "value": 2
+        },
+        "2012": {
+          "version": 4,
+          "value": -3327
+        },
+        "2013": {
+          "version": 2,
+          "value": 761
+        },
+        "2014": {
+          "version": 2,
+          "value": 830
+        },
+        "2015": {
+          "version": 1,
+          "value": 808
+        },
+        "2016": {
+          "version": 1,
+          "value": 843
+        },
+        "2017": {
+          "version": 1,
+          "value": 419
+        },
+        "2018": {
+          "version": 1,
+          "value": 27
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.02.02": {
+      "accountCode": "7.08.02.02",
+      "accountDescripton": "Estaduais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 2
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.02.03": {
+      "accountCode": "7.08.02.03",
+      "accountDescripton": "Municipais",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 6
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 879
+        },
+        "2016": {
+          "version": 1,
+          "value": 856
+        },
+        "2017": {
+          "version": 1,
+          "value": 946
+        },
+        "2018": {
+          "version": 1,
+          "value": 686
+        },
+        "2019": {
+          "version": 1,
+          "value": 724
+        }
+      }
+    },
+    "7.08.03": {
+      "accountCode": "7.08.03",
+      "accountDescripton": "Remuneração de Capitais de Terceiros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 149742
+        },
+        "2010": {
+          "version": 2,
+          "value": 42614
+        },
+        "2011": {
+          "version": 4,
+          "value": 70354
+        },
+        "2012": {
+          "version": 4,
+          "value": 18781
+        },
+        "2013": {
+          "version": 2,
+          "value": 62671
+        },
+        "2014": {
+          "version": 2,
+          "value": 97417
+        },
+        "2015": {
+          "version": 1,
+          "value": 72987
+        },
+        "2016": {
+          "version": 1,
+          "value": 105600
+        },
+        "2017": {
+          "version": 1,
+          "value": 107735
+        },
+        "2018": {
+          "version": 1,
+          "value": 73902
+        },
+        "2019": {
+          "version": 1,
+          "value": 49928
+        }
+      }
+    },
+    "7.08.03.01": {
+      "accountCode": "7.08.03.01",
+      "accountDescripton": "Juros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 149742
+        },
+        "2010": {
+          "version": 2,
+          "value": 42614
+        },
+        "2011": {
+          "version": 4,
+          "value": 70354
+        },
+        "2012": {
+          "version": 4,
+          "value": 18781
+        },
+        "2013": {
+          "version": 2,
+          "value": 62671
+        },
+        "2014": {
+          "version": 2,
+          "value": 97417
+        },
+        "2015": {
+          "version": 1,
+          "value": 72987
+        },
+        "2016": {
+          "version": 1,
+          "value": 105600
+        },
+        "2017": {
+          "version": 1,
+          "value": 107735
+        },
+        "2018": {
+          "version": 1,
+          "value": 73902
+        },
+        "2019": {
+          "version": 1,
+          "value": 49928
+        }
+      }
+    },
+    "7.08.03.02": {
+      "accountCode": "7.08.03.02",
+      "accountDescripton": "Aluguéis",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.03.03": {
+      "accountCode": "7.08.03.03",
+      "accountDescripton": "Outras",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.04": {
+      "accountCode": "7.08.04",
+      "accountDescripton": "Remuneração de Capitais Próprios",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -53860
+        },
+        "2010": {
+          "version": 2,
+          "value": -13398
+        },
+        "2011": {
+          "version": 4,
+          "value": -31396
+        },
+        "2012": {
+          "version": 4,
+          "value": 176807
+        },
+        "2013": {
+          "version": 2,
+          "value": -48075
+        },
+        "2014": {
+          "version": 2,
+          "value": -55211
+        },
+        "2015": {
+          "version": 1,
+          "value": -77405
+        },
+        "2016": {
+          "version": 1,
+          "value": -97456
+        },
+        "2017": {
+          "version": 1,
+          "value": 44003
+        },
+        "2018": {
+          "version": 1,
+          "value": -72113
+        },
+        "2019": {
+          "version": 1,
+          "value": -64510
+        }
+      }
+    },
+    "7.08.04.01": {
+      "accountCode": "7.08.04.01",
+      "accountDescripton": "Juros sobre o Capital Próprio",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.04.02": {
+      "accountCode": "7.08.04.02",
+      "accountDescripton": "Dividendos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.04.03": {
+      "accountCode": "7.08.04.03",
+      "accountDescripton": "Lucros Retidos / Prejuízo do Período",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": -53860
+        },
+        "2010": {
+          "version": 2,
+          "value": -13398
+        },
+        "2011": {
+          "version": 4,
+          "value": -31396
+        },
+        "2012": {
+          "version": 4,
+          "value": 176807
+        },
+        "2013": {
+          "version": 2,
+          "value": -48075
+        },
+        "2014": {
+          "version": 2,
+          "value": -55211
+        },
+        "2015": {
+          "version": 1,
+          "value": -77405
+        },
+        "2016": {
+          "version": 1,
+          "value": -97456
+        },
+        "2017": {
+          "version": 1,
+          "value": 44003
+        },
+        "2018": {
+          "version": 1,
+          "value": -72113
+        },
+        "2019": {
+          "version": 1,
+          "value": -64510
+        }
+      }
+    },
+    "7.08.04.04": {
+      "accountCode": "7.08.04.04",
+      "accountDescripton": "Part. Não Controladores nos Lucros Retidos",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "7.08.05": {
+      "accountCode": "7.08.05",
+      "accountDescripton": "Outros",
+      "data": {
+        "2009": {
+          "version": 2,
+          "value": 0
+        },
+        "2010": {
+          "version": 2,
+          "value": 0
+        },
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 0
+        },
+        "2013": {
+          "version": 2,
+          "value": 0
+        },
+        "2014": {
+          "version": 2,
+          "value": 0
+        },
+        "2015": {
+          "version": 1,
+          "value": 0
+        },
+        "2016": {
+          "version": 1,
+          "value": 0
+        },
+        "2017": {
+          "version": 1,
+          "value": 0
+        },
+        "2018": {
+          "version": 1,
+          "value": 0
+        },
+        "2019": {
+          "version": 1,
+          "value": 0
+        }
+      }
+    },
+    "3.99.01.01": {
+      "accountCode": "3.99.01.01",
+      "accountDescripton": "ON",
+      "data": {
+        "2011": {
+          "version": 4,
+          "value": 0
+        },
+        "2012": {
+          "version": 4,
+          "value": 14.1389
+        },
+        "2013": {
+          "version": 2,
+          "value": -3.8445
+        },
+        "2014": {
+          "version": 2,
+          "value": -4.4151
+        },
+        "2015": {
+          "version": 1,
+          "value": -6.1899
+        },
+        "2016": {
+          "version": 1,
+          "value": -7.7934
+        },
+        "2017": {
+          "version": 1,
+          "value": 3.5188
+        },
+        "2018": {
+          "version": 1,
+          "value": -5.7667
+        },
+        "2019": {
+          "version": 1,
+          "value": -5.1588
         }
       }
     },

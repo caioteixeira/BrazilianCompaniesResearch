@@ -10,7 +10,8 @@ async function extractDFP(db, cia_id) {
                   DS_CONTA accountDescription,
                   VL_CONTA value
             FROM dfp
-            WHERE ID_CIA == ? AND DATA_TYPE == "BPA"`;
+            WHERE ID_CIA == ?
+            ORDER BY CD_CONTA`;
   let dfp = {}
 
   //const rows = await db.all(dfp_query, [cia_id]);

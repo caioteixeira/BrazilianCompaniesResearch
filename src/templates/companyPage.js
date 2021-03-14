@@ -2,12 +2,13 @@ import React, { useEffect, useState } from "react"
 import { graphql } from "gatsby"
 
 const AccountTable = (props) => {
+  const code = props.account.accountCode
   const description = props.account.accountDescripton
   const values = Object.entries(props.account.data)
 
   return (
     <div>
-      <p class="text-lg text-center font-bold m-5">{description}</p>
+      <p class="text-lg text-center font-bold m-5">{code} - {description}</p>
       <table class="rounded-t-lg m-5 w-5/6 mx-auto bg-gray-200 text-gray-800">
         <tr class="text-left border-b-2 border-gray-300">
           <th class="px-4 py-3">Ano</th>
