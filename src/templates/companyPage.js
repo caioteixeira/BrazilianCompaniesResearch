@@ -1,21 +1,23 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState, useCallback } from "react"
 import { graphql } from "gatsby"
-import dfpService from "../services/DfpService"
 import AccountList from "../components/AccountList"
+import DfpTable from "../components/DfpTable"
 
 export default function CompanyPage({data}) {
   const companyData = data.dataJson
-  const [dfp, setDfp] = useState({})
+  const [dfp, setDfp] = useState(null)
 
   useEffect(() => {
-    dfpService.get(companyData.id)
-      .then(dfp => setDfp(dfp))
+    fetch(`../data/${companyData.id}.json`)
+        .then(response => response.json())
+        .then(json => setDfp(json))
   }, [])
 
   return (
     <div>
       <h1 class="text-lg text-center font-bold text-indigo-700">{companyData.name}</h1>
       <p class="text-center text-indigo-600">{companyData.cnpj}</p>
+      <DfpTable dfp={dfp}/>
       <AccountList dfp={dfp}/>
     </div>
   )

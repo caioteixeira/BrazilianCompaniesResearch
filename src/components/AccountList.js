@@ -1,6 +1,10 @@
 import React from "react"
 
 const AccountTable = (props) => {
+    if(props.account === undefined) {
+      return ( <></> )
+    }
+
     const code = props.account.accountCode
     const description = props.account.accountDescripton
     const values = Object.entries(props.account.data)
@@ -28,7 +32,12 @@ const AccountTable = (props) => {
   }
   
   const AccountList = (props) => {
-    const accounts = Object.entries(props.dfp).map(entry => entry[1])
+    const dfp = props.dfp
+    if(!dfp) {
+      return ( <p>Loading...</p>)
+    }
+
+    const accounts = [dfp.revenue, dfp.financialResult, dfp.profit]
   
     return (
       <div>
