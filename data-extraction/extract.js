@@ -2,6 +2,8 @@ const sqlite3 = require('sqlite3').verbose();
 const sqlite = require('sqlite');
 const fs = require('fs');
 const neatCsv = require('neat-csv');
+const path = require('path')
+const axios = require('axios')
 
 async function getAccount(db, cia_id, account_id) {
   let dfp_query =
@@ -187,7 +189,6 @@ async function main() {
     company.revenue = await getAccount(db, company.id, "3.01");
     company.financialResult = await getAccount(db, company.id, "3.06");
     company.profit = await getAccount(db, company.id, "3.11");
-
 
     fs.writeFile(`../static/data/${company.id}.json`, JSON.stringify(company, undefined, 2), 'utf8', function (err, data) {
       if (err) {

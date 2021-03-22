@@ -5,6 +5,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     const { createNodeField } = actions
 
     if (node.internal.type === `DataJson`) {
+        console.log(node.shortTicker)
         const slug = createFilePath({ node, getNode, basePath: `pages` })
 
         createNodeField({
@@ -21,22 +22,23 @@ exports.createPages = async ({ graphql, actions }) => {
     // **Note:** The graphql function call returns a Promise
     // see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise for more info
     const result = await graphql(`
-      query {
-        allDataJson {
-          edges {
-            node {
-              fields {
-                slug
+        {
+          allDataJson {
+            edges {
+              node {
+                fields {
+                  slug
+                }
+                shortTicker
               }
             }
           }
         }
-      }
     `)
     
     result.data.allDataJson.edges.forEach(({ node }) => {
         createPage({
-          path: node.fields.slug,
+          path: node.shortTicker,
           component: path.resolve(`./src/templates/companyPage.js`),
           context: {
             // Data passed to context is available
