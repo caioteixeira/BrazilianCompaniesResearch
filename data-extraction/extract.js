@@ -13,32 +13,62 @@ async function getAccount(db, cia_id, account_id) {
             FROM dfp
             WHERE ID_CIA == ? AND CD_CONTA == ?`;
     
-    let account = {}
-    await db.each(dfp_query, [cia_id, account_id], (err, row) => {
-      if (err) {
-        throw err;
-      }
-  
-      if (account.data == undefined) {
-        account.accountCode = row.accountCode;
-        account.accountDescripton = row.accountDescription;
-        account.data = {};
-      }
-  
-      if (account.data[row.year] == undefined) {
-        account.data[row.year] = {};
-      }
-  
-      let yearEntry = account.data[row.year];
-      if (yearEntry.version > row.version) {
-        return;
-      }
-  
-      yearEntry.version = row.version;
-      yearEntry.value = row.value;
-    });
-  
-    return account;
+  let account = {}
+  await db.each(dfp_query, [cia_id, account_id], (err, row) => {
+    if (err) {
+      throw err;
+    }
+
+    if (account.data == undefined) {
+      account.accountCode = row.accountCode;
+      account.accountDescripton = row.accountDescription;
+      account.data = {};
+    }
+
+    if (account.data[row.year] == undefined) {
+      account.data[row.year] = {};
+    }
+
+    let yearEntry = account.data[row.year];
+    if (yearEntry.version > row.version) {
+      return;
+    }
+
+    yearEntry.version = row.version;
+    yearEntry.value = row.value;
+  });
+
+  return account;
+}
+
+async function getTickers(db, cnpj) {
+  let dfp_query =
+    `SELECT Codigo_Negociacao ticker
+            FROM fca_mobiliario 
+            WHERE CNPJ_Companhia = ? 
+                AND Mercado = "Bolsa" 
+                AND Codigo_Negociacao != ""
+                GROUP BY Codigo_Negociacao`;
+    
+  let tickers = []
+  await db.each(dfp_query, [cnpj], (err, row) => {
+    if (err) {
+      throw err;
+    }
+
+    tickers.push(row.ticker)
+  });
+
+  return tickers;
+}
+
+function generateShortTicker(tickers) {
+  if(tickers.length > 0) {
+    let shortTicker = tickers[0].replace(/\d+|^\s+|\s+$/g,'');
+    return shortTicker;
+  }
+
+  return undefined;
 }
 
 async function prepare_fca_table(db) {
@@ -68,17 +98,12 @@ async function prepare_fca_table(db) {
   await db.exec(create);
 }
 
-async function load_fca(db) {
-  console.log("Begin to load FCA");
-
-  await prepare_fca_table(db);
-
-  let stream = fs.readFileSync('.data/fca_cia_aberta_valor_mobiliario_2020.csv');
+async function load_fca_csv(db, filename) {
+  let stream = fs.readFileSync(filename);
 
   const csv = await neatCsv(stream, {separator: ';'});
 
   let array = csv.map(entry => Object.entries(entry).map(value => value[1]));
-  console.log(array);
 
   for (let index = 0; index < array.length; index++) {
     const values = array[index];
@@ -121,10 +146,15 @@ async function load_fca(db) {
       ?
     )`, values);
 
-
   }
 
-  console.log("loaded FCA :) ");
+}
+
+async function load_fca(db) {
+  await prepare_fca_table(db);
+
+  await load_fca_csv(db, '.data/fca_cia_aberta_valor_mobiliario_2020.csv');
+  await load_fca_csv(db, '.data/fca_cia_aberta_valor_mobiliario_2021.csv');
 }
 
 async function main() {
@@ -146,9 +176,18 @@ async function main() {
     company.cnpj = row.cnpj;
     company.name = row.name;
 
-    company.revenue = await getAccount(db, company.id, "3.01")
-    company.financialResult = await getAccount(db, company.id, "3.06")
-    company.profit = await getAccount(db, company.id, "3.11")
+    company.tickers = await getTickers(db, company.cnpj);
+    company.shortTicker = generateShortTicker(company.tickers);
+
+    // Do not save financial data if company is not listed
+    if (company.shortTicker === undefined || company.shortTicker === "") {
+      continue;
+    }
+
+    company.revenue = await getAccount(db, company.id, "3.01");
+    company.financialResult = await getAccount(db, company.id, "3.06");
+    company.profit = await getAccount(db, company.id, "3.11");
+
 
     fs.writeFile(`../static/data/${company.id}.json`, JSON.stringify(company, undefined, 2), 'utf8', function (err, data) {
       if (err) {
