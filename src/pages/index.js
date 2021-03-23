@@ -6,7 +6,7 @@ export default function Home( {data} ) {
   return (
     <div class="bg-blue-200 p-6">
       <div class="bg-white rounded-xl shadow-md mx-auto container p-6">
-        <h1 class="text-center text-2xl">Empresas listadas na B3</h1>
+        <h1 class="text-center text-3xl">Empresas listadas na B3</h1>
         <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 py-4">
           {data.allDataJson.edges.map(({ node }) => (
             <div key={node.id} class="p-2">
