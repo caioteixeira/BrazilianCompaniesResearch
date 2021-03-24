@@ -2,8 +2,7 @@ const sqlite3 = require('sqlite3').verbose();
 const sqlite = require('sqlite');
 const fs = require('fs');
 const neatCsv = require('neat-csv');
-const path = require('path')
-const axios = require('axios')
+const downloadLogo = require('./download_logo');
 
 async function getAccount(db, cia_id, account_id) {
   let dfp_query =
@@ -184,6 +183,14 @@ async function main() {
     // Do not save financial data if company is not listed
     if (company.shortTicker === undefined || company.shortTicker === "") {
       continue;
+    }
+
+    try {
+      await downloadLogo(company.shortTicker);
+      console.log(`Downloaded logo for ${company.shortTicker}`)
+    }
+    catch {
+      console.log(`failed to download logo for ${company.shortTicker}`)
     }
 
     company.revenue = await getAccount(db, company.id, "3.01");
