@@ -8,9 +8,11 @@ export default function CompanyPage({data}) {
   const [dfp, setDfp] = useState(null)
 
   useEffect(() => {
-    fetch(`../data/${companyData.id}.json`)
-        .then(response => response.json())
-        .then(json => setDfp(json))
+    import(`/static/data/${companyData.id}.json`)
+      .then(json => {
+        console.log(json)
+        setDfp(json);
+      });
   }, [])
 
   return (
