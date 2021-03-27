@@ -1,18 +1,16 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
-import CompanyCell from "../components/CompanyCell"
+import { graphql } from "gatsby"
+import AllCompaniesList from "../components/AllCompaniesList"
 
 
 export default function Home( {data} ) {
+  
+  const nodes = data.allDataJson.edges.map(({node}) => node)
+
   return (
-    <div class="p-6">
-      <div class="bg-white rounded-xl mx-auto container p-6">
-        <h1 class="text-center text-4xl">Empresas listadas na B3</h1>
-        <div class="grid grid-cols-2 md:grid-cols-4 justify-center py-4">
-          {data.allDataJson.edges.map(({ node }) => (
-            <CompanyCell key={node.id} shortTicker={node.shortTicker} name={node.name} />
-          ))}
-        </div>
+    <div className="p-6">
+      <div className="bg-white rounded-xl mx-auto container p-6">
+        <AllCompaniesList allCompanies={nodes} />
       </div>
     </div>
   )
