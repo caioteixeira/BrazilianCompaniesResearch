@@ -2,9 +2,9 @@ import React from "react"
 import Logo from "./Logo"
 
 const CompanyHeader = (props) => {
-  const name = props.name;
-  const cnpj = props.cnpj;
-  const ticker = props.shortTicker;
+  const name = props.name
+  const cnpj = props.cnpj
+  const ticker = props.shortTicker
 
   return (
     <div>

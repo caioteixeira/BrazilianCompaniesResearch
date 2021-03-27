@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 import Logo from "./Logo"
 
 const CompanyCell = (props) => {
-  const ticker = props.shortTicker;
-  const name = props.name;
+  const ticker = props.shortTicker
+  const name = props.name
 
   return (
     <Link to={ticker} 

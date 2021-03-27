@@ -12,7 +12,7 @@ export default function CompanyPage({data}) {
     import(`/static/data/${companyData.id}.json`)
       .then(json => {
         console.log(json)
-        setDfp(json);
+        setDfp(json)
       });
   }, [])
 

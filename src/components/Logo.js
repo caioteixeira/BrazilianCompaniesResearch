@@ -1,9 +1,9 @@
 import React from "react"
 
 const Logo = (props) => {
-  const name = props.name;
-  const ticker = props.ticker;
-  const size = props.size;
+  const name = props.name
+  const ticker = props.ticker
+  const size = props.size
 
   return (
     <img src={`/logos/${ticker}.gif`} alt={name} 

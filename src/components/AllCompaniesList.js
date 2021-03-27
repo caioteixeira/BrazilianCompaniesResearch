@@ -3,18 +3,18 @@ import CompanyCell from "./CompanyCell"
 import ReactPaginate from 'react-paginate'
 
 const AllCompaniesList = (props) => {
-  const [currentPage, setCurrentPage] = useState(0);
-  const companiesPerPage = 12;
+  const [currentPage, setCurrentPage] = useState(0)
+  const companiesPerPage = 12
 
-  const pageCount = props.allCompanies.length / companiesPerPage;
-  const floor = companiesPerPage * currentPage;
-  const ceil = Math.ceil(floor + companiesPerPage, props.allCompanies.length);
+  const pageCount = props.allCompanies.length / companiesPerPage
+  const floor = companiesPerPage * currentPage
+  const ceil = Math.ceil(floor + companiesPerPage, props.allCompanies.length)
 
-  const allCompanies = props.allCompanies.slice(floor,ceil);
+  const allCompanies = props.allCompanies.slice(floor,ceil)
 
   const onPageClick = (data) => {
-    console.log(data);
-    setCurrentPage(data.selected);
+    console.log(data)
+    setCurrentPage(data.selected)
   }
 
   return (
