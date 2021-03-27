@@ -7,7 +7,9 @@ const CompanyCell = (props) => {
 
   return (
     <Link to={ticker} 
-      className="bg-gray-100 hover:bg-blue-200 hover:bg-opacity-75 rounded-2xl shadow p-4 m-2">
+      className="bg-white rounded-2xl shadow-lg p-2 m-2
+                  border-4 border-opacity-0 border-gray-100
+                  hover:border-blue-200 hover:border-opacity-75">
 
       <img src={`/logos/${ticker}.gif`} alt={props.name} className="object-scale-down mx-auto h-48"></img>
 

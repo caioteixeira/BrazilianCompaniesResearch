@@ -8,8 +8,8 @@ export default function Home( {data} ) {
   const nodes = data.allDataJson.edges.map(({node}) => node)
 
   return (
-    <div className="p-6">
-      <div className="bg-white rounded-xl mx-auto container p-6">
+    <div className="p-6 bg-gray-100">
+      <div className="rounded-xl mx-auto container p-6">
         <AllCompaniesList allCompanies={nodes} />
       </div>
     </div>
