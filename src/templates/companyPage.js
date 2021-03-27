@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useCallback } from "react"
 import { graphql } from "gatsby"
+import CompanyHeader from "../components/CompanyHeader"
 import AccountList from "../components/AccountList"
 import DfpTable from "../components/DfpTable"
 
@@ -17,8 +18,7 @@ export default function CompanyPage({data}) {
 
   return (
     <div>
-      <h1 class="text-lg text-center font-bold text-indigo-700">{companyData.name}</h1>
-      <p class="text-center text-indigo-600">{companyData.cnpj}</p>
+      <CompanyHeader shortTicker={companyData.shortTicker} name={companyData.name} cnpj={companyData.cnpj}/>
       <DfpTable dfp={dfp}/>
       <AccountList dfp={dfp}/>
     </div>
@@ -31,6 +31,7 @@ export const query = graphql`
       id
       name
       cnpj
+      shortTicker
     }
   }
 `
