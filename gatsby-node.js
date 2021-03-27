@@ -5,7 +5,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     const { createNodeField } = actions
 
     if (node.internal.type === `DataJson`) {
-        console.log(node.shortTicker)
         const slug = createFilePath({ node, getNode, basePath: `pages` })
 
         createNodeField({

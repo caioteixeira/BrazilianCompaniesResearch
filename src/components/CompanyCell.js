@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import Logo from "./Logo"
 
 const CompanyCell = (props) => {
   const ticker = props.shortTicker;
@@ -11,7 +12,7 @@ const CompanyCell = (props) => {
                   border-4 border-opacity-0 border-gray-100
                   hover:border-blue-200 hover:border-opacity-75">
 
-      <img src={`/logos/${ticker}.gif`} alt={props.name} className="object-scale-down mx-auto h-48"></img>
+      <Logo ticker={ticker} name={props.name} size={40}></Logo>  
 
       <p className="text-xl text-center">
         {ticker}
