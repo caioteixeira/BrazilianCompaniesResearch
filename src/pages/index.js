@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import AllCompaniesList from "../components/AllCompaniesList"
+import Search from "../components/Search"
 
 
 export default function Home( {data} ) {
@@ -10,6 +11,7 @@ export default function Home( {data} ) {
   return (
     <div className="p-6 bg-gray-100">
       <div className="rounded-xl mx-auto container p-6">
+        <Search/>
         <AllCompaniesList allCompanies={nodes} />
       </div>
     </div>
