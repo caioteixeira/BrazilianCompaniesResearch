@@ -14,6 +14,38 @@ module.exports = {
         path: `./static/data/`,
       },
     },
-    'gatsby-plugin-postcss'
+    'gatsby-plugin-postcss',
+    {
+      resolve: 'gatsby-plugin-local-search',
+      options: {
+        name: 'pages',
+        engine: 'flexsearch',
+        engineOptions: 'speed',
+        query: `
+          {
+            allDataJson {
+              edges {
+                node {
+                  fields {
+                    slug
+                  }
+                  id,
+                  shortTicker
+                }
+              }
+            }
+          }
+        `,
+        ref: 'id',
+        index: ['ticker', 'name'],
+        store: ['id', 'ticker', 'name'],
+        normalizer: ({ data }) =>
+          data.allDataJson.edges.map(({ node }) => ({
+            id: node.id,
+            ticker: node.shortTicker,
+            name: node.name
+          })),
+      },
+    },
   ],
 }
