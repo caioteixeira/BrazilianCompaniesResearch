@@ -20,7 +20,9 @@ module.exports = {
       options: {
         name: 'pages',
         engine: 'flexsearch',
-        engineOptions: 'speed',
+        engineOptions: {
+          profile:"default"
+        },
         query: `
           {
             allDataJson {
@@ -30,7 +32,8 @@ module.exports = {
                     slug
                   }
                   id,
-                  shortTicker
+                  shortTicker,
+                  name
                 }
               }
             }

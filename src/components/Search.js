@@ -17,7 +17,7 @@ const Search = (props) => {
   const store = data.localSearchPages.store;
 
   const [query, setQuery] = useState("")
-  const results = useFlexSearch(query, index, store)
+  const results = useFlexSearch(query, index, store, { limit: 5 })
 
   const onQueryChange = (event) => {
     setQuery(event.target.value)
