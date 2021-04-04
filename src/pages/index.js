@@ -13,9 +13,9 @@ export default function Home( {data} ) {
   return (
     <Container centerContent maxW="4xl">
       <Box padding="4" maxW="4xl">
-        <Stack spacing="5">
-        <Search/>
-        <AllCompaniesList allCompanies={nodes} />
+        <Stack spacing="5" padding="5">
+          <Search/>
+          <AllCompaniesList allCompanies={nodes} />
         </Stack>
       </Box>
     </Container>
