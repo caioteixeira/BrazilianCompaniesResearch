@@ -1,7 +1,7 @@
 import React, {useState} from "react"
 import CompanyCell from "./CompanyCell"
 
-import { Grid } from "@chakra-ui/react"
+import { Grid, Center, Button } from "@chakra-ui/react"
 
 
 const AllCompaniesList = (props) => {
@@ -23,12 +23,12 @@ const AllCompaniesList = (props) => {
           <CompanyCell key={node.id} shortTicker={node.shortTicker} name={node.name} />
         ))}
       </Grid>
-      <div className="mx-auto flex justify-center">
-        <button className="text-blue-700 font-semibold hover:text-blue-900 hover:underline py-2 px-4 rounded" 
+      <Center>
+        <Button variant="link" colorScheme="blue"
           onClick={onLoadMoreClick}>
           Ver mais empresas
-        </button>
-      </div>
+        </Button>
+      </Center>
     </>
   )
 }

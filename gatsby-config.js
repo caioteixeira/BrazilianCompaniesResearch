@@ -29,7 +29,6 @@ module.exports = {
         isUsingColorMode: true,
       },
     },
-    'gatsby-plugin-postcss',
     {
       resolve: 'gatsby-plugin-local-search',
       options: {
