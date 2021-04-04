@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useFlexSearch } from 'react-use-flexsearch'
 import { useStaticQuery, graphql } from "gatsby"
+import { Input } from "@chakra-ui/react"
 
 
 const Search = (props) => {
@@ -26,7 +27,7 @@ const Search = (props) => {
   return (
     <header>
       <p>{JSON.stringify(results)}</p>
-      <input type="text" id="search" name="fname" onChange={onQueryChange}></input>
+      <Input placeholder="Pesquisar empresas" onChange={onQueryChange}/>
     </header>
   )
 }
