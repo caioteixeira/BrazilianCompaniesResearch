@@ -1,6 +1,9 @@
 import React, {useState} from "react"
 import CompanyCell from "./CompanyCell"
 
+import { Grid } from "@chakra-ui/react"
+
+
 const AllCompaniesList = (props) => {
   const [currentPage, setCurrentPage] = useState(1)
   const companiesPerPage = 12
@@ -15,12 +18,11 @@ const AllCompaniesList = (props) => {
 
   return (
     <>
-      <h1 className="text-center text-4xl">Empresas listadas na B3</h1>
-      <div className="grid grid-cols-2 md:grid-cols-4 justify-center py-4">
+      <Grid templateColumns="repeat(4, 1fr)" gap={6}>
         {allCompanies.map(( node ) => (
           <CompanyCell key={node.id} shortTicker={node.shortTicker} name={node.name} />
         ))}
-      </div>
+      </Grid>
       <div className="mx-auto flex justify-center">
         <button className="text-blue-700 font-semibold hover:text-blue-900 hover:underline py-2 px-4 rounded" 
           onClick={onLoadMoreClick}>

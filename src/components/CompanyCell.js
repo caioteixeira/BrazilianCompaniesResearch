@@ -2,25 +2,50 @@ import React from "react"
 import { Link } from "gatsby"
 import Logo from "./Logo"
 
+import { Center, Box, Stack, Text, Button } from "@chakra-ui/react"
+
+
 const CompanyCell = (props) => {
   const ticker = props.shortTicker
   const name = props.name
 
   return (
-    <Link to={ticker} 
-      className="bg-white rounded-2xl shadow-lg p-2 m-2
-                  border-4 border-opacity-0 border-gray-100
-                  hover:border-blue-200 hover:border-opacity-75">
+    <Box as="button" 
+          w="100%" h="100%" padding="2"
+          lineHeight="1.2"
+          transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
+          border="1px"
+          borderRadius="2px"
+          bgColor="gray.100"
+          borderColor="gray.100"
+          rounded="xl"
+          _hover={{ bg: "#ebedf0" }}
+          _active={{
+            bg: "#dddfe2",
+            transform: "scale(0.98)",
+            borderColor: "#bec3c9",
+          }}
+          _focus={{
+            boxShadow:
+              "0 0 1px 2px rgba(88, 144, 255, .75), 0 1px 1px rgba(0, 0, 0, .15)",
+          }}
 
-      <Logo ticker={ticker} name={props.name} size={40}></Logo>  
+      >
+      <Link to={ticker}>
+        <Center>
+          <Stack>
+            <Logo ticker={ticker} name={props.name} size={40}></Logo>  
 
-      <p className="text-xl text-center">
-        {ticker}
-      </p>
-      <p className="text-sm text-gray-400 text-center">
-        {name}
-      </p>
-    </Link>
+            <Text>
+              {ticker}
+            </Text>
+            <Text>
+              {name}
+            </Text>
+          </Stack>
+        </Center>
+      </Link>
+    </Box>
   )
 }
 
