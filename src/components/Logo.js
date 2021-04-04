@@ -1,4 +1,5 @@
 import React from "react"
+import { Image } from "@chakra-ui/react"
 
 const Logo = (props) => {
   const name = props.name
@@ -6,8 +7,9 @@ const Logo = (props) => {
   const size = props.size
 
   return (
-    <img src={`/logos/${ticker}.gif`} alt={name} 
-            class={`object-scale-down mx-auto h-${size}`}></img>  
+    <>
+      <Image src={`/logos/${ticker}.gif`} alt={`${name} logo`} boxSize={size}/>
+    </> 
   )
 }
 
