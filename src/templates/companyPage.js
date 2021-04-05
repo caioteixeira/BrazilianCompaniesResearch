@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react"
 import { graphql } from "gatsby"
 import CompanyHeader from "../components/CompanyHeader"
-import AccountList from "../components/AccountList"
 import DfpTable from "../components/DfpTable"
 import Layout from "../components/Layout"
 import { Stack } from "@chakra-ui/react"
@@ -23,7 +22,6 @@ export default function CompanyPage({data}) {
       <Stack align='center' spacing="5">
         <CompanyHeader shortTicker={companyData.shortTicker} name={companyData.name} cnpj={companyData.cnpj}/>
         <DfpTable dfp={dfp}/>
-        <AccountList dfp={dfp}/>
       </Stack>
     </Layout>
   )
