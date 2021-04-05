@@ -6,6 +6,20 @@
     "PLPL3"
   ],
   "shortTicker": "PLPL",
+  "cash": {
+    "accountCode": "1.01.01",
+    "accountDescripton": "Caixa e Equivalentes de Caixa",
+    "data": {
+      "2019": {
+        "version": 3,
+        "value": 158928
+      },
+      "2020": {
+        "version": 3,
+        "value": 204223
+      }
+    }
+  },
   "revenue": {
     "accountCode": "3.01",
     "accountDescripton": "Receita de Venda de Bens e/ou Serviços",
@@ -45,6 +59,90 @@
       "2020": {
         "version": 3,
         "value": 132204
+      }
+    }
+  },
+  "ebit": {
+    "accountCode": "3.05",
+    "accountDescripton": "Resultado Antes do Resultado Financeiro e dos Tributos",
+    "data": {
+      "2019": {
+        "version": 3,
+        "value": 116701
+      },
+      "2020": {
+        "version": 3,
+        "value": 150509
+      }
+    }
+  },
+  "shortTermDebt": {
+    "accountCode": "2.01.04",
+    "accountDescripton": "Empréstimos e Financiamentos",
+    "data": {
+      "2019": {
+        "version": 3,
+        "value": 31736
+      },
+      "2020": {
+        "version": 3,
+        "value": 119
+      }
+    }
+  },
+  "longTermDebt": {
+    "accountCode": "2.02.01",
+    "accountDescripton": "Empréstimos e Financiamentos",
+    "data": {
+      "2019": {
+        "version": 3,
+        "value": 208647
+      },
+      "2020": {
+        "version": 3,
+        "value": 290570
+      }
+    }
+  },
+  "da": {
+    "accountCode": "7.04.01",
+    "accountDescripton": "Depreciação, Amortização e Exaustão",
+    "data": {
+      "2019": {
+        "version": 3,
+        "value": -13240
+      },
+      "2020": {
+        "version": 3,
+        "value": -14241
+      }
+    }
+  },
+  "dividends": {
+    "accountCode": "7.08.04.02",
+    "accountDescripton": "Dividendos",
+    "data": {
+      "2019": {
+        "version": 3,
+        "value": 75000
+      },
+      "2020": {
+        "version": 3,
+        "value": 0
+      }
+    }
+  },
+  "jcp": {
+    "accountCode": "7.08.04.01",
+    "accountDescripton": "Juros sobre o Capital Próprio",
+    "data": {
+      "2019": {
+        "version": 3,
+        "value": 0
+      },
+      "2020": {
+        "version": 3,
+        "value": 0
       }
     }
   }

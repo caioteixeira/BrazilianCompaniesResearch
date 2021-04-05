@@ -7,6 +7,36 @@
     "VSPT4"
   ],
   "shortTicker": "VSPT",
+  "cash": {
+    "accountCode": "1.01.01",
+    "accountDescripton": "Caixa e Equivalentes de Caixa",
+    "data": {
+      "2009": {
+        "version": 1,
+        "value": 30177
+      },
+      "2010": {
+        "version": 5,
+        "value": 30992
+      },
+      "2011": {
+        "version": 5,
+        "value": 50324
+      },
+      "2012": {
+        "version": 2,
+        "value": 159817
+      },
+      "2013": {
+        "version": 1,
+        "value": 15619
+      },
+      "2014": {
+        "version": 1,
+        "value": 36103
+      }
+    }
+  },
   "revenue": {
     "accountCode": "3.01",
     "accountDescripton": "Receita de Venda de Bens e/ou Serviços",
@@ -94,6 +124,186 @@
       "2014": {
         "version": 1,
         "value": 37974
+      }
+    }
+  },
+  "ebit": {
+    "accountCode": "3.05",
+    "accountDescripton": "Resultado Antes do Resultado Financeiro e dos Tributos",
+    "data": {
+      "2009": {
+        "version": 1,
+        "value": -3140
+      },
+      "2010": {
+        "version": 5,
+        "value": -9917
+      },
+      "2011": {
+        "version": 5,
+        "value": -182767
+      },
+      "2012": {
+        "version": 2,
+        "value": -164028
+      },
+      "2013": {
+        "version": 1,
+        "value": -285155
+      },
+      "2014": {
+        "version": 1,
+        "value": -49475
+      }
+    }
+  },
+  "shortTermDebt": {
+    "accountCode": "2.01.04",
+    "accountDescripton": "Empréstimos e Financiamentos",
+    "data": {
+      "2009": {
+        "version": 1,
+        "value": 0
+      },
+      "2010": {
+        "version": 5,
+        "value": 0
+      },
+      "2011": {
+        "version": 5,
+        "value": 0
+      },
+      "2012": {
+        "version": 2,
+        "value": 0
+      },
+      "2013": {
+        "version": 1,
+        "value": 0
+      },
+      "2014": {
+        "version": 1,
+        "value": 0
+      }
+    }
+  },
+  "longTermDebt": {
+    "accountCode": "2.02.01",
+    "accountDescripton": "Empréstimos e Financiamentos",
+    "data": {
+      "2009": {
+        "version": 1,
+        "value": 0
+      },
+      "2010": {
+        "version": 5,
+        "value": 0
+      },
+      "2011": {
+        "version": 5,
+        "value": 0
+      },
+      "2012": {
+        "version": 2,
+        "value": 0
+      },
+      "2013": {
+        "version": 1,
+        "value": 0
+      },
+      "2014": {
+        "version": 1,
+        "value": 0
+      }
+    }
+  },
+  "da": {
+    "accountCode": "7.04.01",
+    "accountDescripton": "Depreciação, Amortização e Exaustão",
+    "data": {
+      "2009": {
+        "version": 1,
+        "value": -95709
+      },
+      "2010": {
+        "version": 5,
+        "value": -97941
+      },
+      "2011": {
+        "version": 5,
+        "value": -121053
+      },
+      "2012": {
+        "version": 2,
+        "value": -166260
+      },
+      "2013": {
+        "version": 1,
+        "value": -219980
+      },
+      "2014": {
+        "version": 1,
+        "value": -256406
+      }
+    }
+  },
+  "dividends": {
+    "accountCode": "7.08.04.02",
+    "accountDescripton": "Dividendos",
+    "data": {
+      "2009": {
+        "version": 1,
+        "value": 0
+      },
+      "2010": {
+        "version": 5,
+        "value": 0
+      },
+      "2011": {
+        "version": 5,
+        "value": 0
+      },
+      "2012": {
+        "version": 2,
+        "value": 0
+      },
+      "2013": {
+        "version": 1,
+        "value": 0
+      },
+      "2014": {
+        "version": 1,
+        "value": 0
+      }
+    }
+  },
+  "jcp": {
+    "accountCode": "7.08.04.01",
+    "accountDescripton": "Juros sobre o Capital Próprio",
+    "data": {
+      "2009": {
+        "version": 1,
+        "value": 0
+      },
+      "2010": {
+        "version": 5,
+        "value": 0
+      },
+      "2011": {
+        "version": 5,
+        "value": 0
+      },
+      "2012": {
+        "version": 2,
+        "value": 0
+      },
+      "2013": {
+        "version": 1,
+        "value": 0
+      },
+      "2014": {
+        "version": 1,
+        "value": 0
       }
     }
   }

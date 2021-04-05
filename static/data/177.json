@@ -6,6 +6,24 @@
     "SIMH3"
   ],
   "shortTicker": "SIMH",
+  "cash": {
+    "accountCode": "1.01.01",
+    "accountDescripton": "Caixa e Equivalentes de Caixa",
+    "data": {
+      "2018": {
+        "version": 1,
+        "value": 696842
+      },
+      "2019": {
+        "version": 1,
+        "value": 592431
+      },
+      "2020": {
+        "version": 1,
+        "value": 409601
+      }
+    }
+  },
   "revenue": {
     "accountCode": "3.01",
     "accountDescripton": "Receita de Venda de Bens e/ou Serviços",
@@ -57,6 +75,114 @@
       "2020": {
         "version": 1,
         "value": 397500
+      }
+    }
+  },
+  "ebit": {
+    "accountCode": "3.05",
+    "accountDescripton": "Resultado Antes do Resultado Financeiro e dos Tributos",
+    "data": {
+      "2018": {
+        "version": 1,
+        "value": 874846
+      },
+      "2019": {
+        "version": 1,
+        "value": 1199165
+      },
+      "2020": {
+        "version": 1,
+        "value": 1029982
+      }
+    }
+  },
+  "shortTermDebt": {
+    "accountCode": "2.01.04",
+    "accountDescripton": "Empréstimos e Financiamentos",
+    "data": {
+      "2018": {
+        "version": 1,
+        "value": 2090040
+      },
+      "2019": {
+        "version": 1,
+        "value": 2176905
+      },
+      "2020": {
+        "version": 1,
+        "value": 2110048
+      }
+    }
+  },
+  "longTermDebt": {
+    "accountCode": "2.02.01",
+    "accountDescripton": "Empréstimos e Financiamentos",
+    "data": {
+      "2018": {
+        "version": 1,
+        "value": 10124389
+      },
+      "2019": {
+        "version": 1,
+        "value": 12391499
+      },
+      "2020": {
+        "version": 1,
+        "value": 15588087
+      }
+    }
+  },
+  "da": {
+    "accountCode": "7.04.01",
+    "accountDescripton": "Depreciação, Amortização e Exaustão",
+    "data": {
+      "2018": {
+        "version": 1,
+        "value": -637268
+      },
+      "2019": {
+        "version": 1,
+        "value": -916744
+      },
+      "2020": {
+        "version": 1,
+        "value": -1111953
+      }
+    }
+  },
+  "dividends": {
+    "accountCode": "7.08.04.02",
+    "accountDescripton": "Dividendos",
+    "data": {
+      "2018": {
+        "version": 1,
+        "value": 0
+      },
+      "2019": {
+        "version": 1,
+        "value": 101680
+      },
+      "2020": {
+        "version": 1,
+        "value": 97938
+      }
+    }
+  },
+  "jcp": {
+    "accountCode": "7.08.04.01",
+    "accountDescripton": "Juros sobre o Capital Próprio",
+    "data": {
+      "2018": {
+        "version": 1,
+        "value": 0
+      },
+      "2019": {
+        "version": 1,
+        "value": 0
+      },
+      "2020": {
+        "version": 1,
+        "value": 0
       }
     }
   }

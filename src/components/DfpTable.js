@@ -7,6 +7,25 @@ import {
   Th,
   Td,
 } from "@chakra-ui/react"
+
+const DfpValue = ({year, data}) => {
+  if(!(year in data)) {
+    return (
+      <>-</>
+    )
+  }
+
+  // Scale to millions
+  let value = data[year].value
+  value -= value % 1000;
+  value /= 1000;
+  
+  return (
+    <>
+    {value}
+    </>
+  )
+}
   
 const DfpTable = (props) => {
   const dfp = props.dfp
@@ -26,15 +45,23 @@ const DfpTable = (props) => {
             <Th>Receita</Th>
             <Th>Res. Financeiro</Th>
             <Th>Lucro Líquido</Th>
+            <Th>EBIT</Th>
+            <Th>Caixa</Th>
+            <Th>Dívida de longo prazo</Th>
+            <Th>Dívida de curto prazo</Th>
           </Thead>
           <Tbody>
             {
               years.map(year => 
                 <Tr key={year}>
                   <Td>{year}</Td>
-                  <Td>{dfp.revenue.data[year].value}</Td>
-                  <Td>{dfp.financialResult.data[year].value}</Td>
-                  <Td>{dfp.profit.data[year].value}</Td>
+                  <Td><DfpValue data={dfp.revenue.data} year={year}/></Td>
+                  <Td><DfpValue data={dfp.financialResult.data} year={year}/></Td>
+                  <Td><DfpValue data={dfp.profit.data} year={year}/></Td>
+                  <Td><DfpValue data={dfp.ebit.data} year={year}/></Td>
+                  <Td><DfpValue data={dfp.cash.data} year={year}/></Td>
+                  <Td><DfpValue data={dfp.longTermDebt.data} year={year}/></Td>
+                  <Td><DfpValue data={dfp.shortTermDebt.data} year={year}/></Td>
                 </Tr>
               )
             }

@@ -158,6 +158,22 @@ async function load_fca(db) {
   await load_fca_csv(db, '.data/fca_cia_aberta_valor_mobiliario_2021.csv');
 }
 
+async function load_dfp(db, company) {
+  company.cash = await getAccount(db, company.id, "1.%", "Caixa e Equivalentes de Caixa")
+
+  company.revenue = await getAccount(db, company.id, "3.01", "%");
+  company.financialResult = await getAccount(db, company.id, "3.06", "%");
+  company.profit = await getAccount(db, company.id, "3.%", "Lucro/Prejuízo Consolidado do Período");
+  company.ebit = await getAccount(db, company.id, "3.%", "%Resultado Antes do Resultado Financeiro e dos Tributos%");
+
+  company.shortTermDebt = await getAccount(db, company.id, "2.01.04", "Empréstimos e Financiamentos")
+  company.longTermDebt = await getAccount(db, company.id, "2.02.01", "Empréstimos e Financiamentos")
+
+  company.da = await getAccount(db, company.id, "7.%", "Depreciação, Amortização e Exaustão")
+  company.dividends = await getAccount(db, company.id, "7.%", "Dividendos")
+  company.jcp = await getAccount(db, company.id, "7.%", "Juros sobre o Capital Próprio")
+}
+
 async function main() {
   const db = await sqlite.open({ filename: '.data/rapina.db', driver: sqlite3.Database });
 
@@ -193,9 +209,7 @@ async function main() {
       console.log(`failed to download logo for ${company.shortTicker}`)
     }*/
 
-    company.revenue = await getAccount(db, company.id, "3.01", "%");
-    company.financialResult = await getAccount(db, company.id, "3.06", "%");
-    company.profit = await getAccount(db, company.id, "3.%", "%Lucro/Prejuízo Consolidado do Período%");
+    await load_dfp(db, company)
 
     fs.writeFile(`../static/data/${company.id}.json`, JSON.stringify(company, undefined, 2), 'utf8', function (err, data) {
       if (err) {

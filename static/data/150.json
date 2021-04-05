@@ -6,6 +6,60 @@
     "ENBR3"
   ],
   "shortTicker": "ENBR",
+  "cash": {
+    "accountCode": "1.01.01",
+    "accountDescripton": "Caixa e Equivalentes de Caixa",
+    "data": {
+      "2009": {
+        "version": 5,
+        "value": 1102022
+      },
+      "2010": {
+        "version": 5,
+        "value": 1126449
+      },
+      "2011": {
+        "version": 2,
+        "value": 895868
+      },
+      "2012": {
+        "version": 2,
+        "value": 572378
+      },
+      "2013": {
+        "version": 2,
+        "value": 924146
+      },
+      "2014": {
+        "version": 1,
+        "value": 826971
+      },
+      "2015": {
+        "version": 1,
+        "value": 1149998
+      },
+      "2016": {
+        "version": 2,
+        "value": 2017709
+      },
+      "2017": {
+        "version": 2,
+        "value": 1603158
+      },
+      "2018": {
+        "version": 2,
+        "value": 2203392
+      },
+      "2019": {
+        "version": 1,
+        "value": 2638610
+      },
+      "2020": {
+        "version": 1,
+        "value": 2735859
+      }
+    }
+  },
   "revenue": {
     "accountCode": "3.01",
     "accountDescripton": "Receita de Venda de Bens e/ou Serviços",
@@ -165,6 +219,330 @@
       "2020": {
         "version": 1,
         "value": 1713920
+      }
+    }
+  },
+  "ebit": {
+    "accountCode": "3.05",
+    "accountDescripton": "Resultado Antes do Resultado Financeiro e dos Tributos",
+    "data": {
+      "2009": {
+        "version": 5,
+        "value": 1189080
+      },
+      "2010": {
+        "version": 5,
+        "value": 1162718
+      },
+      "2011": {
+        "version": 2,
+        "value": 1188496
+      },
+      "2012": {
+        "version": 2,
+        "value": 970162
+      },
+      "2013": {
+        "version": 2,
+        "value": 1112668
+      },
+      "2014": {
+        "version": 1,
+        "value": 1502869
+      },
+      "2015": {
+        "version": 1,
+        "value": 2430694
+      },
+      "2016": {
+        "version": 2,
+        "value": 1641928
+      },
+      "2017": {
+        "version": 2,
+        "value": 1591960
+      },
+      "2018": {
+        "version": 2,
+        "value": 2163278
+      },
+      "2019": {
+        "version": 1,
+        "value": 2360460
+      },
+      "2020": {
+        "version": 1,
+        "value": 2813271
+      }
+    }
+  },
+  "shortTermDebt": {
+    "accountCode": "2.01.04",
+    "accountDescripton": "Empréstimos e Financiamentos",
+    "data": {
+      "2009": {
+        "version": 5,
+        "value": 782691
+      },
+      "2010": {
+        "version": 5,
+        "value": 607431
+      },
+      "2011": {
+        "version": 2,
+        "value": 579721
+      },
+      "2012": {
+        "version": 2,
+        "value": 800741
+      },
+      "2013": {
+        "version": 2,
+        "value": 1132065
+      },
+      "2014": {
+        "version": 1,
+        "value": 1465693
+      },
+      "2015": {
+        "version": 1,
+        "value": 809628
+      },
+      "2016": {
+        "version": 2,
+        "value": 1072100
+      },
+      "2017": {
+        "version": 2,
+        "value": 1336579
+      },
+      "2018": {
+        "version": 2,
+        "value": 1391236
+      },
+      "2019": {
+        "version": 1,
+        "value": 1988678
+      },
+      "2020": {
+        "version": 1,
+        "value": 3314365
+      }
+    }
+  },
+  "longTermDebt": {
+    "accountCode": "2.02.01",
+    "accountDescripton": "Empréstimos e Financiamentos",
+    "data": {
+      "2009": {
+        "version": 5,
+        "value": 2410595
+      },
+      "2010": {
+        "version": 5,
+        "value": 2778475
+      },
+      "2011": {
+        "version": 2,
+        "value": 3033865
+      },
+      "2012": {
+        "version": 2,
+        "value": 3480087
+      },
+      "2013": {
+        "version": 2,
+        "value": 2127381
+      },
+      "2014": {
+        "version": 1,
+        "value": 1892772
+      },
+      "2015": {
+        "version": 1,
+        "value": 5376863
+      },
+      "2016": {
+        "version": 2,
+        "value": 4498955
+      },
+      "2017": {
+        "version": 2,
+        "value": 4721100
+      },
+      "2018": {
+        "version": 2,
+        "value": 6067561
+      },
+      "2019": {
+        "version": 1,
+        "value": 6476160
+      },
+      "2020": {
+        "version": 1,
+        "value": 5720527
+      }
+    }
+  },
+  "da": {
+    "accountCode": "7.04.01",
+    "accountDescripton": "Depreciação, Amortização e Exaustão",
+    "data": {
+      "2009": {
+        "version": 5,
+        "value": -334106
+      },
+      "2010": {
+        "version": 5,
+        "value": -357978
+      },
+      "2011": {
+        "version": 2,
+        "value": -345590
+      },
+      "2012": {
+        "version": 2,
+        "value": -351865
+      },
+      "2013": {
+        "version": 2,
+        "value": -410624
+      },
+      "2014": {
+        "version": 1,
+        "value": -349333
+      },
+      "2015": {
+        "version": 1,
+        "value": -468556
+      },
+      "2016": {
+        "version": 2,
+        "value": -552568
+      },
+      "2017": {
+        "version": 2,
+        "value": -592979
+      },
+      "2018": {
+        "version": 2,
+        "value": -624343
+      },
+      "2019": {
+        "version": 1,
+        "value": -641911
+      },
+      "2020": {
+        "version": 1,
+        "value": -670370
+      }
+    }
+  },
+  "dividends": {
+    "accountCode": "7.08.04.02",
+    "accountDescripton": "Dividendos",
+    "data": {
+      "2009": {
+        "version": 5,
+        "value": 0
+      },
+      "2010": {
+        "version": 5,
+        "value": 0
+      },
+      "2011": {
+        "version": 2,
+        "value": 131000
+      },
+      "2012": {
+        "version": 2,
+        "value": 0
+      },
+      "2013": {
+        "version": 2,
+        "value": 60239
+      },
+      "2014": {
+        "version": 1,
+        "value": 44715
+      },
+      "2015": {
+        "version": 1,
+        "value": 288257
+      },
+      "2016": {
+        "version": 2,
+        "value": 0
+      },
+      "2017": {
+        "version": 2,
+        "value": 83513
+      },
+      "2018": {
+        "version": 2,
+        "value": 0
+      },
+      "2019": {
+        "version": 1,
+        "value": 117490
+      },
+      "2020": {
+        "version": 1,
+        "value": 220143
+      }
+    }
+  },
+  "jcp": {
+    "accountCode": "7.08.04.01",
+    "accountDescripton": "Juros sobre o Capital Próprio",
+    "data": {
+      "2009": {
+        "version": 5,
+        "value": 0
+      },
+      "2010": {
+        "version": 5,
+        "value": 0
+      },
+      "2011": {
+        "version": 2,
+        "value": 0
+      },
+      "2012": {
+        "version": 2,
+        "value": 130422
+      },
+      "2013": {
+        "version": 2,
+        "value": 29190
+      },
+      "2014": {
+        "version": 1,
+        "value": 133300
+      },
+      "2015": {
+        "version": 1,
+        "value": 14592
+      },
+      "2016": {
+        "version": 2,
+        "value": 330000
+      },
+      "2017": {
+        "version": 2,
+        "value": 72709
+      },
+      "2018": {
+        "version": 2,
+        "value": 439000
+      },
+      "2019": {
+        "version": 1,
+        "value": 236000
+      },
+      "2020": {
+        "version": 1,
+        "value": 162366
       }
     }
   }

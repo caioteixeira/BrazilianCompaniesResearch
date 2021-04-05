@@ -6,6 +6,36 @@
     "JBDU3"
   ],
   "shortTicker": "JBDU",
+  "cash": {
+    "accountCode": "1.01.01",
+    "accountDescripton": "Caixa e Equivalentes de Caixa",
+    "data": {
+      "2014": {
+        "version": 1,
+        "value": 1
+      },
+      "2015": {
+        "version": 1,
+        "value": 2
+      },
+      "2016": {
+        "version": 1,
+        "value": 1
+      },
+      "2017": {
+        "version": 2,
+        "value": 1
+      },
+      "2018": {
+        "version": 2,
+        "value": 1
+      },
+      "2019": {
+        "version": 1,
+        "value": 1
+      }
+    }
+  },
   "revenue": {
     "accountCode": "3.01",
     "accountDescripton": "Receita de Venda de Bens e/ou Serviços",
@@ -93,6 +123,186 @@
       "2019": {
         "version": 1,
         "value": -4343
+      }
+    }
+  },
+  "ebit": {
+    "accountCode": "3.05",
+    "accountDescripton": "Resultado Antes do Resultado Financeiro e dos Tributos",
+    "data": {
+      "2014": {
+        "version": 1,
+        "value": -12806
+      },
+      "2015": {
+        "version": 1,
+        "value": -9669
+      },
+      "2016": {
+        "version": 1,
+        "value": -32565
+      },
+      "2017": {
+        "version": 2,
+        "value": -1429
+      },
+      "2018": {
+        "version": 2,
+        "value": 19547
+      },
+      "2019": {
+        "version": 1,
+        "value": -3526
+      }
+    }
+  },
+  "shortTermDebt": {
+    "accountCode": "2.01.04",
+    "accountDescripton": "Empréstimos e Financiamentos",
+    "data": {
+      "2014": {
+        "version": 1,
+        "value": 10573
+      },
+      "2015": {
+        "version": 1,
+        "value": 11960
+      },
+      "2016": {
+        "version": 1,
+        "value": 5286
+      },
+      "2017": {
+        "version": 2,
+        "value": 5286
+      },
+      "2018": {
+        "version": 2,
+        "value": 5286
+      },
+      "2019": {
+        "version": 1,
+        "value": 4614
+      }
+    }
+  },
+  "longTermDebt": {
+    "accountCode": "2.02.01",
+    "accountDescripton": "Empréstimos e Financiamentos",
+    "data": {
+      "2014": {
+        "version": 1,
+        "value": 0
+      },
+      "2015": {
+        "version": 1,
+        "value": 0
+      },
+      "2016": {
+        "version": 1,
+        "value": 0
+      },
+      "2017": {
+        "version": 2,
+        "value": 0
+      },
+      "2018": {
+        "version": 2,
+        "value": 0
+      },
+      "2019": {
+        "version": 1,
+        "value": 0
+      }
+    }
+  },
+  "da": {
+    "accountCode": "7.04.01",
+    "accountDescripton": "Depreciação, Amortização e Exaustão",
+    "data": {
+      "2014": {
+        "version": 1,
+        "value": 0
+      },
+      "2015": {
+        "version": 1,
+        "value": 0
+      },
+      "2016": {
+        "version": 1,
+        "value": 0
+      },
+      "2017": {
+        "version": 2,
+        "value": 0
+      },
+      "2018": {
+        "version": 2,
+        "value": 0
+      },
+      "2019": {
+        "version": 1,
+        "value": 0
+      }
+    }
+  },
+  "dividends": {
+    "accountCode": "7.08.04.02",
+    "accountDescripton": "Dividendos",
+    "data": {
+      "2014": {
+        "version": 1,
+        "value": 0
+      },
+      "2015": {
+        "version": 1,
+        "value": 0
+      },
+      "2016": {
+        "version": 1,
+        "value": 0
+      },
+      "2017": {
+        "version": 2,
+        "value": 0
+      },
+      "2018": {
+        "version": 2,
+        "value": 0
+      },
+      "2019": {
+        "version": 1,
+        "value": 0
+      }
+    }
+  },
+  "jcp": {
+    "accountCode": "7.08.04.01",
+    "accountDescripton": "Juros sobre o Capital Próprio",
+    "data": {
+      "2014": {
+        "version": 1,
+        "value": 0
+      },
+      "2015": {
+        "version": 1,
+        "value": 0
+      },
+      "2016": {
+        "version": 1,
+        "value": 0
+      },
+      "2017": {
+        "version": 2,
+        "value": 0
+      },
+      "2018": {
+        "version": 2,
+        "value": 0
+      },
+      "2019": {
+        "version": 1,
+        "value": 0
       }
     }
   }

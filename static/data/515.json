@@ -8,6 +8,48 @@
     "SPRI6"
   ],
   "shortTicker": "SPRI",
+  "cash": {
+    "accountCode": "1.01.01",
+    "accountDescripton": "Caixa e Equivalentes de Caixa",
+    "data": {
+      "2009": {
+        "version": 2,
+        "value": 882
+      },
+      "2010": {
+        "version": 2,
+        "value": 1614
+      },
+      "2011": {
+        "version": 1,
+        "value": 1643
+      },
+      "2012": {
+        "version": 1,
+        "value": 1272
+      },
+      "2013": {
+        "version": 1,
+        "value": 3259
+      },
+      "2014": {
+        "version": 1,
+        "value": 2013
+      },
+      "2015": {
+        "version": 1,
+        "value": 2861
+      },
+      "2016": {
+        "version": 2,
+        "value": 719
+      },
+      "2017": {
+        "version": 2,
+        "value": 2633
+      }
+    }
+  },
   "revenue": {
     "accountCode": "3.01",
     "accountDescripton": "Receita de Venda de Bens e/ou Serviços",
@@ -131,6 +173,258 @@
       "2017": {
         "version": 2,
         "value": -21061
+      }
+    }
+  },
+  "ebit": {
+    "accountCode": "3.05",
+    "accountDescripton": "Resultado Antes do Resultado Financeiro e dos Tributos",
+    "data": {
+      "2009": {
+        "version": 2,
+        "value": -4512
+      },
+      "2010": {
+        "version": 2,
+        "value": 3501
+      },
+      "2011": {
+        "version": 1,
+        "value": 62173
+      },
+      "2012": {
+        "version": 1,
+        "value": -5546
+      },
+      "2013": {
+        "version": 1,
+        "value": -18766
+      },
+      "2014": {
+        "version": 1,
+        "value": -24444
+      },
+      "2015": {
+        "version": 1,
+        "value": -24490
+      },
+      "2016": {
+        "version": 2,
+        "value": -4250
+      },
+      "2017": {
+        "version": 2,
+        "value": -21964
+      }
+    }
+  },
+  "shortTermDebt": {
+    "accountCode": "2.01.04",
+    "accountDescripton": "Empréstimos e Financiamentos",
+    "data": {
+      "2009": {
+        "version": 2,
+        "value": 15141
+      },
+      "2010": {
+        "version": 2,
+        "value": 10456
+      },
+      "2011": {
+        "version": 1,
+        "value": 10035
+      },
+      "2012": {
+        "version": 1,
+        "value": 6515
+      },
+      "2013": {
+        "version": 1,
+        "value": 4555
+      },
+      "2014": {
+        "version": 1,
+        "value": 7406
+      },
+      "2015": {
+        "version": 1,
+        "value": 1185
+      },
+      "2016": {
+        "version": 2,
+        "value": 0
+      },
+      "2017": {
+        "version": 2,
+        "value": 0
+      }
+    }
+  },
+  "longTermDebt": {
+    "accountCode": "2.02.01",
+    "accountDescripton": "Empréstimos e Financiamentos",
+    "data": {
+      "2009": {
+        "version": 2,
+        "value": 1976
+      },
+      "2010": {
+        "version": 2,
+        "value": 1969
+      },
+      "2011": {
+        "version": 1,
+        "value": 285
+      },
+      "2012": {
+        "version": 1,
+        "value": 0
+      },
+      "2013": {
+        "version": 1,
+        "value": 0
+      },
+      "2014": {
+        "version": 1,
+        "value": 0
+      },
+      "2015": {
+        "version": 1,
+        "value": 0
+      },
+      "2016": {
+        "version": 2,
+        "value": 0
+      },
+      "2017": {
+        "version": 2,
+        "value": 0
+      }
+    }
+  },
+  "da": {
+    "accountCode": "7.04.01",
+    "accountDescripton": "Depreciação, Amortização e Exaustão",
+    "data": {
+      "2009": {
+        "version": 2,
+        "value": -6017
+      },
+      "2010": {
+        "version": 2,
+        "value": -5805
+      },
+      "2011": {
+        "version": 1,
+        "value": -5767
+      },
+      "2012": {
+        "version": 1,
+        "value": -5705
+      },
+      "2013": {
+        "version": 1,
+        "value": -5644
+      },
+      "2014": {
+        "version": 1,
+        "value": -5627
+      },
+      "2015": {
+        "version": 1,
+        "value": -1851
+      },
+      "2016": {
+        "version": 2,
+        "value": -948
+      },
+      "2017": {
+        "version": 2,
+        "value": -658
+      }
+    }
+  },
+  "dividends": {
+    "accountCode": "7.08.04.02",
+    "accountDescripton": "Dividendos",
+    "data": {
+      "2009": {
+        "version": 2,
+        "value": 0
+      },
+      "2010": {
+        "version": 2,
+        "value": 1265
+      },
+      "2011": {
+        "version": 1,
+        "value": 13000
+      },
+      "2012": {
+        "version": 1,
+        "value": 9300
+      },
+      "2013": {
+        "version": 1,
+        "value": 0
+      },
+      "2014": {
+        "version": 1,
+        "value": 0
+      },
+      "2015": {
+        "version": 1,
+        "value": 0
+      },
+      "2016": {
+        "version": 2,
+        "value": 0
+      },
+      "2017": {
+        "version": 2,
+        "value": 0
+      }
+    }
+  },
+  "jcp": {
+    "accountCode": "7.08.04.01",
+    "accountDescripton": "Juros sobre o Capital Próprio",
+    "data": {
+      "2009": {
+        "version": 2,
+        "value": 0
+      },
+      "2010": {
+        "version": 2,
+        "value": 0
+      },
+      "2011": {
+        "version": 1,
+        "value": 0
+      },
+      "2012": {
+        "version": 1,
+        "value": 0
+      },
+      "2013": {
+        "version": 1,
+        "value": 0
+      },
+      "2014": {
+        "version": 1,
+        "value": 0
+      },
+      "2015": {
+        "version": 1,
+        "value": 0
+      },
+      "2016": {
+        "version": 2,
+        "value": 0
+      },
+      "2017": {
+        "version": 2,
+        "value": 0
       }
     }
   }

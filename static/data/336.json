@@ -6,6 +6,20 @@
     "VIVA3"
   ],
   "shortTicker": "VIVA",
+  "cash": {
+    "accountCode": "1.01.01",
+    "accountDescripton": "Caixa e Equivalentes de Caixa",
+    "data": {
+      "2019": {
+        "version": 1,
+        "value": 435844350
+      },
+      "2020": {
+        "version": 1,
+        "value": 492609413
+      }
+    }
+  },
   "revenue": {
     "accountCode": "3.01",
     "accountDescripton": "Receita de Venda de Bens e/ou Serviços",
@@ -45,6 +59,90 @@
       "2020": {
         "version": 1,
         "value": 146672109
+      }
+    }
+  },
+  "ebit": {
+    "accountCode": "3.05",
+    "accountDescripton": "Resultado Antes do Resultado Financeiro e dos Tributos",
+    "data": {
+      "2019": {
+        "version": 1,
+        "value": 292922539
+      },
+      "2020": {
+        "version": 1,
+        "value": 205078636
+      }
+    }
+  },
+  "shortTermDebt": {
+    "accountCode": "2.01.04",
+    "accountDescripton": "Empréstimos e Financiamentos",
+    "data": {
+      "2019": {
+        "version": 1,
+        "value": 190934035
+      },
+      "2020": {
+        "version": 1,
+        "value": 277820621
+      }
+    }
+  },
+  "longTermDebt": {
+    "accountCode": "2.02.01",
+    "accountDescripton": "Empréstimos e Financiamentos",
+    "data": {
+      "2019": {
+        "version": 1,
+        "value": 79419832
+      },
+      "2020": {
+        "version": 1,
+        "value": 112500000
+      }
+    }
+  },
+  "da": {
+    "accountCode": "7.04.01",
+    "accountDescripton": "Depreciação, Amortização e Exaustão",
+    "data": {
+      "2019": {
+        "version": 1,
+        "value": -29133375
+      },
+      "2020": {
+        "version": 1,
+        "value": -58272745
+      }
+    }
+  },
+  "dividends": {
+    "accountCode": "7.08.04.02",
+    "accountDescripton": "Dividendos",
+    "data": {
+      "2019": {
+        "version": 1,
+        "value": 42942118
+      },
+      "2020": {
+        "version": 1,
+        "value": 37481631
+      }
+    }
+  },
+  "jcp": {
+    "accountCode": "7.08.04.01",
+    "accountDescripton": "Juros sobre o Capital Próprio",
+    "data": {
+      "2019": {
+        "version": 1,
+        "value": 0
+      },
+      "2020": {
+        "version": 1,
+        "value": 0
       }
     }
   }

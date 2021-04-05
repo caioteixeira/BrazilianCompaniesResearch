@@ -7,6 +7,32 @@
     "BMGB4"
   ],
   "shortTicker": "BMGB",
+  "cash": {
+    "accountCode": "1.01",
+    "accountDescripton": "Caixa e Equivalentes de Caixa",
+    "data": {
+      "2016": {
+        "version": 1,
+        "value": 377305
+      },
+      "2017": {
+        "version": 3,
+        "value": 1446344
+      },
+      "2018": {
+        "version": 3,
+        "value": 871825
+      },
+      "2019": {
+        "version": 1,
+        "value": 903029
+      },
+      "2020": {
+        "version": 1,
+        "value": 163146
+      }
+    }
+  },
   "revenue": {
     "accountCode": "3.01",
     "accountDescripton": "Receitas da Intermediação Financeira",
@@ -82,6 +108,87 @@
       "2020": {
         "version": 1,
         "value": 310081
+      }
+    }
+  },
+  "ebit": {},
+  "shortTermDebt": {},
+  "longTermDebt": {},
+  "da": {
+    "accountCode": "7.05.01",
+    "accountDescripton": "Depreciação, Amortização e Exaustão",
+    "data": {
+      "2016": {
+        "version": 1,
+        "value": -21121
+      },
+      "2017": {
+        "version": 3,
+        "value": -19230
+      },
+      "2018": {
+        "version": 3,
+        "value": -21172
+      },
+      "2019": {
+        "version": 1,
+        "value": -27889
+      },
+      "2020": {
+        "version": 1,
+        "value": -59259
+      }
+    }
+  },
+  "dividends": {
+    "accountCode": "7.09.04.02",
+    "accountDescripton": "Dividendos",
+    "data": {
+      "2016": {
+        "version": 1,
+        "value": 0
+      },
+      "2017": {
+        "version": 3,
+        "value": 0
+      },
+      "2018": {
+        "version": 3,
+        "value": 0
+      },
+      "2019": {
+        "version": 1,
+        "value": 0
+      },
+      "2020": {
+        "version": 1,
+        "value": 0
+      }
+    }
+  },
+  "jcp": {
+    "accountCode": "7.09.04.01",
+    "accountDescripton": "Juros sobre o Capital Próprio",
+    "data": {
+      "2016": {
+        "version": 1,
+        "value": 0
+      },
+      "2017": {
+        "version": 3,
+        "value": 0
+      },
+      "2018": {
+        "version": 3,
+        "value": 0
+      },
+      "2019": {
+        "version": 1,
+        "value": 0
+      },
+      "2020": {
+        "version": 1,
+        "value": 0
       }
     }
   }

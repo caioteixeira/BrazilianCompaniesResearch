@@ -8,6 +8,28 @@
     "RPAD6"
   ],
   "shortTicker": "RPAD",
+  "cash": {
+    "accountCode": "1.01.01",
+    "accountDescripton": "Caixa e Equivalentes de Caixa",
+    "data": {
+      "2009": {
+        "version": 2,
+        "value": 2760
+      },
+      "2010": {
+        "version": 2,
+        "value": 1838
+      },
+      "2011": {
+        "version": 1,
+        "value": 2417
+      },
+      "2012": {
+        "version": 1,
+        "value": 2181
+      }
+    }
+  },
   "revenue": {
     "accountCode": "3.01",
     "accountDescripton": "Receita de Venda de Bens e/ou Serviços",
@@ -71,6 +93,138 @@
       "2012": {
         "version": 1,
         "value": 52406
+      }
+    }
+  },
+  "ebit": {
+    "accountCode": "3.05",
+    "accountDescripton": "Resultado Antes do Resultado Financeiro e dos Tributos",
+    "data": {
+      "2009": {
+        "version": 2,
+        "value": -46596
+      },
+      "2010": {
+        "version": 2,
+        "value": -42965
+      },
+      "2011": {
+        "version": 1,
+        "value": -45229
+      },
+      "2012": {
+        "version": 1,
+        "value": -51533
+      }
+    }
+  },
+  "shortTermDebt": {
+    "accountCode": "2.01.04",
+    "accountDescripton": "Empréstimos e Financiamentos",
+    "data": {
+      "2009": {
+        "version": 2,
+        "value": 0
+      },
+      "2010": {
+        "version": 2,
+        "value": 0
+      },
+      "2011": {
+        "version": 1,
+        "value": 0
+      },
+      "2012": {
+        "version": 1,
+        "value": 0
+      }
+    }
+  },
+  "longTermDebt": {
+    "accountCode": "2.02.01",
+    "accountDescripton": "Empréstimos e Financiamentos",
+    "data": {
+      "2009": {
+        "version": 2,
+        "value": 0
+      },
+      "2010": {
+        "version": 2,
+        "value": 0
+      },
+      "2011": {
+        "version": 1,
+        "value": 0
+      },
+      "2012": {
+        "version": 1,
+        "value": 0
+      }
+    }
+  },
+  "da": {
+    "accountCode": "7.04.01",
+    "accountDescripton": "Depreciação, Amortização e Exaustão",
+    "data": {
+      "2009": {
+        "version": 2,
+        "value": -602
+      },
+      "2010": {
+        "version": 2,
+        "value": -504
+      },
+      "2011": {
+        "version": 1,
+        "value": -466
+      },
+      "2012": {
+        "version": 1,
+        "value": -435
+      }
+    }
+  },
+  "dividends": {
+    "accountCode": "7.08.04.02",
+    "accountDescripton": "Dividendos",
+    "data": {
+      "2009": {
+        "version": 2,
+        "value": 0
+      },
+      "2010": {
+        "version": 2,
+        "value": 0
+      },
+      "2011": {
+        "version": 1,
+        "value": 2644
+      },
+      "2012": {
+        "version": 1,
+        "value": 2511
+      }
+    }
+  },
+  "jcp": {
+    "accountCode": "7.08.04.01",
+    "accountDescripton": "Juros sobre o Capital Próprio",
+    "data": {
+      "2009": {
+        "version": 2,
+        "value": 6622
+      },
+      "2010": {
+        "version": 2,
+        "value": 5274
+      },
+      "2011": {
+        "version": 1,
+        "value": 2322
+      },
+      "2012": {
+        "version": 1,
+        "value": 3029
       }
     }
   }
