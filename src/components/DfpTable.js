@@ -8,7 +8,15 @@ import {
   Td,
 } from "@chakra-ui/react"
 
-const DfpValue = ({year, data}) => {
+const DfpValue = ({year, account}) => {
+
+  if (!("data" in account)) {
+    return (
+      <>-</>
+    )
+  }
+
+  const data = account.data
   if(!(year in data)) {
     return (
       <>-</>
@@ -55,13 +63,13 @@ const DfpTable = (props) => {
               years.map(year => 
                 <Tr key={year}>
                   <Td>{year}</Td>
-                  <Td><DfpValue data={dfp.revenue.data} year={year}/></Td>
-                  <Td><DfpValue data={dfp.financialResult.data} year={year}/></Td>
-                  <Td><DfpValue data={dfp.profit.data} year={year}/></Td>
-                  <Td><DfpValue data={dfp.ebit.data} year={year}/></Td>
-                  <Td><DfpValue data={dfp.cash.data} year={year}/></Td>
-                  <Td><DfpValue data={dfp.longTermDebt.data} year={year}/></Td>
-                  <Td><DfpValue data={dfp.shortTermDebt.data} year={year}/></Td>
+                  <Td><DfpValue account={dfp.revenue} year={year}/></Td>
+                  <Td><DfpValue account={dfp.financialResult} year={year}/></Td>
+                  <Td><DfpValue account={dfp.profit} year={year}/></Td>
+                  <Td><DfpValue account={dfp.ebit} year={year}/></Td>
+                  <Td><DfpValue account={dfp.cash} year={year}/></Td>
+                  <Td><DfpValue account={dfp.longTermDebt} year={year}/></Td>
+                  <Td><DfpValue account={dfp.shortTermDebt} year={year}/></Td>
                 </Tr>
               )
             }
