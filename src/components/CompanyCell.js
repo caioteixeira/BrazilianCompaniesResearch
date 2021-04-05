@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Logo from "./Logo"
 
-import { Center, Box, Stack, Text, Button } from "@chakra-ui/react"
+import { Center, Box, Stack, Text } from "@chakra-ui/react"
 
 
 const CompanyCell = (props) => {

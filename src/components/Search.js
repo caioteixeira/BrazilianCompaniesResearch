@@ -8,7 +8,7 @@ import Logo from "./Logo"
 const ResultsList = (props) => {
   const results = props.results
 
-  if(results.length == 0) {
+  if(results.length === 0) {
     return (<></>)
   }
 

@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useCallback } from "react"
+import React, { useEffect, useState } from "react"
 import { graphql } from "gatsby"
 import CompanyHeader from "../components/CompanyHeader"
 import AccountList from "../components/AccountList"
@@ -16,7 +16,7 @@ export default function CompanyPage({data}) {
         console.log(json)
         setDfp(json)
       });
-  }, [])
+  }, [companyData.id])
 
   return (
     <Container centerContent maxW="4xl">

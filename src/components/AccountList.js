@@ -27,14 +27,16 @@ const AccountTable = (props) => {
             <Th>Ano</Th>
             <Th>Valor</Th>
           </Thead>
-          {
-            values.map(value => 
-              <Tr key={value[0]}>
-                <Td>{value[0]}</Td>
-                <Td>{value[1].value}</Td>
-              </Tr>
-            )
-          }
+          <Tbody>
+            {
+              values.map(value => 
+                <Tr key={value[0]}>
+                  <Td>{value[0]}</Td>
+                  <Td>{value[1].value}</Td>
+                </Tr>
+              )
+            }
+          </Tbody>
         </Table>
         
       </>
