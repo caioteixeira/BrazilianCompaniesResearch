@@ -52,11 +52,11 @@
         "value": 894617
       },
       "2019": {
-        "version": 1,
+        "version": 2,
         "value": 986292
       },
       "2020": {
-        "version": 1,
+        "version": 2,
         "value": 739118
       }
     }
@@ -106,26 +106,58 @@
         "value": -21616
       },
       "2019": {
-        "version": 1,
+        "version": 2,
         "value": -30103
       },
       "2020": {
-        "version": 1,
+        "version": 2,
         "value": -26662
       }
     }
   },
   "profit": {
-    "accountCode": "3.11",
-    "accountDescripton": "Lucro ou Prejuízo Líquido Consolidado do Período",
+    "accountCode": "3.09",
+    "accountDescripton": "Lucro/Prejuízo Consolidado do Período",
     "data": {
-      "2019": {
-        "version": 1,
-        "value": 68881
+      "2009": {
+        "version": 2,
+        "value": 74552
       },
-      "2020": {
+      "2010": {
+        "version": 2,
+        "value": 76849
+      },
+      "2011": {
+        "version": 3,
+        "value": 73333
+      },
+      "2012": {
+        "version": 3,
+        "value": 96912
+      },
+      "2013": {
         "version": 1,
-        "value": 74955
+        "value": 91107
+      },
+      "2014": {
+        "version": 2,
+        "value": 66080
+      },
+      "2015": {
+        "version": 2,
+        "value": 84799
+      },
+      "2016": {
+        "version": 1,
+        "value": 91545
+      },
+      "2017": {
+        "version": 1,
+        "value": 49685
+      },
+      "2018": {
+        "version": 1,
+        "value": 53141
       }
     }
   }

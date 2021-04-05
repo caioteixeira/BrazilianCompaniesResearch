@@ -4,7 +4,7 @@ const fs = require('fs');
 const neatCsv = require('neat-csv');
 const downloadLogo = require('./download_logo');
 
-async function getAccount(db, cia_id, account_id) {
+async function getAccount(db, cia_id, account_id, account_name) {
   let dfp_query =
     `SELECT YEAR year,
                   VERSAO version,
@@ -12,10 +12,10 @@ async function getAccount(db, cia_id, account_id) {
                   DS_CONTA accountDescription,
                   VL_CONTA value
             FROM dfp
-            WHERE ID_CIA == ? AND CD_CONTA == ?`;
+            WHERE ID_CIA == ? AND CD_CONTA LIKE ? AND DS_CONTA LIKE ?`;
     
   let account = {}
-  await db.each(dfp_query, [cia_id, account_id], (err, row) => {
+  await db.each(dfp_query, [cia_id, account_id, account_name], (err, row) => {
     if (err) {
       throw err;
     }
@@ -185,17 +185,17 @@ async function main() {
       continue;
     }
 
-    try {
+    /*try {
       await downloadLogo(company.shortTicker);
       console.log(`Downloaded logo for ${company.shortTicker}`)
     }
     catch {
       console.log(`failed to download logo for ${company.shortTicker}`)
-    }
+    }*/
 
-    company.revenue = await getAccount(db, company.id, "3.01");
-    company.financialResult = await getAccount(db, company.id, "3.06");
-    company.profit = await getAccount(db, company.id, "3.11");
+    company.revenue = await getAccount(db, company.id, "3.01", "%");
+    company.financialResult = await getAccount(db, company.id, "3.06", "%");
+    company.profit = await getAccount(db, company.id, "3.%", "%Lucro/Prejuízo Consolidado do Período%");
 
     fs.writeFile(`../static/data/${company.id}.json`, JSON.stringify(company, undefined, 2), 'utf8', function (err, data) {
       if (err) {

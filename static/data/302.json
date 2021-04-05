@@ -6,7 +6,46 @@
     "PLPL3"
   ],
   "shortTicker": "PLPL",
-  "revenue": {},
-  "financialResult": {},
-  "profit": {}
+  "revenue": {
+    "accountCode": "3.01",
+    "accountDescripton": "Receita de Venda de Bens e/ou Serviços",
+    "data": {
+      "2019": {
+        "version": 3,
+        "value": 718606
+      },
+      "2020": {
+        "version": 3,
+        "value": 900952
+      }
+    }
+  },
+  "financialResult": {
+    "accountCode": "3.06",
+    "accountDescripton": "Resultado Financeiro",
+    "data": {
+      "2019": {
+        "version": 3,
+        "value": 330
+      },
+      "2020": {
+        "version": 3,
+        "value": 1678
+      }
+    }
+  },
+  "profit": {
+    "accountCode": "3.11",
+    "accountDescripton": "Lucro/Prejuízo Consolidado do Período",
+    "data": {
+      "2019": {
+        "version": 3,
+        "value": 102237
+      },
+      "2020": {
+        "version": 3,
+        "value": 132204
+      }
+    }
+  }
 }

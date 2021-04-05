@@ -6,7 +6,46 @@
     "SOMA3"
   ],
   "shortTicker": "SOMA",
-  "revenue": {},
-  "financialResult": {},
-  "profit": {}
+  "revenue": {
+    "accountCode": "3.01",
+    "accountDescripton": "Receita de Venda de Bens e/ou Serviços",
+    "data": {
+      "2019": {
+        "version": 2,
+        "value": 1304114
+      },
+      "2020": {
+        "version": 2,
+        "value": 1243767
+      }
+    }
+  },
+  "financialResult": {
+    "accountCode": "3.06",
+    "accountDescripton": "Resultado Financeiro",
+    "data": {
+      "2019": {
+        "version": 2,
+        "value": -9017
+      },
+      "2020": {
+        "version": 2,
+        "value": -103240
+      }
+    }
+  },
+  "profit": {
+    "accountCode": "3.11",
+    "accountDescripton": "Lucro/Prejuízo Consolidado do Período",
+    "data": {
+      "2019": {
+        "version": 2,
+        "value": 126835
+      },
+      "2020": {
+        "version": 2,
+        "value": -69716
+      }
+    }
+  }
 }

@@ -6,7 +6,46 @@
     "CASH3"
   ],
   "shortTicker": "CASH",
-  "revenue": {},
-  "financialResult": {},
-  "profit": {}
+  "revenue": {
+    "accountCode": "3.01",
+    "accountDescripton": "Receita de Venda de Bens e/ou Serviços",
+    "data": {
+      "2019": {
+        "version": 1,
+        "value": 0
+      },
+      "2020": {
+        "version": 1,
+        "value": 125390
+      }
+    }
+  },
+  "financialResult": {
+    "accountCode": "3.06",
+    "accountDescripton": "Resultado Financeiro",
+    "data": {
+      "2019": {
+        "version": 1,
+        "value": 0
+      },
+      "2020": {
+        "version": 1,
+        "value": -255
+      }
+    }
+  },
+  "profit": {
+    "accountCode": "3.11",
+    "accountDescripton": "Lucro/Prejuízo Consolidado do Período",
+    "data": {
+      "2019": {
+        "version": 1,
+        "value": 0
+      },
+      "2020": {
+        "version": 1,
+        "value": 19630
+      }
+    }
+  }
 }
