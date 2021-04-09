@@ -6,6 +6,8 @@ import {
   Tr,
   Th,
   Td,
+  Center,
+  Box
 } from "@chakra-ui/react"
 
 const DfpValue = ({year, account}) => {
@@ -45,7 +47,7 @@ const DfpTable = (props) => {
                       .map(value => value[0])
 
   return (
-    <div>
+    <Box>
       {
         <Table variant="simple">
           <Thead>
@@ -77,7 +79,7 @@ const DfpTable = (props) => {
           
         </Table>
       }
-    </div>
+    </Box>
   )
 }
 

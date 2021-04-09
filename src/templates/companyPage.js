@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import CompanyHeader from "../components/CompanyHeader"
 import DfpTable from "../components/DfpTable"
 import Layout from "../components/Layout"
-import { Stack } from "@chakra-ui/react"
+import { Box } from "@chakra-ui/react"
 
 export default function CompanyPage({data}) {
   const companyData = data.dataJson
@@ -19,10 +19,11 @@ export default function CompanyPage({data}) {
 
   return (
     <Layout>
-      <Stack align='center' spacing="5">
+      <Box align='center' spacing="5">
         <CompanyHeader shortTicker={companyData.shortTicker} name={companyData.name} cnpj={companyData.cnpj}/>
-        <DfpTable dfp={dfp}/>
-      </Stack>
+      </Box>
+      <DfpTable dfp={dfp}/>
+
     </Layout>
   )
 }
