@@ -1,7 +1,7 @@
 import React, {useState} from "react"
 import CompanyCell from "./CompanyCell"
 
-import { Grid, Center, Button } from "@chakra-ui/react"
+import { SimpleGrid, Stack, Center, Button } from "@chakra-ui/react"
 
 
 const AllCompaniesList = (props) => {
@@ -17,19 +17,19 @@ const AllCompaniesList = (props) => {
   }
 
   return (
-    <>
-      <Grid templateColumns="repeat(4, 1fr)" gap={6}>
+    <Stack spacing="20px">
+      <SimpleGrid minChildWidth="15em" spacing="20px">
         {allCompanies.map(( node ) => (
           <CompanyCell key={node.id} shortTicker={node.shortTicker} name={node.name} />
         ))}
-      </Grid>
+      </SimpleGrid>
       <Center>
         <Button variant="link" colorScheme="blue"
           onClick={onLoadMoreClick}>
           Ver mais empresas
         </Button>
       </Center>
-    </>
+    </Stack>
   )
 }
 

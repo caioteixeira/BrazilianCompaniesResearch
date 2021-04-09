@@ -10,8 +10,9 @@ const CompanyCell = (props) => {
   const name = props.name
 
   return (
+    <Center>
     <Box as="button" 
-          w="100%" h="100%" padding="2"
+          w="15em" h="100%" padding="2"
           lineHeight="1.2"
           transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
           border="1px"
@@ -32,20 +33,18 @@ const CompanyCell = (props) => {
 
       >
       <Link to={ticker}>
-        <Center>
-          <Stack>
-            <Logo ticker={ticker} name={props.name} size={40}></Logo>  
-
-            <Text>
-              {ticker}
-            </Text>
-            <Text>
-              {name}
-            </Text>
-          </Stack>
-        </Center>
+        <Stack>
+          <Logo ticker={ticker} name={props.name} size={40}></Logo>  
+          <Text>
+            {ticker}
+          </Text>
+          <Text>
+            {name}
+          </Text>
+        </Stack>
       </Link>
     </Box>
+    </Center>
   )
 }
 
