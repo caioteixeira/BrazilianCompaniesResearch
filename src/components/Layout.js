@@ -1,7 +1,7 @@
 import React from "react"
 import Search from "../components/Search"
 
-import { Container, Box, Stack } from "@chakra-ui/react"
+import { Container, Box } from "@chakra-ui/react"
 
 const Layout = ({children}) => {
     

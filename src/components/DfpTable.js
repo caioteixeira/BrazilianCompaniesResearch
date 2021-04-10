@@ -6,7 +6,6 @@ import {
   Tr,
   Th,
   Td,
-  Center,
   Box
 } from "@chakra-ui/react"
 
