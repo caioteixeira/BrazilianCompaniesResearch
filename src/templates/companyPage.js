@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react"
 import { graphql } from "gatsby"
-import CompanyHeader from "../components/CompanyHeader"
-import DfpTable from "../components/DfpTable"
-import Layout from "../components/Layout"
 import { Box } from "@chakra-ui/react"
 
-export default function CompanyPage({data}) {
+import Layout from "../components/Layout"
+import CompanyHeader from "../components/CompanyHeader"
+import DfpTable from "../components/DfpTable"
+import RevenueChart from "../components/RevenueChart"
+
+export default function CompanyPage ({data} ) {
   const companyData = data.dataJson
   const [dfp, setDfp] = useState(null)
 
@@ -23,7 +25,7 @@ export default function CompanyPage({data}) {
         <CompanyHeader name={companyData.name} cnpj={companyData.cnpj} shortTicker={companyData.shortTicker} tickers={companyData.tickers}/>
       </Box>
       <DfpTable dfp={dfp}/>
-
+      <RevenueChart dfp={dfp}/>
     </Layout>
   )
 }
