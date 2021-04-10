@@ -12,14 +12,14 @@ const CompanyHeader = (props) => {
     <div>
       <Center>
         <Stack align="center">
-          <Logo ticker={ticker} name={name} size={24}></Logo>  
-          <Heading as="h1" size='lg' color="purple.700">{name} - {ticker}</Heading>
+          <Logo ticker={ticker} name={name} size={40}></Logo>  
+          <Heading as="h1" size='lg' color="blue.700">{name} - {ticker}</Heading>
           <Text>{cnpj}</Text>
 
           <Stack direction="row">
             {
               tickers.map(ticker => 
-                <Badge key={ticker} colorScheme="purple">{ticker}</Badge>
+                <Badge key={ticker} colorScheme="blue">{ticker}</Badge>
               )
             }
           </Stack>

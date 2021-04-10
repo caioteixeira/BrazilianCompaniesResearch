@@ -19,7 +19,7 @@ export default function CompanyPage({data}) {
 
   return (
     <Layout>
-      <Box align='center' spacing="5">
+      <Box align='center' spacing="5" paddingY="4">
         <CompanyHeader name={companyData.name} cnpj={companyData.cnpj} shortTicker={companyData.shortTicker} tickers={companyData.tickers}/>
       </Box>
       <DfpTable dfp={dfp}/>
