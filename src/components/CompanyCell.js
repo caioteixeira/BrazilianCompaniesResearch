@@ -15,10 +15,7 @@ const CompanyCell = (props) => {
           w="15em" h="100%" padding="2"
           lineHeight="1.2"
           transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
-          border="1px"
-          borderRadius="2px"
-          bgColor="gray.100"
-          borderColor="gray.100"
+          shadow="lg"
           rounded="xl"
           _hover={{ bg: "#ebedf0" }}
           _active={{
