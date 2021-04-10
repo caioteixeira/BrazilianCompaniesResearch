@@ -20,7 +20,7 @@ export default function CompanyPage({data}) {
   return (
     <Layout>
       <Box align='center' spacing="5">
-        <CompanyHeader shortTicker={companyData.shortTicker} name={companyData.name} cnpj={companyData.cnpj}/>
+        <CompanyHeader name={companyData.name} cnpj={companyData.cnpj} shortTicker={companyData.shortTicker} tickers={companyData.tickers}/>
       </Box>
       <DfpTable dfp={dfp}/>
 
@@ -35,6 +35,7 @@ export const query = graphql`
       name
       cnpj
       shortTicker
+      tickers
     }
   }
 `

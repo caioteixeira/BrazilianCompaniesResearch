@@ -47,9 +47,9 @@ const DfpTable = (props) => {
                       .map(value => value[0])
 
   return (
-    <Box>
+    <Box align="center" padding="5">
       {
-        <Table variant="simple">
+        <Table variant="simple" shadow="lg" maxWidth="4xl">
           <Thead>
             <Th>Ano</Th>
             <Th>Receita</Th>
