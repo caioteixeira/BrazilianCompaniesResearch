@@ -7,11 +7,14 @@ const Layout = ({children}) => {
     
     return (
       <>
-      <Container centerContent maxW="6xl">
-        <Box width="100%" padding="5">
-          <Search/>
-        </Box>
-      </Container>
+      <Box  background="blue.500" shadow="lg">
+        <Container centerContent maxW="6xl">
+          <Box width="100%" padding="3">
+            <Search/>
+          </Box>
+        </Container>
+      </Box>
+      
       {children}
       </>
     )

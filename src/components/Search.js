@@ -52,7 +52,7 @@ const Search = (props) => {
 
   return (
     <Stack>
-      <Input placeholder="Pesquisar empresas" onChange={onQueryChange}/>
+      <Input bgColor="white" shadow="lg" placeholder="Pesquisar empresas" onChange={onQueryChange}/>
       <ResultsList results={results}/>
     </Stack>
   )
