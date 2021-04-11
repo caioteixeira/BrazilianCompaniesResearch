@@ -1,4 +1,4 @@
-import { Container } from "@chakra-ui/layout"
+import { chakra, Container, Box, Center } from "@chakra-ui/layout"
 import React from "react"
 import { Line } from 'react-chartjs-2'
 
@@ -47,9 +47,11 @@ const RevenueChart = (props) => {
   }
 
   return (
-    <Container>
+    <Box align='center'>
+      <Box maxWidth='4xl'>
         <Line data={data} options={options}/>
-    </Container>      
+      </Box>
+    </Box>      
   )
 }
 
