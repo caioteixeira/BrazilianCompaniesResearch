@@ -25,7 +25,7 @@ export default function CompanyPage ({data} ) {
         <CompanyHeader name={companyData.name} cnpj={companyData.cnpj} shortTicker={companyData.shortTicker} tickers={companyData.tickers}/>
       </Box>
       <Text textAlign="center">
-        Todos os valores são representados em bilhões de reais
+        Todos os valores são representados em milhões de reais
       </Text>
       <DfpTable dfp={dfp}/>
       <RevenueChart dfp={dfp}/>
