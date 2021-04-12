@@ -1,24 +1,24 @@
-import { chakra, Container, Box, Center } from "@chakra-ui/layout"
+import { Box, Center } from "@chakra-ui/layout"
+import { Spinner } from "@chakra-ui/react"
 import React from "react"
 import { Line } from 'react-chartjs-2'
 
-  
-const RevenueChart = (props) => {
-  const dfp = props.dfp
-  if(!dfp) {
-    return ( <p>Loading...</p>)
+const AccountChart = (props) => {
+  const years = props.years
+
+  const mapData = function(account) {
+    const data = []
+    years.forEach(year => {
+      let value = account.data[year].value
+      value -= value % 1000
+      value /= 1000
+      data.push(value)
+    });
+
+    return data
   }
 
-  const years = Object.entries(dfp.revenue.data)
-                      .map(value => value[0])
-  const revenue = []
-
-  years.forEach(year => {
-    let value = dfp.revenue.data[year].value
-    value -= value % 1000;
-    value /= 1000;
-    revenue.push(value)
-  });
+  const revenue = mapData(props.account)
 
   console.log(years)
 
@@ -26,13 +26,13 @@ const RevenueChart = (props) => {
       labels: years,
       datasets: [
           {
-              label: "Receita",
+              label: props.label,
               data: revenue,
+              borderColor: props.color,
+              fill:false
           },
       ],
   }
-
-  console.log(data)
 
   const options = {
     scales: {
@@ -52,6 +52,23 @@ const RevenueChart = (props) => {
         <Line data={data} options={options}/>
       </Box>
     </Box>      
+  )
+}
+  
+const RevenueChart = (props) => {
+  const dfp = props.dfp
+  if(!dfp) {
+    return ( <Center><Spinner/></Center> )
+  }
+
+  const years = Object.entries(dfp.revenue.data)
+                      .map(value => value[0])
+
+  return (
+    <>
+      <AccountChart account={dfp.revenue} label="Receita" color="rgb(255, 99, 50)" years={years}/>
+      <AccountChart account={dfp.profit} label="Lucro" color="rgb(10, 99, 132)" years={years}/>
+    </>      
   )
 }
 

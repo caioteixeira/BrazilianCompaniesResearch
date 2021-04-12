@@ -6,7 +6,9 @@ import {
   Tr,
   Th,
   Td,
-  Box
+  Box,
+  Center,
+  Spinner
 } from "@chakra-ui/react"
 
 const DfpValue = ({year, account}) => {
@@ -39,7 +41,7 @@ const DfpValue = ({year, account}) => {
 const DfpTable = (props) => {
   const dfp = props.dfp
   if(!dfp) {
-    return ( <p>Loading...</p>)
+    return ( <Center><Spinner/></Center> )
   }
 
   const years = Object.entries(dfp.revenue.data)
