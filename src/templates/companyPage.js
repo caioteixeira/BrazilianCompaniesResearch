@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import { graphql } from "gatsby"
-import { Box } from "@chakra-ui/react"
+import { Box, Text } from "@chakra-ui/react"
 
 import Layout from "../components/Layout"
 import CompanyHeader from "../components/CompanyHeader"
@@ -24,6 +24,9 @@ export default function CompanyPage ({data} ) {
       <Box align='center' spacing="5" paddingY="4">
         <CompanyHeader name={companyData.name} cnpj={companyData.cnpj} shortTicker={companyData.shortTicker} tickers={companyData.tickers}/>
       </Box>
+      <Text textAlign="center">
+        Todos os valores são representados em bilhões de reais
+      </Text>
       <DfpTable dfp={dfp}/>
       <RevenueChart dfp={dfp}/>
     </Layout>
