@@ -9,6 +9,16 @@ const AccountChart = (props) => {
   const mapData = function(account) {
     const data = []
     years.forEach(year => {
+      if (!("data" in account)) {
+        data.push(0);
+        return;
+      }
+    
+      if(!(year in account.data)) {
+        data.push(0);
+        return;
+      }
+
       let value = account.data[year].value
       value -= value % 1000
       value /= 1000
