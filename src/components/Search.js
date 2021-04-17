@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import { useFlexSearch } from 'react-use-flexsearch'
 import { useStaticQuery, graphql, Link } from "gatsby"
-import { Input, Stack, LinkBox, LinkOverlay, Heading } from "@chakra-ui/react"
+import { Input, Stack, LinkBox, LinkOverlay, Heading, 
+          Modal, ModalOverlay, ModalBody, ModalContent, ModalHeader, useDisclosure } from "@chakra-ui/react"
 import Logo from "./Logo"
 
 
@@ -15,14 +16,14 @@ const ResultsList = (props) => {
   return (
     <Stack>
       {results.map(( node ) => (
-          <LinkBox key={node.id} shortTicker={node.ticker} name={node.name}>
+          <LinkBox key={node.id}>
             <Stack direction="row" alignContent="center">
               <Logo ticker={node.ticker} name={`${node.ticker} logo`} size={10}></Logo>  
-              <Heading size="md">
+              <Heading size="md" my="auto">
                 <Link to={`../${node.ticker}`}>
                   <LinkOverlay>{node.name}</LinkOverlay>
                 </Link>
-              </Heading> 
+              </Heading > 
             </Stack>
           </LinkBox>
         ))}
@@ -40,21 +41,41 @@ const Search = (props) => {
     }
   `)
 
+  const initialRef = React.useRef()
+  const { isOpen, onOpen, onClose } = useDisclosure()
+
   const index = data.localSearchPages.index;
   const store = data.localSearchPages.store;
 
   const [query, setQuery] = useState("")
   const results = useFlexSearch(query, index, store, { limit: 5 })
 
-  const onQueryChange = (event) => {
+  const onQueryChangeOnModal = (event) => {
     setQuery(event.target.value)
   }
 
   return (
-    <Stack>
-      <Input bgColor="white" shadow="lg" placeholder="Pesquisar empresas" onChange={onQueryChange}/>
-      <ResultsList results={results}/>
-    </Stack>
+    <>
+      <Stack>
+        <Input bgColor="white" shadow="lg" placeholder="Pesquisar empresas" onClick={onOpen}/>
+      </Stack>
+      <Modal
+        initialFocusRef={initialRef}
+        isOpen={isOpen}
+        onClose={onClose}
+      >
+        <ModalOverlay />
+        <ModalContent>
+          <ModalHeader>
+            <Input ref={initialRef} 
+                  bgColor="white" shadow="lg" placeholder="Pesquisar empresas" onChange={onQueryChangeOnModal}/>
+          </ModalHeader>
+          <ModalBody pb={6}>
+              <ResultsList results={results} query={query}/>
+          </ModalBody>
+        </ModalContent>
+      </Modal>
+    </>
   )
 }
 
