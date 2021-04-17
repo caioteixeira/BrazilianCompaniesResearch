@@ -63,9 +63,10 @@ const Search = (props) => {
         initialFocusRef={initialRef}
         isOpen={isOpen}
         onClose={onClose}
+        size="6xl"
       >
         <ModalOverlay />
-        <ModalContent>
+        <ModalContent margin="3">
           <ModalHeader>
             <Input ref={initialRef} 
                   bgColor="white" shadow="lg" placeholder="Pesquisar empresas" onChange={onQueryChangeOnModal}/>
