@@ -52,14 +52,16 @@ const DfpTable = (props) => {
       {
         <Table variant="simple" shadow="lg" maxWidth="4xl">
           <Thead>
-            <Th>Ano</Th>
-            <Th>Receita</Th>
-            <Th>Res. Financeiro</Th>
-            <Th>Lucro Líquido</Th>
-            <Th>EBIT</Th>
-            <Th>Caixa</Th>
-            <Th>Dívida de longo prazo</Th>
-            <Th>Dívida de curto prazo</Th>
+            <Tr>
+              <Th>Ano</Th>
+              <Th>Receita</Th>
+              <Th>Res. Financeiro</Th>
+              <Th>Lucro Líquido</Th>
+              <Th>EBIT</Th>
+              <Th>Caixa</Th>
+              <Th>Dívida de longo prazo</Th>
+              <Th>Dívida de curto prazo</Th>
+            </Tr>
           </Thead>
           <Tbody>
             {

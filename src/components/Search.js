@@ -4,7 +4,7 @@ import { useStaticQuery, graphql, Link, navigate } from "gatsby"
 import { useCombobox } from 'downshift'
 
 import { Box, Input, Stack, LinkBox, LinkOverlay, Heading, 
-          Modal, ModalOverlay, ModalBody, ModalContent, ModalHeader, useDisclosure } from "@chakra-ui/react"
+          Modal, ModalOverlay, ModalBody, ModalContent, useDisclosure } from "@chakra-ui/react"
 import Logo from "./Logo"
 
 
