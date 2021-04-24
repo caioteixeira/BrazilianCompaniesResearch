@@ -19,16 +19,16 @@ const ItemsList = React.forwardRef(({children}, ref) => {
   )
 })
 
-const Item = React.forwardRef(({highlighted, node}, ref) => {
+const Item = React.forwardRef(({highlighted, node, ...props}, ref) => {
   return (
-    <Box key={node.id} ref={ref}
+    <Box key={node.id} ref={ref} {...props}
         bgColor={highlighted ? "gray.100" : "white"}>
       <Stack direction="row" alignContent="center">
         <Logo ticker={node.ticker} name={`${node.ticker} logo`} size={10} 
             ></Logo>  
         <Heading size="md" my="auto">
           <Link to={`../${node.ticker}`}>
-            <LinkOverlay>{node.name}</LinkOverlay>
+            {node.name}
           </Link>
         </Heading > 
       </Stack>
@@ -83,13 +83,15 @@ const SearchBox = React.forwardRef((_, ref) => {
       </Box>
       <ItemsList {...getMenuProps()}>
         {isOpen && results.map(( node, index ) => (
-          <Item key={node.id} 
-              highlighted = {index === highlightedIndex}
-              node = {node}
+          <Item 
               {...getItemProps({
                 node,
                 index,
-              })}>
+              })}
+              key = {index} 
+              highlighted = {index === highlightedIndex}
+              node = {node}
+          >
           </Item>
         ))}
       </ItemsList>
