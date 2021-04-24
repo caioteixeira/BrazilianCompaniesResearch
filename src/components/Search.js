@@ -1,36 +1,15 @@
 import React, { useState } from 'react'
 import { useFlexSearch } from 'react-use-flexsearch'
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { useStaticQuery, graphql, Link, navigate } from "gatsby"
 import { useCombobox } from 'downshift'
 
-import { Input, Stack, LinkBox, LinkOverlay, Heading, 
+import { Box, Input, Stack, LinkBox, LinkOverlay, Heading, 
           Modal, ModalOverlay, ModalBody, ModalContent, ModalHeader, useDisclosure } from "@chakra-ui/react"
 import Logo from "./Logo"
 
 
-const ResultsList = (props) => {
-  const results = props.results
+const ItemsList = (props) => {
 
-  if(results.length === 0) {
-    return (<></>)
-  }
-
-  return (
-    <Stack>
-      {results.map(( node ) => (
-          <LinkBox key={node.id}>
-            <Stack direction="row" alignContent="center">
-              <Logo ticker={node.ticker} name={`${node.ticker} logo`} size={10}></Logo>  
-              <Heading size="md" my="auto">
-                <Link to={`../${node.ticker}`}>
-                  <LinkOverlay>{node.name}</LinkOverlay>
-                </Link>
-              </Heading > 
-            </Stack>
-          </LinkBox>
-        ))}
-    </Stack>
-  )
 }
 
 const SearchBox = (props) => {
@@ -50,10 +29,6 @@ const SearchBox = (props) => {
   const [query, setQuery] = useState("")
   const results = useFlexSearch(query, index, store, { limit: 5 })
 
-  const onQueryChangeOnModal = (event) => {
-    setQuery(event.target.value)
-  }
-
   const itemToString = item => (item ? item.name : '')
   const {
     isOpen,
@@ -70,15 +45,25 @@ const SearchBox = (props) => {
     onInputValueChange: ({ inputValue }) => {
       setQuery(inputValue)
     },
+    onSelectedItemChange: ({selectedItem }) => {
+      if (!selectedItem ) {
+        return
+      }
+
+      navigate(`../${selectedItem.ticker}`)
+    }
   })
 
   return (
     <>
-      <Input ref={initialRef} bgColor="white" shadow="lg" {...getInputProps()} /> 
+      <Box {...getComboboxProps()}>
+        <Input ref={initialRef} placeholder="Pesquisar empresas" 
+            bgColor="white" shadow="lg" {...getInputProps()} />
+      </Box>
       <Stack {...getMenuProps()}>
         {isOpen && results.map(( node, index ) => (
             <LinkBox key={node.id} 
-                bgColor={index === highlightedIndex ? "blue" : "white"}
+                bgColor={index === highlightedIndex ? "gray.100" : "white"}
                 {...getItemProps({
                   node,
                   index,
@@ -97,14 +82,6 @@ const SearchBox = (props) => {
       </Stack>
     </>
   )
-
-  /*return (
-    <>
-      <Input ref={initialRef} bgColor="white" shadow="lg" 
-          placeholder="Pesquisar empresas" onChange={onQueryChangeOnModal}/>
-      <ResultsList results={results} query={query}/>
-    </>
-  )*/
 }
 
 const Search = () => {
@@ -114,7 +91,8 @@ const Search = () => {
   return (
     <>
       <Stack>
-        <Input bgColor="white" shadow="lg" placeholder="Pesquisar empresas" onClick={onOpen}/>
+        <Input bgColor="white" shadow="lg" 
+          placeholder="Pesquisar empresas" onClick={onOpen}/>
       </Stack>
       <Modal
         initialFocusRef={initialRef}
