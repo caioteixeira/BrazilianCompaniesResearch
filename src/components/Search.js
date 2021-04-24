@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { useFlexSearch } from 'react-use-flexsearch'
 import { useStaticQuery, graphql, Link } from "gatsby"
+import { useCombobox } from 'downshift'
+
 import { Input, Stack, LinkBox, LinkOverlay, Heading, 
           Modal, ModalOverlay, ModalBody, ModalContent, ModalHeader, useDisclosure } from "@chakra-ui/react"
 import Logo from "./Logo"
@@ -31,7 +33,8 @@ const ResultsList = (props) => {
   )
 }
 
-const Search = (props) => {
+const SearchBox = (props) => {
+  const initialRef = props.inputRef
   const data = useStaticQuery(graphql`
     query HeaderQuery {
       localSearchPages {
@@ -40,9 +43,6 @@ const Search = (props) => {
       }
     }
   `)
-
-  const initialRef = React.useRef()
-  const { isOpen, onOpen, onClose } = useDisclosure()
 
   const index = data.localSearchPages.index;
   const store = data.localSearchPages.store;
@@ -53,6 +53,63 @@ const Search = (props) => {
   const onQueryChangeOnModal = (event) => {
     setQuery(event.target.value)
   }
+
+  const itemToString = item => (item ? item.name : '')
+  const {
+    isOpen,
+    getToggleButtonProps,
+    getLabelProps,
+    getMenuProps,
+    highlightedIndex,
+    getItemProps,
+    getInputProps,
+    getComboboxProps,
+  } = useCombobox({
+    items: results,
+    itemToString,
+    onInputValueChange: ({ inputValue }) => {
+      setQuery(inputValue)
+    },
+  })
+
+  return (
+    <>
+      <Input ref={initialRef} bgColor="white" shadow="lg" {...getInputProps()} /> 
+      <Stack {...getMenuProps()}>
+        {isOpen && results.map(( node, index ) => (
+            <LinkBox key={node.id} 
+                bgColor={index === highlightedIndex ? "blue" : "white"}
+                {...getItemProps({
+                  node,
+                  index,
+                })}>
+              <Stack direction="row" alignContent="center">
+                <Logo ticker={node.ticker} name={`${node.ticker} logo`} size={10} 
+                    ></Logo>  
+                <Heading size="md" my="auto">
+                  <Link to={`../${node.ticker}`}>
+                    <LinkOverlay>{node.name}</LinkOverlay>
+                  </Link>
+                </Heading > 
+              </Stack>
+            </LinkBox>
+          ))}
+      </Stack>
+    </>
+  )
+
+  /*return (
+    <>
+      <Input ref={initialRef} bgColor="white" shadow="lg" 
+          placeholder="Pesquisar empresas" onChange={onQueryChangeOnModal}/>
+      <ResultsList results={results} query={query}/>
+    </>
+  )*/
+}
+
+const Search = () => {
+  const initialRef = React.useRef()
+  const { isOpen, onOpen, onClose } = useDisclosure()
 
   return (
     <>
@@ -67,12 +124,8 @@ const Search = (props) => {
       >
         <ModalOverlay />
         <ModalContent margin="3">
-          <ModalHeader>
-            <Input ref={initialRef} 
-                  bgColor="white" shadow="lg" placeholder="Pesquisar empresas" onChange={onQueryChangeOnModal}/>
-          </ModalHeader>
           <ModalBody pb={6}>
-              <ResultsList results={results} query={query}/>
+            <SearchBox inputRef={initialRef}/>
           </ModalBody>
         </ModalContent>
       </Modal>
