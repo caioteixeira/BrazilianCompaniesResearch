@@ -3,22 +3,25 @@ import { useFlexSearch } from 'react-use-flexsearch'
 import { useStaticQuery, graphql, Link, navigate } from "gatsby"
 import { useCombobox } from 'downshift'
 
-import { Box, Input, Stack, LinkBox, LinkOverlay, Heading, 
+import { Box, Input, Stack, LinkOverlay, Heading, 
           Modal, ModalOverlay, ModalBody, ModalContent, useDisclosure } from "@chakra-ui/react"
 import Logo from "./Logo"
 
 
-const ItemsList = ({children}) => {
+const ItemsList = React.forwardRef(({children}, ref) => {
   return (
-    <Stack>
-      {children}
-    </Stack>
+    <Box ref={ref}>
+      <Stack >
+        {children}
+      </Stack>
+    </Box>
+    
   )
-}
+})
 
-const Item = ({highlighted, node}) => {
+const Item = React.forwardRef(({highlighted, node}, ref) => {
   return (
-    <LinkBox key={node.id} 
+    <Box key={node.id} ref={ref}
         bgColor={highlighted ? "gray.100" : "white"}>
       <Stack direction="row" alignContent="center">
         <Logo ticker={node.ticker} name={`${node.ticker} logo`} size={10} 
@@ -29,11 +32,11 @@ const Item = ({highlighted, node}) => {
           </Link>
         </Heading > 
       </Stack>
-    </LinkBox>
+    </Box>
   )
-}
+})
 
-const SearchBox = React.forwardRef((props, ref) => {
+const SearchBox = React.forwardRef((_, ref) => {
   const data = useStaticQuery(graphql`
     query HeaderQuery {
       localSearchPages {
