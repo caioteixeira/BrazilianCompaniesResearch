@@ -33,8 +33,7 @@ const Item = ({highlighted, node}) => {
   )
 }
 
-const SearchBox = (props) => {
-  const initialRef = props.inputRef
+const SearchBox = React.forwardRef((props, ref) => {
   const data = useStaticQuery(graphql`
     query HeaderQuery {
       localSearchPages {
@@ -76,7 +75,7 @@ const SearchBox = (props) => {
   return (
     <>
       <Box {...getComboboxProps()}>
-        <Input ref={initialRef} placeholder="Pesquisar empresas" 
+        <Input ref={ref} placeholder="Pesquisar empresas" 
             bgColor="white" shadow="lg" {...getInputProps()} />
       </Box>
       <ItemsList {...getMenuProps()}>
@@ -93,7 +92,7 @@ const SearchBox = (props) => {
       </ItemsList>
     </>
   )
-}
+})
 
 const Search = () => {
   const initialRef = React.useRef()
@@ -114,7 +113,7 @@ const Search = () => {
         <ModalOverlay />
         <ModalContent margin="3">
           <ModalBody pb={6}>
-            <SearchBox inputRef={initialRef}/>
+            <SearchBox ref={initialRef}/>
           </ModalBody>
         </ModalContent>
       </Modal>
