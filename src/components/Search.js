@@ -37,7 +37,7 @@ const Item = React.forwardRef(({highlighted, node, ...props}, ref) => {
   )
 })
 
-const SearchBox = React.forwardRef((_, ref) => {
+const SearchBox = React.forwardRef((props, ref) => {
   const data = useStaticQuery(graphql`
     query HeaderQuery {
       localSearchPages {
@@ -73,6 +73,8 @@ const SearchBox = React.forwardRef((_, ref) => {
       }
 
       navigate(`../${selectedItem.ticker}`)
+
+      props.onSelectItem()
     }
   })
 
@@ -120,7 +122,11 @@ const Search = () => {
         <ModalOverlay />
         <ModalContent margin="3">
           <ModalBody pb={6}>
-            <SearchBox ref={initialRef}/>
+            <SearchBox ref={initialRef} 
+              onSelectItem = { () => { 
+                onClose()
+              }
+            }/>
           </ModalBody>
         </ModalContent>
       </Modal>
