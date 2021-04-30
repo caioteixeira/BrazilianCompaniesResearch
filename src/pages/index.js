@@ -4,9 +4,8 @@ import AllCompaniesList from "../components/AllCompaniesList"
 import Layout from "../components/Layout"
 import { Container, Box } from "@chakra-ui/layout"
 
-export default function Home( {data} ) {
-  
-  const nodes = data.allDataJson.edges.map(({node}) => node)
+export default function Home({ data }) {
+  const nodes = data.allDataJson.edges.map(({ node }) => node)
 
   return (
     <Layout>
@@ -21,12 +20,13 @@ export default function Home( {data} ) {
 
 export const query = graphql`
   query {
-      allDataJson {
-        edges {
-          node {
-            name
-            shortTicker
-          }
+    allDataJson {
+      edges {
+        node {
+          name
+          shortTicker
         }
       }
-    }`
+    }
+  }
+`

@@ -7,28 +7,32 @@ import CompanyHeader from "../components/CompanyHeader"
 import DfpTable from "../components/DfpTable"
 import RevenueChart from "../components/RevenueChart"
 
-export default function CompanyPage ({data} ) {
+export default function CompanyPage({ data }) {
   const companyData = data.dataJson
   const [dfp, setDfp] = useState(null)
 
   useEffect(() => {
-    import(`/static/data/${companyData.id}.json`)
-      .then(json => {
-        console.log(json)
-        setDfp(json)
-      });
+    import(`/static/data/${companyData.id}.json`).then(json => {
+      console.log(json)
+      setDfp(json)
+    })
   }, [companyData.id])
 
   return (
     <Layout>
-      <Box align='center' spacing="5" paddingY="4">
-        <CompanyHeader name={companyData.name} cnpj={companyData.cnpj} shortTicker={companyData.shortTicker} tickers={companyData.tickers}/>
+      <Box align="center" spacing="5" paddingY="4">
+        <CompanyHeader
+          name={companyData.name}
+          cnpj={companyData.cnpj}
+          shortTicker={companyData.shortTicker}
+          tickers={companyData.tickers}
+        />
       </Box>
       <Text textAlign="center">
         Todos os valores são representados em milhões de reais
       </Text>
-      <DfpTable dfp={dfp}/>
-      <RevenueChart dfp={dfp}/>
+      <DfpTable dfp={dfp} />
+      <RevenueChart dfp={dfp} />
     </Layout>
   )
 }

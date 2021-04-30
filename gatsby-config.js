@@ -30,12 +30,12 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-local-search',
+      resolve: "gatsby-plugin-local-search",
       options: {
-        name: 'pages',
-        engine: 'flexsearch',
+        name: "pages",
+        engine: "flexsearch",
         engineOptions: {
-          profile:"default"
+          profile: "default",
         },
         query: `
           {
@@ -53,14 +53,14 @@ module.exports = {
             }
           }
         `,
-        ref: 'id',
-        index: ['ticker', 'name'],
-        store: ['id', 'ticker', 'name'],
+        ref: "id",
+        index: ["ticker", "name"],
+        store: ["id", "ticker", "name"],
         normalizer: ({ data }) =>
           data.allDataJson.edges.map(({ node }) => ({
             id: node.id,
             ticker: node.shortTicker,
-            name: node.name
+            name: node.name,
           })),
       },
     },

@@ -1,83 +1,80 @@
-const sqlite3 = require('sqlite3').verbose();
-const sqlite = require('sqlite');
-const fs = require('fs');
-const neatCsv = require('neat-csv');
-const downloadLogo = require('./download_logo');
+const sqlite3 = require("sqlite3").verbose()
+const sqlite = require("sqlite")
+const fs = require("fs")
+const neatCsv = require("neat-csv")
+const downloadLogo = require("./download_logo")
 
 async function getAccount(db, cia_id, account_id, account_name) {
-  let dfp_query =
-    `SELECT YEAR year,
+  let dfp_query = `SELECT YEAR year,
                   VERSAO version,
                   CD_CONTA accountCode,
                   DS_CONTA accountDescription,
                   VL_CONTA value
             FROM dfp
-            WHERE ID_CIA == ? AND CD_CONTA LIKE ? AND DS_CONTA LIKE ?`;
-    
+            WHERE ID_CIA == ? AND CD_CONTA LIKE ? AND DS_CONTA LIKE ?`
+
   let account = {}
   await db.each(dfp_query, [cia_id, account_id, account_name], (err, row) => {
     if (err) {
-      throw err;
+      throw err
     }
 
     if (account.data == undefined) {
-      account.accountCode = row.accountCode;
-      account.accountDescripton = row.accountDescription;
-      account.data = {};
+      account.accountCode = row.accountCode
+      account.accountDescripton = row.accountDescription
+      account.data = {}
     }
 
     if (account.data[row.year] == undefined) {
-      account.data[row.year] = {};
+      account.data[row.year] = {}
     }
 
-    let yearEntry = account.data[row.year];
+    let yearEntry = account.data[row.year]
     if (yearEntry.version > row.version) {
-      return;
+      return
     }
 
-    yearEntry.version = row.version;
-    yearEntry.value = row.value;
-  });
+    yearEntry.version = row.version
+    yearEntry.value = row.value
+  })
 
-  return account;
+  return account
 }
 
 async function getTickers(db, cnpj) {
-  let dfp_query =
-    `SELECT Codigo_Negociacao ticker
+  let dfp_query = `SELECT Codigo_Negociacao ticker
             FROM fca_mobiliario 
             WHERE CNPJ_Companhia = ? 
                 AND Mercado = "Bolsa" 
                 AND Codigo_Negociacao != ""
-                GROUP BY Codigo_Negociacao`;
-    
+                GROUP BY Codigo_Negociacao`
+
   let tickers = []
   await db.each(dfp_query, [cnpj], (err, row) => {
     if (err) {
-      throw err;
+      throw err
     }
 
     tickers.push(row.ticker)
-  });
+  })
 
-  return tickers;
+  return tickers
 }
 
 function generateShortTicker(tickers) {
-  if(tickers.length > 0) {
-    let shortTicker = tickers[0].replace(/\d+|^\s+|\s+$/g,'');
-    return shortTicker;
+  if (tickers.length > 0) {
+    let shortTicker = tickers[0].replace(/\d+|^\s+|\s+$/g, "")
+    return shortTicker
   }
 
-  return undefined;
+  return undefined
 }
 
 async function prepare_fca_table(db) {
-  let drop = `DROP TABLE IF EXISTS "fca_mobiliario"`;
-  await db.exec(drop);
+  let drop = `DROP TABLE IF EXISTS "fca_mobiliario"`
+  await db.exec(drop)
 
-  let create = 
-    `CREATE TABLE "fca_mobiliario" (
+  let create = `CREATE TABLE "fca_mobiliario" (
         "CNPJ_Companhia"	TEXT,
         "Data_Referencia"	TEXT,
         "Versao"	INTEGER,
@@ -95,21 +92,22 @@ async function prepare_fca_table(db) {
         "Segmento"	TEXT,
         "Data_Inicio_Listagem"	TEXT,
         "Data_Fim_Listagem"	TEXT
-      )`;
-  await db.exec(create);
+      )`
+  await db.exec(create)
 }
 
 async function load_fca_csv(db, filename) {
-  let stream = fs.readFileSync(filename);
+  let stream = fs.readFileSync(filename)
 
-  const csv = await neatCsv(stream, {separator: ';'});
+  const csv = await neatCsv(stream, { separator: ";" })
 
-  let array = csv.map(entry => Object.entries(entry).map(value => value[1]));
+  let array = csv.map(entry => Object.entries(entry).map(value => value[1]))
 
   for (let index = 0; index < array.length; index++) {
-    const values = array[index];
-    
-    db.run(`INSERT INTO "fca_mobiliario" (
+    const values = array[index]
+
+    db.run(
+      `INSERT INTO "fca_mobiliario" (
       "CNPJ_Companhia",
       "Data_Referencia",
       "Versao",
@@ -145,80 +143,123 @@ async function load_fca_csv(db, filename) {
       ?,
       ?,
       ?
-    )`, values);
-
+    )`,
+      values
+    )
   }
-
 }
 
 async function load_fca(db) {
-  await prepare_fca_table(db);
+  await prepare_fca_table(db)
 
-  await load_fca_csv(db, '.data/fca_cia_aberta_valor_mobiliario_2020.csv');
-  await load_fca_csv(db, '.data/fca_cia_aberta_valor_mobiliario_2021.csv');
+  await load_fca_csv(db, ".data/fca_cia_aberta_valor_mobiliario_2020.csv")
+  await load_fca_csv(db, ".data/fca_cia_aberta_valor_mobiliario_2021.csv")
 }
 
 async function load_dfp(db, company) {
-  company.cash = await getAccount(db, company.id, "1.%", "Caixa e Equivalentes de Caixa")
+  company.cash = await getAccount(
+    db,
+    company.id,
+    "1.%",
+    "Caixa e Equivalentes de Caixa"
+  )
 
-  company.revenue = await getAccount(db, company.id, "3.01", "%");
-  company.financialResult = await getAccount(db, company.id, "3.06", "%");
-  company.profit = await getAccount(db, company.id, "3.%", "Lucro/Prejuízo Consolidado do Período");
-  company.ebit = await getAccount(db, company.id, "3.%", "%Resultado Antes do Resultado Financeiro e dos Tributos%");
+  company.revenue = await getAccount(db, company.id, "3.01", "%")
+  company.financialResult = await getAccount(db, company.id, "3.06", "%")
+  company.profit = await getAccount(
+    db,
+    company.id,
+    "3.%",
+    "Lucro/Prejuízo Consolidado do Período"
+  )
+  company.ebit = await getAccount(
+    db,
+    company.id,
+    "3.%",
+    "%Resultado Antes do Resultado Financeiro e dos Tributos%"
+  )
 
-  company.shortTermDebt = await getAccount(db, company.id, "2.01.04", "Empréstimos e Financiamentos")
-  company.longTermDebt = await getAccount(db, company.id, "2.02.01", "Empréstimos e Financiamentos")
+  company.shortTermDebt = await getAccount(
+    db,
+    company.id,
+    "2.01.04",
+    "Empréstimos e Financiamentos"
+  )
+  company.longTermDebt = await getAccount(
+    db,
+    company.id,
+    "2.02.01",
+    "Empréstimos e Financiamentos"
+  )
 
-  company.da = await getAccount(db, company.id, "7.%", "Depreciação, Amortização e Exaustão")
+  company.da = await getAccount(
+    db,
+    company.id,
+    "7.%",
+    "Depreciação, Amortização e Exaustão"
+  )
   company.dividends = await getAccount(db, company.id, "7.%", "Dividendos")
-  company.jcp = await getAccount(db, company.id, "7.%", "Juros sobre o Capital Próprio")
+  company.jcp = await getAccount(
+    db,
+    company.id,
+    "7.%",
+    "Juros sobre o Capital Próprio"
+  )
 }
 
 async function main() {
-  const db = await sqlite.open({ filename: '.data/rapina.db', driver: sqlite3.Database });
+  const db = await sqlite.open({
+    filename: ".data/rapina.db",
+    driver: sqlite3.Database,
+  })
 
-  await load_fca(db);
+  await load_fca(db)
 
   let sql = `SELECT ID id,
                   CNPJ cnpj,
                   NAME name
-            FROM companies`;
-  const rows = await db.all(sql);
+            FROM companies`
+  const rows = await db.all(sql)
 
   for (let index = 0; index < rows.length; index++) {
-    const row = rows[index];
+    const row = rows[index]
 
-    let company = {};
-    company.id = row.id;
-    company.cnpj = row.cnpj;
-    company.name = row.name;
+    let company = {}
+    company.id = row.id
+    company.cnpj = row.cnpj
+    company.name = row.name
 
-    company.tickers = await getTickers(db, company.cnpj);
-    company.shortTicker = generateShortTicker(company.tickers);
+    company.tickers = await getTickers(db, company.cnpj)
+    company.shortTicker = generateShortTicker(company.tickers)
 
     // Do not save financial data if company is not listed
     if (company.shortTicker === undefined || company.shortTicker === "") {
-      continue;
+      continue
     }
 
-    /*try {
+    try {
       await downloadLogo(company.shortTicker);
       console.log(`Downloaded logo for ${company.shortTicker}`)
     }
     catch {
       console.log(`failed to download logo for ${company.shortTicker}`)
-    }*/
+    }
 
     await load_dfp(db, company)
 
-    fs.writeFile(`../static/data/${company.id}.json`, JSON.stringify(company, undefined, 2), 'utf8', function (err, data) {
-      if (err) {
-        return console.log(err);
+    fs.writeFile(
+      `../static/data/${company.id}.json`,
+      JSON.stringify(company, undefined, 2),
+      "utf8",
+      function (err, data) {
+        if (err) {
+          return console.log(err)
+        }
       }
-    });
+    )
   }
 
-  db.close();
+  db.close()
 }
 
 main()
