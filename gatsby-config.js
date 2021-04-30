@@ -47,7 +47,8 @@ module.exports = {
                   }
                   id,
                   shortTicker,
-                  name
+                  name,
+                  logoImage
                 }
               }
             }
@@ -55,12 +56,13 @@ module.exports = {
         `,
         ref: "id",
         index: ["ticker", "name"],
-        store: ["id", "ticker", "name"],
+        store: ["id", "ticker", "name", "logoImage"],
         normalizer: ({ data }) =>
           data.allDataJson.edges.map(({ node }) => ({
             id: node.id,
             ticker: node.shortTicker,
             name: node.name,
+            logoImage: node.logoImage
           })),
       },
     },

@@ -7,12 +7,13 @@ const CompanyHeader = props => {
   const cnpj = props.cnpj
   const ticker = props.shortTicker
   const tickers = props.tickers
+  const logoImage = props.logoPath
 
   return (
     <div>
       <Center>
         <Stack align="center">
-          <Logo ticker={ticker} name={name} size={40}></Logo>
+          <Logo logoPath={logoImage} name={name} size={40}></Logo>
           <Heading as="h1" size="lg" color="blue.700">
             {name} - {ticker}
           </Heading>

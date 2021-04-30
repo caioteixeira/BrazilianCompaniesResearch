@@ -35,6 +35,7 @@ const Item = React.forwardRef(({ highlighted, node, ...props }, ref) => {
       <Stack direction="row" alignContent="center">
         <Logo
           ticker={node.ticker}
+          logoPath={node.logoImage}
           name={`${node.ticker} logo`}
           size={10}
         ></Logo>

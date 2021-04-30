@@ -207,6 +207,20 @@ async function load_dfp(db, company) {
   )
 }
 
+async function downloadLogoImage(ticker){
+  try {
+    const fileName = `${ticker}.gif`
+
+    await downloadLogo(ticker, fileName);
+    console.log(`Downloaded logo for ${ticker}`)
+    return fileName
+  }
+  catch {
+    console.log(`failed to download logo for ${ticker}`)
+    return `default.png`
+  }
+}
+
 async function main() {
   const db = await sqlite.open({
     filename: ".data/rapina.db",
@@ -237,13 +251,7 @@ async function main() {
       continue
     }
 
-    try {
-      await downloadLogo(company.shortTicker);
-      console.log(`Downloaded logo for ${company.shortTicker}`)
-    }
-    catch {
-      console.log(`failed to download logo for ${company.shortTicker}`)
-    }
+    company.logoImage = await downloadLogoImage(company.shortTicker)
 
     await load_dfp(db, company)
 

@@ -7,6 +7,7 @@ import { Center, Box, Stack, Text } from "@chakra-ui/react"
 const CompanyCell = props => {
   const ticker = props.shortTicker
   const name = props.name
+  const logoImage = props.logoImage
 
   return (
     <Center>
@@ -32,7 +33,7 @@ const CompanyCell = props => {
       >
         <Link to={ticker}>
           <Stack>
-            <Logo ticker={ticker} name={props.name} size={40}></Logo>
+            <Logo logoPath={logoImage} name={props.name} size={40}></Logo>
             <Text>{ticker}</Text>
             <Text>{name}</Text>
           </Stack>

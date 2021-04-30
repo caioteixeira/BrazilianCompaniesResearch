@@ -25,6 +25,7 @@ export const query = graphql`
         node {
           name
           shortTicker
+          logoImage
         }
       }
     }

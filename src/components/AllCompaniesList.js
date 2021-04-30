@@ -25,6 +25,7 @@ const AllCompaniesList = props => {
           <CompanyCell
             key={node.id}
             shortTicker={node.shortTicker}
+            logoImage={node.logoImage}
             name={node.name}
           />
         ))}

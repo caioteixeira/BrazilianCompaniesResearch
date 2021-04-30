@@ -13,7 +13,6 @@ export default function CompanyPage({ data }) {
 
   useEffect(() => {
     import(`/static/data/${companyData.id}.json`).then(json => {
-      console.log(json)
       setDfp(json)
     })
   }, [companyData.id])
@@ -24,6 +23,7 @@ export default function CompanyPage({ data }) {
         <CompanyHeader
           name={companyData.name}
           cnpj={companyData.cnpj}
+          logoPath={companyData.logoImage}
           shortTicker={companyData.shortTicker}
           tickers={companyData.tickers}
         />
@@ -45,6 +45,7 @@ export const query = graphql`
       cnpj
       shortTicker
       tickers
+      logoImage
     }
   }
 `

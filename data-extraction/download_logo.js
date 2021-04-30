@@ -2,9 +2,9 @@ const Fs = require("fs")
 const Path = require("path")
 const Axios = require("axios")
 
-async function downloadLogo(ticker) {
-  const url = `https://cors.bridged.cc/https://bastter-images.b-cdn.net/acao/${ticker}.gif`
-  const path = Path.resolve(__dirname, "../static/logos", `${ticker}.gif`)
+async function downloadLogo(ticker, fileName) {
+  const url = `https://bastter-images.b-cdn.net/acao/${ticker}.gif`
+  const path = Path.resolve(__dirname, "../static/logos", fileName)
   const writer = Fs.createWriteStream(path)
 
   const response = await Axios({
@@ -20,7 +20,10 @@ async function downloadLogo(ticker) {
 
   return new Promise((resolve, reject) => {
     writer.on("finish", resolve)
-    writer.on("error", reject)
+    writer.on("error", (err) => {
+      Fs.unlink(path)
+      reject(err)
+    })
   })
 }
 
