@@ -2,27 +2,21 @@ import React from "react"
 import Logo from "./Logo"
 import { Center, Heading, Text, Stack, Badge } from "@chakra-ui/react"
 
-const CompanyHeader = props => {
-  const name = props.name
-  const cnpj = props.cnpj
-  const ticker = props.shortTicker
-  const tickers = props.tickers
-  const logoImage = props.logoPath
-
+const CompanyHeader = ({ name, cnpj, shortTicker, tickers, logoPath }) => {
   return (
     <div>
       <Center>
         <Stack align="center">
-          <Logo logoPath={logoImage} name={name} size={40}></Logo>
+          <Logo logoPath={logoPath} name={name} size={40}></Logo>
           <Heading as="h1" size="lg" color="blue.700">
-            {name} - {ticker}
+            {name} - {shortTicker}
           </Heading>
           <Text>{cnpj}</Text>
 
           <Stack direction="row">
-            {tickers.map(ticker => (
-              <Badge key={ticker} colorScheme="blue">
-                {ticker}
+            {tickers.map(shortTicker => (
+              <Badge key={shortTicker} colorScheme="blue">
+                {shortTicker}
               </Badge>
             ))}
           </Stack>

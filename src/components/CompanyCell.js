@@ -4,11 +4,7 @@ import Logo from "./Logo"
 
 import { Center, Box, Stack, Text, Tag } from "@chakra-ui/react"
 
-const CompanyCell = props => {
-  const ticker = props.shortTicker
-  const name = props.name
-  const logoImage = props.logoImage
-
+const CompanyCell = ({ shortTicker, name, logoImage }) => {
   return (
     <Center>
       <Box
@@ -31,12 +27,14 @@ const CompanyCell = props => {
             "0 0 1px 2px rgba(88, 144, 255, .75), 0 1px 1px rgba(0, 0, 0, .15)",
         }}
       >
-        <Link to={ticker}>
+        <Link to={shortTicker}>
           <Stack>
-            <Logo logoPath={logoImage} name={props.name} size={40}></Logo>
-            <Text textColor="blue.600" fontWeight="semibold" fontSize="md">{name}</Text>
+            <Logo logoPath={logoImage} name={name} size={40}></Logo>
+            <Text textColor="blue.600" fontWeight="semibold" fontSize="md">
+              {name}
+            </Text>
             <Center>
-              <Tag>{ticker}</Tag>
+              <Tag>{shortTicker}</Tag>
             </Center>
           </Stack>
         </Link>
