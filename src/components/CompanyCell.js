@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Logo from "./Logo"
 
-import { Center, Box, Stack, Text } from "@chakra-ui/react"
+import { Center, Box, Stack, Text, Tag } from "@chakra-ui/react"
 
 const CompanyCell = props => {
   const ticker = props.shortTicker
@@ -34,8 +34,10 @@ const CompanyCell = props => {
         <Link to={ticker}>
           <Stack>
             <Logo logoPath={logoImage} name={props.name} size={40}></Logo>
-            <Text>{ticker}</Text>
-            <Text>{name}</Text>
+            <Text textColor="blue.600" fontWeight="semibold" fontSize="md">{name}</Text>
+            <Center>
+              <Tag>{ticker}</Tag>
+            </Center>
           </Stack>
         </Link>
       </Box>
