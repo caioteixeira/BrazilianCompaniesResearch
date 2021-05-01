@@ -7,6 +7,9 @@ import {
   Box,
   Input,
   Stack,
+  HStack,
+  Icon,
+  IconButton,
   Heading,
   Modal,
   ModalOverlay,
@@ -14,6 +17,8 @@ import {
   ModalContent,
   useDisclosure,
 } from "@chakra-ui/react"
+import { HiHome } from "react-icons/hi"
+
 import Logo from "./Logo"
 
 const ItemsList = React.forwardRef(({ children }, ref) => {
@@ -123,14 +128,21 @@ const Search = () => {
 
   return (
     <>
-      <Stack>
+      <HStack spacing="3">
+        <IconButton
+          colorScheme="blue"
+          fontSize="35px"
+          icon={<Icon as={HiHome}/>}
+          onClick={() => navigate(`/`)}
+          aria-label="home button"
+        />
         <Input
           bgColor="white"
           shadow="lg"
           placeholder="Pesquisar empresas"
           onClick={onOpen}
         />
-      </Stack>
+      </HStack>
       <Modal
         initialFocusRef={initialRef}
         isOpen={isOpen}
