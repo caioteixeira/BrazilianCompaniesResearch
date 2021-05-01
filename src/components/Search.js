@@ -10,7 +10,7 @@ import {
   HStack,
   Icon,
   IconButton,
-  Heading,
+  Text,
   Modal,
   ModalOverlay,
   ModalBody,
@@ -23,7 +23,7 @@ import Logo from "./Logo"
 
 const ItemsList = React.forwardRef(({ children }, ref) => {
   return (
-    <Box ref={ref}>
+    <Box ref={ref} padding="2">
       <Stack>{children}</Stack>
     </Box>
   )
@@ -44,9 +44,9 @@ const Item = React.forwardRef(({ highlighted, node, ...props }, ref) => {
           name={`${node.ticker} logo`}
           size={10}
         ></Logo>
-        <Heading size="md" my="auto">
+        <Text fontSize="xl" textColor="blue.600" fontWeight="semibold" my="auto">
           <Link to={`../${node.ticker}`}>{node.name}</Link>
-        </Heading>
+        </Text>
       </Stack>
     </Box>
   )
@@ -66,7 +66,7 @@ const SearchBox = React.forwardRef((props, ref) => {
   const store = data.localSearchPages.store
 
   const [query, setQuery] = useState("")
-  const results = useFlexSearch(query, index, store, { limit: 5 })
+  const results = useFlexSearch(query, index, store, { limit: 10 })
 
   const itemToString = item => (item ? item.name : "")
   const {
